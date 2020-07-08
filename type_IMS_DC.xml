@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:06Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.48840.45967">
+    <adminProperties>
+      <name>IMS_DC</name>
+      <creationInfo>
+        <datetime>2019-07-04T17:32:21Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:03:11Z</datetime>
+      </modificationInfo>
+      <description>IMS_DC</description>
+      <propertyList count="11">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>edmCITRMname</name>
+          <adminRef>
+            <adminType>expression</adminType>
+            <adminName>edmCITRMNameGenerator</adminName>
+          </adminRef>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>edmCITRMrel</name>
+          <adminRef>
+            <adminType>relationship</adminType>
+            <adminName>edmCITRM</adminName>
+          </adminRef>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>edmCITRMtype</name>
+          <adminRef>
+            <adminType>type</adminType>
+            <adminName>edmCITRM</adminName>
+          </adminRef>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>04-24-2019 14:19:54.000</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_DC</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>1</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="32">
+        <history>
+          <datetime>2019-07-04T17:32:21Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type IMS_DC</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type IMS_DC description IMS_DC</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type IMS_DC add attribute IMS_DCCB</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type IMS_DC add attribute IMS_DCChild</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type IMS_DC add attribute IMS_DCDeteledDescription</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type IMS_DC add attribute IMS_DCGrade</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type IMS_DC add attribute IMS_DCLevel</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type IMS_DC add attribute IMS_DCParent</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type IMS_DC add attribute IMS_DCProposedCB</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type IMS_DC add attribute IMS_DCRelationships</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type IMS_DC add attribute IMS_DCResponsiblePersonAP</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type IMS_DC add attribute IMS_DCResponsiblePersonFV</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type IMS_DC add attribute IMS_DCResponsiblePersonRAOS</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type IMS_DC add attribute IMS_DCResponsiblePersonT2</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod type IMS_DC add attribute IMS_DCShortDescription</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod type IMS_DC add attribute IMS_DCSolutionDescription</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod type IMS_DC add attribute IMS_DC_Original_ID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod type IMS_DC add attribute IMS_DescriptionEn</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:10Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod type IMS_DC add attribute IMS_DescriptionRu</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:10Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod type IMS_DC add attribute IMS_Frozen</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:10Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod type IMS_DC add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:10Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod type IMS_DC add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:10Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod type IMS_DC add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:10Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod type IMS_DC add property edmCITRMname to expression edmCITRMNameGenerator</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:10Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod type IMS_DC add property edmCITRMrel to relationship edmCITRM</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:10Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod type IMS_DC add property edmCITRMtype to type edmCITRM</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:10Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod type IMS_DC add property 'file date' value '04-24-2019 14:19:54.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:10Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod type IMS_DC add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:10Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod type IMS_DC add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:10Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod type IMS_DC add property 'original name' value IMS_DC</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:10Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod type IMS_DC add property version value 1</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:10Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod type IMS_DC derived DOCUMENTS</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>DOCUMENTS</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <attributeDefRefList count="18">
+      <attributeDefRef>IMS_DCGrade</attributeDefRef>
+      <attributeDefRef>IMS_DCResponsiblePersonRAOS</attributeDefRef>
+      <attributeDefRef>IMS_DCChild</attributeDefRef>
+      <attributeDefRef>IMS_DCRelationships</attributeDefRef>
+      <attributeDefRef>IMS_DescriptionRu</attributeDefRef>
+      <attributeDefRef>IMS_DCLevel</attributeDefRef>
+      <attributeDefRef>IMS_DC_Original_ID</attributeDefRef>
+      <attributeDefRef>IMS_DCResponsiblePersonT2</attributeDefRef>
+      <attributeDefRef>IMS_DCDeteledDescription</attributeDefRef>
+      <attributeDefRef>IMS_DCResponsiblePersonAP</attributeDefRef>
+      <attributeDefRef>IMS_DCCB</attributeDefRef>
+      <attributeDefRef>IMS_DCParent</attributeDefRef>
+      <attributeDefRef>IMS_DCShortDescription</attributeDefRef>
+      <attributeDefRef>IMS_DescriptionEn</attributeDefRef>
+      <attributeDefRef>IMS_DCResponsiblePersonFV</attributeDefRef>
+      <attributeDefRef>IMS_Frozen</attributeDefRef>
+      <attributeDefRef>IMS_DCProposedCB</attributeDefRef>
+      <attributeDefRef>IMS_DCSolutionDescription</attributeDefRef>
+    </attributeDefRefList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

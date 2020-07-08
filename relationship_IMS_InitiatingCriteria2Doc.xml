@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:56Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <relationshipDef id="0.1.53136.28264">
+    <adminProperties>
+      <name>IMS_InitiatingCriteria2Doc</name>
+      <creationInfo>
+        <datetime>2019-07-08T10:52:41Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T11:31:18Z</datetime>
+      </modificationInfo>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:39.248</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_InitiatingCriteria2Doc</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="25">
+        <history>
+          <datetime>2019-07-08T10:52:41Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add relationship IMS_InitiatingCriteria2Doc</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc preventduplicates</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add attribute IMS_CI_Attribute1</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add attribute IMS_CI_Attribute2</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add attribute IMS_CI_Attribute3</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add attribute IMS_Description</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add attribute IMS_DescriptionEn</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add attribute IMS_DescriptionRu</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add attribute IMS_EndState</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add attribute IMS_FailureAssumption</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add attribute IMS_FortumCIStatus</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add attribute IMS_RelType</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add attribute IMS_SPFFortumRevision</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add attribute IMS_SpecificFailureAssumption</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc from add type IMS_InitiatingCriteria</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc to add type IMS_DocumentBinded</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc to add type IMS_DocumentSet</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add property 'file date' value '07-08-2019 08:55:39.248'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add property 'original name' value IMS_InitiatingCriteria2Doc</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod relationship IMS_InitiatingCriteria2Doc add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <fromSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="1">
+        <typeRef>IMS_InitiatingCriteria</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </fromSide>
+    <toSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="2">
+        <typeRef>IMS_DocumentSet</typeRef>
+        <typeRef>IMS_DocumentBinded</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </toSide>
+    <attributeDefRefList count="12">
+      <attributeDefRef>IMS_CI_Attribute1</attributeDefRef>
+      <attributeDefRef>IMS_FailureAssumption</attributeDefRef>
+      <attributeDefRef>IMS_DescriptionRu</attributeDefRef>
+      <attributeDefRef>IMS_Description</attributeDefRef>
+      <attributeDefRef>IMS_CI_Attribute2</attributeDefRef>
+      <attributeDefRef>IMS_EndState</attributeDefRef>
+      <attributeDefRef>IMS_RelType</attributeDefRef>
+      <attributeDefRef>IMS_SpecificFailureAssumption</attributeDefRef>
+      <attributeDefRef>IMS_SPFFortumRevision</attributeDefRef>
+      <attributeDefRef>IMS_FortumCIStatus</attributeDefRef>
+      <attributeDefRef>IMS_DescriptionEn</attributeDefRef>
+      <attributeDefRef>IMS_CI_Attribute3</attributeDefRef>
+    </attributeDefRefList>
+    <preventDuplicates/>
+    <relationshipKind>0</relationshipKind>
+  </relationshipDef>
+</ematrix>

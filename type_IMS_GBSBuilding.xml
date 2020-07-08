@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:08Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.5752.59089">
+    <adminProperties>
+      <name>IMS_GBSBuilding</name>
+      <creationInfo>
+        <datetime>2019-07-05T09:16:14Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:03:11Z</datetime>
+      </modificationInfo>
+      <description>IMS_GBSBuilding</description>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:04.475</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_GBSBuilding</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="26">
+        <history>
+          <datetime>2019-07-05T09:16:14Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type IMS_GBSBuilding</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type IMS_GBSBuilding description IMS_GBSBuilding</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type IMS_GBSBuilding add attribute IMS_DescriptionEn</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type IMS_GBSBuilding add attribute IMS_Finalize</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type IMS_GBSBuilding add attribute IMS_FortumCIStatus</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type IMS_GBSBuilding add attribute IMS_Reliability_class</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type IMS_GBSBuilding add attribute IMS_SPFFortumRevision</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type IMS_GBSBuilding add attribute IMS_Safety_class</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type IMS_GBSBuilding add attribute IMS_Seismic_class</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type IMS_GBSBuilding add trigger changename check emxTriggerManager input TypeIMSModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type IMS_GBSBuilding add trigger changeowner check emxTriggerManager input TypeIMSModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type IMS_GBSBuilding add trigger changevault check emxTriggerManager input TypeIMSModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type IMS_GBSBuilding add trigger connect check emxTriggerManager input TypeIMSModifyRelationCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type IMS_GBSBuilding add trigger delete check emxTriggerManager input TypeIMSModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod type IMS_GBSBuilding add trigger disconnect check emxTriggerManager input TypeIMSModifyRelationCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod type IMS_GBSBuilding add trigger modifyattribute check emxTriggerManager input TypeIMSModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod type IMS_GBSBuilding add trigger modifydescription check emxTriggerManager input TypeIMSModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod type IMS_GBSBuilding add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod type IMS_GBSBuilding add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod type IMS_GBSBuilding add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod type IMS_GBSBuilding add property 'file date' value '07-08-2019 08:55:04.475'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod type IMS_GBSBuilding add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod type IMS_GBSBuilding add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod type IMS_GBSBuilding add property 'original name' value IMS_GBSBuilding</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod type IMS_GBSBuilding add property version</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod type IMS_GBSBuilding derived IMS_GBS</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>IMS_GBS</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <attributeDefRefList count="7">
+      <attributeDefRef>IMS_Seismic_class</attributeDefRef>
+      <attributeDefRef>IMS_Reliability_class</attributeDefRef>
+      <attributeDefRef>IMS_Safety_class</attributeDefRef>
+      <attributeDefRef>IMS_Finalize</attributeDefRef>
+      <attributeDefRef>IMS_SPFFortumRevision</attributeDefRef>
+      <attributeDefRef>IMS_FortumCIStatus</attributeDefRef>
+      <attributeDefRef>IMS_DescriptionEn</attributeDefRef>
+    </attributeDefRefList>
+    <triggerList count="8">
+      <trigger>
+        <triggerName>ChangeNameCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ChangeOwnerCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ChangeVaultCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ConnectCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyRelationCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>DeleteCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>DisconnectCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyRelationCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ModifyAttributeCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ModifyDescriptionCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyCheck</inputArguments>
+      </trigger>
+    </triggerList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

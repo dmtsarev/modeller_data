@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:52Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <relationshipDef id="0.1.51072.35349">
+    <adminProperties>
+      <name>IMS_ChTaskNotification2DocumentSet</name>
+      <creationInfo>
+        <datetime>2019-07-08T10:52:40Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T11:31:13Z</datetime>
+      </modificationInfo>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:36.752</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_ChTaskNotification2DocumentSet</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="16">
+        <history>
+          <datetime>2019-07-08T10:52:40Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add relationship IMS_ChTaskNotification2DocumentSet</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod relationship IMS_ChTaskNotification2DocumentSet preventduplicates</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod relationship IMS_ChTaskNotification2DocumentSet from meaning ConnectFrozen=False</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod relationship IMS_ChTaskNotification2DocumentSet from add type IMS_ChangeTaskNotification</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod relationship IMS_ChTaskNotification2DocumentSet to meaning ConnectFrozen=True</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod relationship IMS_ChTaskNotification2DocumentSet to add type IMS_DocumentSet</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod relationship IMS_ChTaskNotification2DocumentSet add trigger create check emxTriggerManager input TypeIMSModifyRelDirectionCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod relationship IMS_ChTaskNotification2DocumentSet add trigger delete check emxTriggerManager input TypeIMSModifyRelDirectionCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod relationship IMS_ChTaskNotification2DocumentSet add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod relationship IMS_ChTaskNotification2DocumentSet add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod relationship IMS_ChTaskNotification2DocumentSet add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod relationship IMS_ChTaskNotification2DocumentSet add property 'file date' value '07-08-2019 08:55:36.752'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod relationship IMS_ChTaskNotification2DocumentSet add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod relationship IMS_ChTaskNotification2DocumentSet add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod relationship IMS_ChTaskNotification2DocumentSet add property 'original name' value IMS_ChTaskNotification2DocumentSet</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod relationship IMS_ChTaskNotification2DocumentSet add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <fromSide>
+      <meaning>ConnectFrozen=False</meaning>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="1">
+        <typeRef>IMS_ChangeTaskNotification</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </fromSide>
+    <toSide>
+      <meaning>ConnectFrozen=True</meaning>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="1">
+        <typeRef>IMS_DocumentSet</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </toSide>
+    <triggerList count="2">
+      <trigger>
+        <triggerName>CreateCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyRelDirectionCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>DeleteCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyRelDirectionCheck</inputArguments>
+      </trigger>
+    </triggerList>
+    <preventDuplicates/>
+    <relationshipKind>0</relationshipKind>
+  </relationshipDef>
+</ematrix>

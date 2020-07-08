@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:05Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.34560.53058">
+    <adminProperties>
+      <name>IMS_CheckList3D</name>
+      <creationInfo>
+        <datetime>2019-07-08T10:52:32Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:03:12Z</datetime>
+      </modificationInfo>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:03.071</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-08-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_CheckList3D</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="13">
+        <history>
+          <datetime>2019-07-08T10:52:33Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type IMS_CheckList3D</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:11Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type IMS_CheckList3D add attribute IMS_CheckList3DFormula</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:11Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type IMS_CheckList3D add attribute IMS_CheckListDocumentName3D</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:11Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type IMS_CheckList3D add attribute IMS_ChecklistBBSMajorName</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:11Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type IMS_CheckList3D add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:11Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type IMS_CheckList3D add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:11Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type IMS_CheckList3D add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:11Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type IMS_CheckList3D add property 'file date' value '07-08-2019 08:55:03.071'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:11Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type IMS_CheckList3D add property 'installed date' value 07-08-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:11Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type IMS_CheckList3D add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:11Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type IMS_CheckList3D add property 'original name' value IMS_CheckList3D</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:11Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type IMS_CheckList3D add property version</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:12Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type IMS_CheckList3D derived IMS_CheckList</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>IMS_Checklist</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <attributeDefRefList count="3">
+      <attributeDefRef>IMS_CheckListDocumentName3D</attributeDefRef>
+      <attributeDefRef>IMS_ChecklistBBSMajorName</attributeDefRef>
+      <attributeDefRef>IMS_CheckList3DFormula</attributeDefRef>
+    </attributeDefRefList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

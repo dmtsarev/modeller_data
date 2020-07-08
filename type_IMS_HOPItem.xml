@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:08Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.48840.4884">
+    <adminProperties>
+      <name>IMS_HOPItem</name>
+      <creationInfo>
+        <datetime>2019-07-04T17:32:21Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:03:11Z</datetime>
+      </modificationInfo>
+      <description>Service object for HOP-package</description>
+      <propertyList count="7">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>IMS_HNH</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:04.538</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_HOPItem</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>1</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="31">
+        <history>
+          <datetime>2019-07-04T17:32:21Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type IMS_HOPItem</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type IMS_HOPItem description 'Service object for HOP-package'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type IMS_HOPItem add attribute IMS_AddSafetyClass</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type IMS_HOPItem add attribute IMS_Description</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type IMS_HOPItem add attribute IMS_DocSPFMasterID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type IMS_HOPItem add attribute IMS_DocSPFRevisionID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type IMS_HOPItem add attribute IMS_DocSPFVersionID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type IMS_HOPItem add attribute IMS_DualUseMaterial</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type IMS_HOPItem add attribute IMS_FVInfoSecLevel</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type IMS_HOPItem add attribute IMS_Name</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type IMS_HOPItem add attribute IMS_SPFDocVersion</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type IMS_HOPItem add attribute IMS_SPFMajorRevision</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type IMS_HOPItem add attribute IMS_SPFMasterID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type IMS_HOPItem add attribute IMS_SPFRevisionID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod type IMS_HOPItem add attribute IMS_SPFVersionID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod type IMS_HOPItem add attribute IMS_STUKProcessing</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod type IMS_HOPItem add attribute ims_Area</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod type IMS_HOPItem add attribute ims_DocClass</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod type IMS_HOPItem add attribute ims_DocSupplier</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod type IMS_HOPItem add attribute ims_Projectphase</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod type IMS_HOPItem add attribute ims_SeismicClass</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod type IMS_HOPItem add attribute ims_SupplierDeliveryPurpose</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod type IMS_HOPItem add trigger create action emxTriggerManager input IMS_LoadHopItemDataTrigger</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod type IMS_HOPItem add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod type IMS_HOPItem add property application value IMS_HNH</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod type IMS_HOPItem add property 'file date' value '07-08-2019 08:55:04.538'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod type IMS_HOPItem add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod type IMS_HOPItem add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod type IMS_HOPItem add property 'original name' value IMS_HOPItem</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod type IMS_HOPItem add property version value 1</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod type IMS_HOPItem derived DOCUMENTS</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>DOCUMENTS</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <attributeDefRefList count="20">
+      <attributeDefRef>ims_DocClass</attributeDefRef>
+      <attributeDefRef>ims_Projectphase</attributeDefRef>
+      <attributeDefRef>IMS_SPFMajorRevision</attributeDefRef>
+      <attributeDefRef>IMS_DocSPFVersionID</attributeDefRef>
+      <attributeDefRef>ims_SupplierDeliveryPurpose</attributeDefRef>
+      <attributeDefRef>IMS_FVInfoSecLevel</attributeDefRef>
+      <attributeDefRef>IMS_AddSafetyClass</attributeDefRef>
+      <attributeDefRef>IMS_SPFMasterID</attributeDefRef>
+      <attributeDefRef>IMS_STUKProcessing</attributeDefRef>
+      <attributeDefRef>IMS_DualUseMaterial</attributeDefRef>
+      <attributeDefRef>ims_Area</attributeDefRef>
+      <attributeDefRef>IMS_SPFDocVersion</attributeDefRef>
+      <attributeDefRef>IMS_SPFRevisionID</attributeDefRef>
+      <attributeDefRef>IMS_DocSPFMasterID</attributeDefRef>
+      <attributeDefRef>IMS_Description</attributeDefRef>
+      <attributeDefRef>IMS_Name</attributeDefRef>
+      <attributeDefRef>ims_SeismicClass</attributeDefRef>
+      <attributeDefRef>ims_DocSupplier</attributeDefRef>
+      <attributeDefRef>IMS_SPFVersionID</attributeDefRef>
+      <attributeDefRef>IMS_DocSPFRevisionID</attributeDefRef>
+    </attributeDefRefList>
+    <triggerList count="1">
+      <trigger>
+        <triggerName>CreateAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>IMS_LoadHopItemDataTrigger</inputArguments>
+      </trigger>
+    </triggerList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

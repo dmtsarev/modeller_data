@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:04Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.56205.1702">
+    <adminProperties>
+      <name>edmCITRM</name>
+      <creationInfo>
+        <datetime>2019-07-09T11:01:53Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T11:31:25Z</datetime>
+      </modificationInfo>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>enovia</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>edmIsCITRMType</name>
+          <value>true</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-09-2019 08:34:49.004</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>edmCITRM</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>0</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="10">
+        <history>
+          <datetime>2019-07-09T11:01:53Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type edmCITRM</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type edmCITRM add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type edmCITRM add property application value enovia</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type edmCITRM add property edmIsCITRMType value true</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type edmCITRM add property 'file date' value '07-09-2019 08:34:49.004'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type edmCITRM add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type edmCITRM add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type edmCITRM add property 'original name' value edmCITRM</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type edmCITRM add property version value 0</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type edmCITRM derived DOCUMENTS</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>DOCUMENTS</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

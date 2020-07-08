@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:09Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.1008.60059">
+    <adminProperties>
+      <name>IMS_Model</name>
+      <creationInfo>
+        <datetime>2019-07-04T17:32:22Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:03:11Z</datetime>
+      </modificationInfo>
+      <description>IMS_Model</description>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:05.130</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_Model</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="16">
+        <history>
+          <datetime>2019-07-04T17:32:22Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type IMS_Model</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type IMS_Model description IMS_Model</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type IMS_Model add attribute IMS_IsLast</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type IMS_Model add attribute IMS_SPFMasterID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type IMS_Model add trigger create action emxTriggerManager input IMS_SetIsLastTrigger</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type IMS_Model add trigger delete override emxTriggerManager input IMS_SetIsLastTrigger</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type IMS_Model add trigger revision action emxTriggerManager input IMS_SetIsLastTrigger</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type IMS_Model add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type IMS_Model add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type IMS_Model add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type IMS_Model add property 'file date' value '07-08-2019 08:55:05.130'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type IMS_Model add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type IMS_Model add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type IMS_Model add property 'original name' value IMS_Model</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod type IMS_Model add property version</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod type IMS_Model derived 'Logical Feature'</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>Logical Feature</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <attributeDefRefList count="2">
+      <attributeDefRef>IMS_SPFMasterID</attributeDefRef>
+      <attributeDefRef>IMS_IsLast</attributeDefRef>
+    </attributeDefRefList>
+    <triggerList count="3">
+      <trigger>
+        <triggerName>CreateAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>IMS_SetIsLastTrigger</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>DeleteOverride</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>IMS_SetIsLastTrigger</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>RevisionAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>IMS_SetIsLastTrigger</inputArguments>
+      </trigger>
+    </triggerList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

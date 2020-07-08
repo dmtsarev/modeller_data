@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:03Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <interfaceType id="0.1.64680.35024">
+    <adminProperties>
+      <name>HNH_LMN_EQC_interface_EQC09_0112020403_1_attributes</name>
+      <creationInfo>
+        <datetime>2019-07-04T17:32:33Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T11:30:25Z</datetime>
+      </modificationInfo>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>04-24-2019 14:19:54.000</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>HNH_LMN_EQC_interface_EQC09_0112020403_1_attributes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="11">
+        <history>
+          <datetime>2019-07-04T17:32:33Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add interface HNH_LMN_EQC_interface_EQC09_0112020403_1_attributes</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020403_1_attributes abstract false</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020403_1_attributes derived HNH_LMN_EQC_interface_EQC_1_relation</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020403_1_attributes add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020403_1_attributes add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020403_1_attributes add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020403_1_attributes add property 'file date' value '04-24-2019 14:19:54.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020403_1_attributes add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020403_1_attributes add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020403_1_attributes add property 'original name' value HNH_LMN_EQC_interface_EQC09_0112020403_1_attributes</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020403_1_attributes add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFromInterface>
+    <interfaceTypeRefList count="1">
+      <interfaceTypeRef>HNH_LMN_EQC_interface_EQC_1_relation</interfaceTypeRef>
+    </interfaceTypeRefList>
+    </derivedFromInterface>
+  </interfaceType>
+</ematrix>

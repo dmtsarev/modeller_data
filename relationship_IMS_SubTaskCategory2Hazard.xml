@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:03Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <relationshipDef id="0.1.57264.28334">
+    <adminProperties>
+      <name>IMS_SubTaskCategory2Hazard</name>
+      <creationInfo>
+        <datetime>2019-07-08T10:52:43Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-09T13:07:19Z</datetime>
+      </modificationInfo>
+      <propertyList count="7">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>IMS_HNH</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:44.458</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_SubTaskCategory2Hazard</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>1</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="11">
+        <history>
+          <datetime>2019-07-08T10:52:43Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add relationship IMS_SubTaskCategory2Hazard</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod relationship IMS_SubTaskCategory2Hazard preventduplicates</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod relationship IMS_SubTaskCategory2Hazard from add type IMS_SubTaskCategory</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod relationship IMS_SubTaskCategory2Hazard to add type IMS_Hazard</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod relationship IMS_SubTaskCategory2Hazard add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod relationship IMS_SubTaskCategory2Hazard add property application value IMS_HNH</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod relationship IMS_SubTaskCategory2Hazard add property 'file date' value '07-08-2019 08:55:44.458'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod relationship IMS_SubTaskCategory2Hazard add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod relationship IMS_SubTaskCategory2Hazard add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod relationship IMS_SubTaskCategory2Hazard add property 'original name' value IMS_SubTaskCategory2Hazard</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod relationship IMS_SubTaskCategory2Hazard add property version value 1</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <fromSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="1">
+        <typeRef>IMS_SubTaskCategory</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </fromSide>
+    <toSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="1">
+        <typeRef>IMS_Hazard</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </toSide>
+    <preventDuplicates/>
+    <relationshipKind>0</relationshipKind>
+  </relationshipDef>
+</ematrix>

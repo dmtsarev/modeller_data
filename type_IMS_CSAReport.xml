@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:06Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.34560.54930">
+    <adminProperties>
+      <name>IMS_CSAReport</name>
+      <creationInfo>
+        <datetime>2019-07-08T10:52:32Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:03:12Z</datetime>
+      </modificationInfo>
+      <description>IMS_CSAReport</description>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:02.775</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-08-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_CSAReport</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="19">
+        <history>
+          <datetime>2019-07-08T10:52:32Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type IMS_CSAReport</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type IMS_CSAReport description IMS_CSAReport</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type IMS_CSAReport add attribute IMS_CSASummary</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type IMS_CSAReport add attribute IMS_ChangedPages</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type IMS_CSAReport add attribute IMS_FrozenDocumentList</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type IMS_CSAReport add attribute IMS_LastExecuteDate</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type IMS_CSAReport add attribute IMS_ReplacedCSAReport</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type IMS_CSAReport add attribute IMS_ScopeOfChanges</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type IMS_CSAReport add trigger checkin override emxTriggerManager input IMS_TypeCSAReportCheckInNotification</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type IMS_CSAReport add trigger create action emxTriggerManager input TypeAllCreationAction</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type IMS_CSAReport add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type IMS_CSAReport add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type IMS_CSAReport add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type IMS_CSAReport add property 'file date' value '07-08-2019 08:55:02.775'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod type IMS_CSAReport add property 'installed date' value 07-08-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod type IMS_CSAReport add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod type IMS_CSAReport add property 'original name' value IMS_CSAReport</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod type IMS_CSAReport add property version</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:06Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod type IMS_CSAReport derived DOCUMENTS</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>DOCUMENTS</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <attributeDefRefList count="6">
+      <attributeDefRef>IMS_ReplacedCSAReport</attributeDefRef>
+      <attributeDefRef>IMS_ScopeOfChanges</attributeDefRef>
+      <attributeDefRef>IMS_FrozenDocumentList</attributeDefRef>
+      <attributeDefRef>IMS_LastExecuteDate</attributeDefRef>
+      <attributeDefRef>IMS_CSASummary</attributeDefRef>
+      <attributeDefRef>IMS_ChangedPages</attributeDefRef>
+    </attributeDefRefList>
+    <triggerList count="2">
+      <trigger>
+        <triggerName>CheckinOverride</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>IMS_TypeCSAReportCheckInNotification</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>CreateAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeAllCreationAction</inputArguments>
+      </trigger>
+    </triggerList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

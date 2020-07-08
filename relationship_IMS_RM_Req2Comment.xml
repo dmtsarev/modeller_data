@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:00Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <relationshipDef id="0.1.36416.52328">
+    <adminProperties>
+      <name>IMS_RM_Req2Comment</name>
+      <creationInfo>
+        <datetime>2019-07-04T17:32:24Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T11:31:21Z</datetime>
+      </modificationInfo>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>04-24-2019 14:19:54.000</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_RM_Req2Comment</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="13">
+        <history>
+          <datetime>2019-07-04T17:32:24Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add relationship IMS_RM_Req2Comment</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:08Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod relationship IMS_RM_Req2Comment preventduplicates</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:08Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod relationship IMS_RM_Req2Comment from cardinality one</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:08Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod relationship IMS_RM_Req2Comment from add type Requirement</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:08Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod relationship IMS_RM_Req2Comment to add type IMS_Comment</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:08Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod relationship IMS_RM_Req2Comment add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:08Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod relationship IMS_RM_Req2Comment add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:08Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod relationship IMS_RM_Req2Comment add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:08Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod relationship IMS_RM_Req2Comment add property 'file date' value '04-24-2019 14:19:54.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:08Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod relationship IMS_RM_Req2Comment add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:08Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod relationship IMS_RM_Req2Comment add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:08Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod relationship IMS_RM_Req2Comment add property 'original name' value IMS_RM_Req2Comment</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:08Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod relationship IMS_RM_Req2Comment add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <fromSide>
+      <cardinality>1</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="1">
+        <typeRef>Requirement</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </fromSide>
+    <toSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="1">
+        <typeRef>IMS_Comment</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </toSide>
+    <preventDuplicates/>
+    <relationshipKind>0</relationshipKind>
+  </relationshipDef>
+</ematrix>

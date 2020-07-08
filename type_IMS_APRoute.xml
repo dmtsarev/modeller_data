@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:05Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.32496.48900">
+    <adminProperties>
+      <name>IMS_APRoute</name>
+      <creationInfo>
+        <datetime>2019-07-08T10:52:31Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:03:12Z</datetime>
+      </modificationInfo>
+      <description>IMS_APRoute</description>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:02.416</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-08-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_APRoute</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="14">
+        <history>
+          <datetime>2019-07-08T10:52:32Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type IMS_APRoute</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:56Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type IMS_APRoute description IMS_APRoute</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:56Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type IMS_APRoute add trigger create action emxTriggerManager input 'TypeAllCreateAction TypeRouteCreateAction'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:56Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type IMS_APRoute add trigger delete check emxTriggerManager input TypeRouteDeleteCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:56Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type IMS_APRoute add trigger revision action emxTriggerManager input 'TypeAllReviseAction TypeRouteReviseAction'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:56Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type IMS_APRoute add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:56Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type IMS_APRoute add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:56Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type IMS_APRoute add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:56Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type IMS_APRoute add property 'file date' value '07-08-2019 08:55:02.416'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:56Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type IMS_APRoute add property 'installed date' value 07-08-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:56Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type IMS_APRoute add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:56Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type IMS_APRoute add property 'original name' value IMS_APRoute</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:56Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type IMS_APRoute add property version</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type IMS_APRoute derived Route</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>Route</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <triggerList count="3">
+      <trigger>
+        <triggerName>CreateAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeAllCreateAction TypeRouteCreateAction</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>DeleteCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeRouteDeleteCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>RevisionAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeAllReviseAction TypeRouteReviseAction</inputArguments>
+      </trigger>
+    </triggerList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

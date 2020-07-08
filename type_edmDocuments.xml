@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:04Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.56204.25726">
+    <adminProperties>
+      <name>edmDocuments</name>
+      <creationInfo>
+        <datetime>2019-07-09T11:01:53Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T11:31:25Z</datetime>
+      </modificationInfo>
+      <propertyList count="26">
+        <property>
+          <name>CustomerExposition</name>
+          <value>Programmer</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>ExportChannel</name>
+          <value>DocumentCompletion.KProc</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>ExportDesign</name>
+          <value>DocumentCompletion.KProc</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.3DIconName</name>
+          <value>CDM_DOCUMENTS.cgr</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.ChangeMaturityAvailability</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.DeleteAvailability</name>
+          <value>No</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.DuplicateAvailability</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.EditPropertiesAvailability</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.EvolutionAvailability</name>
+          <value>No</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.IconName</name>
+          <value>I_CDM_Document</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.LockUnlockAvailability</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.NewMajorRevisionAvailability</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.Newable</name>
+          <value>Insert</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.SaveAsNewAvailability</name>
+          <value>No</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.TransferOwnershipAvailability</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>SubscriptionEventsMenu</name>
+          <adminRef>
+            <adminType>menu</adminType>
+            <adminName>APPDOCUMENTSEvents</adminName>
+          </adminRef>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>UserExitForClone</name>
+          <value>com.dassault_systemes.vplm.modeler.dmt.implementation.VPLMCmdDocumentCloneVersion</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>UserExitForDeleteReference</name>
+          <value>com.dassault_systemes.vplm.modeler.dmt.implementation.VPLMCmdDocumentDeleteReference</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>UserExitForNewVersion</name>
+          <value>com.dassault_systemes.vplm.modeler.dmt.implementation.VPLMCmdDocumentCloneVersion</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>enovia</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-09-2019 08:34:49.067</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>edmDocuments</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>0</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="29">
+        <history>
+          <datetime>2019-07-09T11:01:53Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type edmDocuments</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type edmDocuments abstract true</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type edmDocuments add property CustomerExposition value Programmer</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type edmDocuments add property ExportChannel value DocumentCompletion.KProc</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type edmDocuments add property ExportDesign value DocumentCompletion.KProc</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type edmDocuments add property IPML.3DIconName value CDM_DOCUMENTS.cgr</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type edmDocuments add property IPML.ChangeMaturityAvailability value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type edmDocuments add property IPML.DeleteAvailability value No</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type edmDocuments add property IPML.DuplicateAvailability value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type edmDocuments add property IPML.EditPropertiesAvailability value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type edmDocuments add property IPML.EvolutionAvailability value No</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type edmDocuments add property IPML.IconName value I_CDM_Document</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type edmDocuments add property IPML.LockUnlockAvailability value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type edmDocuments add property IPML.NewMajorRevisionAvailability value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod type edmDocuments add property IPML.Newable value Insert</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod type edmDocuments add property IPML.SaveAsNewAvailability value No</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod type edmDocuments add property IPML.TransferOwnershipAvailability value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod type edmDocuments add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod type edmDocuments add property SubscriptionEventsMenu to menu APPDOCUMENTSEvents</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod type edmDocuments add property UserExitForClone value com.dassault_systemes.vplm.modeler.dmt.implementation.VPLMCmdDocumentCloneVersion</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod type edmDocuments add property UserExitForDeleteReference value com.dassault_systemes.vplm.modeler.dmt.implementation.VPLMCmdDocumentDeleteReference</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod type edmDocuments add property UserExitForNewVersion value com.dassault_systemes.vplm.modeler.dmt.implementation.VPLMCmdDocumentCloneVersion</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod type edmDocuments add property application value enovia</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod type edmDocuments add property 'file date' value '07-09-2019 08:34:49.067'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod type edmDocuments add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod type edmDocuments add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod type edmDocuments add property 'original name' value edmDocuments</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod type edmDocuments add property version value 0</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod type edmDocuments derived DOCUMENTS</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <abstract/>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>DOCUMENTS</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

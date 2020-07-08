@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:26:48Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <attributeDef id="0.1.44780.21003">
+    <adminProperties>
+      <name>edmTeamTokenTF</name>
+      <creationInfo>
+        <datetime>2019-07-09T11:03:05Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-09T11:03:05Z</datetime>
+      </modificationInfo>
+      <propertyList count="4">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-09-2019 08:34:58.396</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="5">
+        <history>
+          <datetime>2019-07-09T11:03:05Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add attribute edmTeamTokenTF type string type string</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod attribute edmTeamTokenTF add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod attribute edmTeamTokenTF add property 'file date' value '07-09-2019 08:34:58.396'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod attribute edmTeamTokenTF add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:03:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod attribute edmTeamTokenTF add property installer value 'The MxUpdate Team'</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <primitiveType>string</primitiveType>
+    <maxlength>0</maxlength>
+    <attrValueType>0</attrValueType>
+  </attributeDef>
+</ematrix>

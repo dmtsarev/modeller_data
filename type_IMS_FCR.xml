@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:07Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.48840.20052">
+    <adminProperties>
+      <name>IMS_FCR</name>
+      <creationInfo>
+        <datetime>2019-07-04T17:32:21Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:03:11Z</datetime>
+      </modificationInfo>
+      <description>Field Change Request</description>
+      <propertyList count="7">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>IMS_HNH</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>04-24-2019 14:19:54.000</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_FCR</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>1</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="23">
+        <history>
+          <datetime>2019-07-04T17:32:21Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type IMS_FCR</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:04Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type IMS_FCR description 'Field Change Request'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:04Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type IMS_FCR add attribute IMS_FCR_Approved_Date</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:04Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type IMS_FCR add attribute IMS_FCR_Change</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:04Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type IMS_FCR add attribute IMS_FCR_Comment</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:04Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type IMS_FCR add attribute IMS_FCR_Contract_Number</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:04Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type IMS_FCR add attribute IMS_FCR_Detection_Date</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:04Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type IMS_FCR add attribute IMS_FCR_Letter_Date_FromAP</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:04Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type IMS_FCR add attribute IMS_FCR_Letter_Date_ToAP</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:04Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type IMS_FCR add attribute IMS_FCR_Letter_Date_ToAP_EOSDO</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:04Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type IMS_FCR add attribute IMS_FCR_Letter_Name_FromAP</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:04Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type IMS_FCR add attribute IMS_FCR_Letter_Name_ToAP</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:04Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type IMS_FCR add attribute IMS_FCR_Letter_Person_FromAP</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:04Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type IMS_FCR add attribute IMS_FCR_Letter_Person_ToAP</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod type IMS_FCR add attribute IMS_FCR_Schedule_Impact</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod type IMS_FCR add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod type IMS_FCR add property application value IMS_HNH</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod type IMS_FCR add property 'file date' value '04-24-2019 14:19:54.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod type IMS_FCR add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod type IMS_FCR add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod type IMS_FCR add property 'original name' value IMS_FCR</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod type IMS_FCR add property version value 1</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:05Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod type IMS_FCR derived DOCUMENTS</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>DOCUMENTS</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <attributeDefRefList count="13">
+      <attributeDefRef>IMS_FCR_Letter_Name_ToAP</attributeDefRef>
+      <attributeDefRef>IMS_FCR_Approved_Date</attributeDefRef>
+      <attributeDefRef>IMS_FCR_Letter_Date_ToAP</attributeDefRef>
+      <attributeDefRef>IMS_FCR_Contract_Number</attributeDefRef>
+      <attributeDefRef>IMS_FCR_Letter_Person_FromAP</attributeDefRef>
+      <attributeDefRef>IMS_FCR_Letter_Date_ToAP_EOSDO</attributeDefRef>
+      <attributeDefRef>IMS_FCR_Detection_Date</attributeDefRef>
+      <attributeDefRef>IMS_FCR_Letter_Person_ToAP</attributeDefRef>
+      <attributeDefRef>IMS_FCR_Change</attributeDefRef>
+      <attributeDefRef>IMS_FCR_Letter_Name_FromAP</attributeDefRef>
+      <attributeDefRef>IMS_FCR_Letter_Date_FromAP</attributeDefRef>
+      <attributeDefRef>IMS_FCR_Comment</attributeDefRef>
+      <attributeDefRef>IMS_FCR_Schedule_Impact</attributeDefRef>
+    </attributeDefRefList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

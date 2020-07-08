@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:04Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.56204.28807">
+    <adminProperties>
+      <name>edmAssignment</name>
+      <creationInfo>
+        <datetime>2019-07-09T11:01:53Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T11:31:25Z</datetime>
+      </modificationInfo>
+      <propertyList count="7">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-09-2019 08:34:48.973</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>edmAssignment</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>1</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="28">
+        <history>
+          <datetime>2019-07-09T11:01:53Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type edmAssignment</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type edmAssignment add attribute IMS_AP_RESPON_PERSON</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type edmAssignment add attribute edmAttAssignment1</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type edmAssignment add attribute edmAttAssignment10</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type edmAssignment add attribute edmAttAssignment11</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type edmAssignment add attribute edmAttAssignment12</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type edmAssignment add attribute edmAttAssignment13</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type edmAssignment add attribute edmAttAssignment14</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type edmAssignment add attribute edmAttAssignment15</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type edmAssignment add attribute edmAttAssignment16</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type edmAssignment add attribute edmAttAssignment2</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type edmAssignment add attribute edmAttAssignment3</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type edmAssignment add attribute edmAttAssignment4</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type edmAssignment add attribute edmAttAssignment5</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod type edmAssignment add attribute edmAttAssignment6</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod type edmAssignment add attribute edmAttAssignment7</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod type edmAssignment add attribute edmAttAssignment8</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod type edmAssignment add attribute edmAttAssignment9</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod type edmAssignment add trigger create action emxTriggerManager input edmSetPublishedState</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod type edmAssignment add trigger revision action emxTriggerManager input edmSetPublishedStateRevisionAction</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod type edmAssignment add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod type edmAssignment add property application value unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod type edmAssignment add property 'file date' value '07-09-2019 08:34:48.973'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod type edmAssignment add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod type edmAssignment add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod type edmAssignment add property 'original name' value edmAssignment</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod type edmAssignment add property version value 1</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod type edmAssignment derived edmDocuments</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>edmDocuments</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <attributeDefRefList count="17">
+      <attributeDefRef>edmAttAssignment2</attributeDefRef>
+      <attributeDefRef>edmAttAssignment11</attributeDefRef>
+      <attributeDefRef>edmAttAssignment7</attributeDefRef>
+      <attributeDefRef>edmAttAssignment16</attributeDefRef>
+      <attributeDefRef>edmAttAssignment12</attributeDefRef>
+      <attributeDefRef>edmAttAssignment3</attributeDefRef>
+      <attributeDefRef>edmAttAssignment13</attributeDefRef>
+      <attributeDefRef>IMS_AP_RESPON_PERSON</attributeDefRef>
+      <attributeDefRef>edmAttAssignment8</attributeDefRef>
+      <attributeDefRef>edmAttAssignment4</attributeDefRef>
+      <attributeDefRef>edmAttAssignment1</attributeDefRef>
+      <attributeDefRef>edmAttAssignment9</attributeDefRef>
+      <attributeDefRef>edmAttAssignment5</attributeDefRef>
+      <attributeDefRef>edmAttAssignment14</attributeDefRef>
+      <attributeDefRef>edmAttAssignment10</attributeDefRef>
+      <attributeDefRef>edmAttAssignment6</attributeDefRef>
+      <attributeDefRef>edmAttAssignment15</attributeDefRef>
+    </attributeDefRefList>
+    <triggerList count="2">
+      <trigger>
+        <triggerName>CreateAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>edmSetPublishedState</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>RevisionAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>edmSetPublishedStateRevisionAction</inputArguments>
+      </trigger>
+    </triggerList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

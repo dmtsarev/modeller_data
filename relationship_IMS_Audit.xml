@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:50Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <relationshipDef id="0.1.42368.47958">
+    <adminProperties>
+      <name>IMS_Audit</name>
+      <creationInfo>
+        <datetime>2019-07-05T09:16:16Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-09T13:06:33Z</datetime>
+      </modificationInfo>
+      <description>IMS_Audit</description>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-05-2019 08:56:42.000</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_Audit</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="13">
+        <history>
+          <datetime>2019-07-05T09:16:16Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add relationship IMS_Audit</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod relationship IMS_Audit description IMS_Audit</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod relationship IMS_Audit from add type all</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod relationship IMS_Audit to add type IMS_Audit</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod relationship IMS_Audit to add type IMS_MockObject</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod relationship IMS_Audit add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod relationship IMS_Audit add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod relationship IMS_Audit add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod relationship IMS_Audit add property 'file date' value '07-05-2019 08:56:42.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod relationship IMS_Audit add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod relationship IMS_Audit add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod relationship IMS_Audit add property 'original name' value IMS_Audit</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod relationship IMS_Audit add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <fromSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <allowAllTypes/>
+      <propagateConnection/>
+    </fromSide>
+    <toSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="2">
+        <typeRef>IMS_Audit</typeRef>
+        <typeRef>IMS_MockObject</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </toSide>
+    <relationshipKind>0</relationshipKind>
+  </relationshipDef>
+</ematrix>

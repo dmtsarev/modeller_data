@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:26:48Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <attributeDef id="0.1.57448.38333">
+    <adminProperties>
+      <name>edmServiceManagerAnswerAccepted</name>
+      <creationInfo>
+        <datetime>2019-07-09T11:02:54Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-09T11:02:54Z</datetime>
+      </modificationInfo>
+      <propertyList count="7">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>enovia</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-09-2019 08:34:58.240</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>edmServiceManagerAnswerAccepted</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>0</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="13">
+        <history>
+          <datetime>2019-07-09T11:02:54Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add attribute edmServiceManagerAnswerAccepted type boolean type boolean</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:54Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod attribute edmServiceManagerAnswerAccepted default TRUE</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:54Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod attribute edmServiceManagerAnswerAccepted resetonrevision</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:54Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod attribute edmServiceManagerAnswerAccepted add trigger modify action emxTriggerManager input edmAttributeActualDate</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:54Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod attribute edmServiceManagerAnswerAccepted add range = FALSE</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:54Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod attribute edmServiceManagerAnswerAccepted add range = TRUE</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:54Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod attribute edmServiceManagerAnswerAccepted add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:54Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod attribute edmServiceManagerAnswerAccepted add property application value enovia</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:54Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod attribute edmServiceManagerAnswerAccepted add property 'file date' value '07-09-2019 08:34:58.240'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:54Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod attribute edmServiceManagerAnswerAccepted add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:54Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod attribute edmServiceManagerAnswerAccepted add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:54Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod attribute edmServiceManagerAnswerAccepted add property 'original name' value edmServiceManagerAnswerAccepted</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:54Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod attribute edmServiceManagerAnswerAccepted add property version value 0</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <primitiveType>boolean</primitiveType>
+    <resetonrevision/>
+    <maxlength>0</maxlength>
+    <rangeList count="2">
+      <range>
+        <rangeType>equal</rangeType>
+        <rangeValue>FALSE</rangeValue>
+      </range>
+      <range>
+        <rangeType>equal</rangeType>
+        <rangeValue>TRUE</rangeValue>
+      </range>
+    </rangeList>
+    <defaultValue>TRUE</defaultValue>
+    <triggerList count="1">
+      <trigger>
+        <triggerName>ModifyAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>edmAttributeActualDate</inputArguments>
+      </trigger>
+    </triggerList>
+    <attrValueType>0</attrValueType>
+  </attributeDef>
+</ematrix>

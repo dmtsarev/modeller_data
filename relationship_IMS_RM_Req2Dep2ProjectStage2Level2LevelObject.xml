@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:01Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <relationshipDef id="0.1.54120.21838">
+    <adminProperties>
+      <name>IMS_RM_Req2Dep2ProjectStage2Level2LevelObject</name>
+      <creationInfo>
+        <datetime>2019-07-04T17:32:25Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-09T13:07:09Z</datetime>
+      </modificationInfo>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>04-24-2019 14:19:54.000</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_RM_Req2Dep2ProjectStage2Level2LevelObject</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="19">
+        <history>
+          <datetime>2019-07-04T17:32:25Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject preventduplicates</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject from add relationship IMS_RM_Req2Dep2ProjectStage2Level</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject to add type IMS_EquipmentClassification</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject to add type IMS_MaterialClassification</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject to add type IMS_MediumClassification</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject to add type IMS_PBSFunctionalArea</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject to add type IMS_PBSSystem</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject to add type IMS_PBSUnit</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject to add type IMS_Plant</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject to add type IMS_Task</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject add property 'file date' value '04-24-2019 14:19:54.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject add property 'original name' value IMS_RM_Req2Dep2ProjectStage2Level2LevelObject</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:07:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod relationship IMS_RM_Req2Dep2ProjectStage2Level2LevelObject add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <fromSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <relationshipDefRefList count="1">
+        <relationshipDefRef>IMS_RM_Req2Dep2ProjectStage2Level</relationshipDefRef>
+      </relationshipDefRefList>
+      <propagateConnection/>
+    </fromSide>
+    <toSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="8">
+        <typeRef>IMS_EquipmentClassification</typeRef>
+        <typeRef>IMS_MediumClassification</typeRef>
+        <typeRef>IMS_PBSSystem</typeRef>
+        <typeRef>IMS_MaterialClassification</typeRef>
+        <typeRef>IMS_Task</typeRef>
+        <typeRef>IMS_PBSUnit</typeRef>
+        <typeRef>IMS_PBSFunctionalArea</typeRef>
+        <typeRef>IMS_Plant</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </toSide>
+    <preventDuplicates/>
+    <relationshipKind>0</relationshipKind>
+  </relationshipDef>
+</ematrix>

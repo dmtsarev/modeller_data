@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:04Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <relationshipDef id="0.1.42408.24505">
+    <adminProperties>
+      <name>Reported Against Change</name>
+      <creationInfo>
+        <datetime>2019-05-31T15:23:22Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T12:17:33Z</datetime>
+      </modificationInfo>
+      <description>Reported Against item for Change.</description>
+      <propertyList count="5">
+        <property>
+          <name>application</name>
+          <value>Framework</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>Fri May 31 18:23:22 MSK 2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>ENOVIAEngineering</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>Reported Against Change</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>R216</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="7">
+        <history>
+          <datetime>2019-05-31T15:23:22Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add relationship "Reported Against Change" description "Reported Against item for Change." preventduplicate from type "Change" cardinality n to type "Part" type "CAD Drawing" type "CAD Model" type "Drawing Print" type "Products" type "Builds" type "Part Specification" cardinality n</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:23:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>modify relationship "Reported Against Change" property "version" value "V6R2008-2.0" property "application" value "Framework" property "installer" value "ENOVIAEngineering" property "original name" value "Reported Against Change" property "installed date" value "Fri May 31 18:23:22 MSK 2019"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:25:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>modify relationship "Reported Against Change" to add type "CONTROLLED DOCUMENTS"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:25:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>modify relationship "Reported Against Change" property "version" value "R216"</string>
+        </history>
+        <history>
+          <datetime>2019-06-05T10:19:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>modify relationship 'Reported Against Change' to add type 'Requirement'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:50:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod relationship 'Reported Against Change' from add type IMS_MockObject</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:50:20Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod relationship 'Reported Against Change' to add type IMS_MockObject</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <fromSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="2">
+        <typeRef>IMS_MockObject</typeRef>
+        <typeRef>Change</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </fromSide>
+    <toSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="10">
+        <typeRef>Part</typeRef>
+        <typeRef>Drawing Print</typeRef>
+        <typeRef>Part Specification</typeRef>
+        <typeRef>Builds</typeRef>
+        <typeRef>Products</typeRef>
+        <typeRef>Requirement</typeRef>
+        <typeRef>IMS_MockObject</typeRef>
+        <typeRef>CAD Drawing</typeRef>
+        <typeRef>CAD Model</typeRef>
+        <typeRef>CONTROLLED DOCUMENTS</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </toSide>
+    <preventDuplicates/>
+    <relationshipKind>0</relationshipKind>
+  </relationshipDef>
+</ematrix>

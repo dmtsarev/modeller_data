@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:48Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <relationshipDef id="0.1.7952.29945">
+    <adminProperties>
+      <name>Classified Item</name>
+      <creationInfo>
+        <datetime>2019-05-31T15:22:46Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T12:17:20Z</datetime>
+      </modificationInfo>
+      <description>Relationship to be used for connecting a classification node to a classified item in a taxonomy</description>
+      <propertyList count="10">
+        <property>
+          <name>CustomerExposition</name>
+          <value>Programmer</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>CustomerExtensible</name>
+          <value>No</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>Specializable</name>
+          <value>No</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Framework</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>04-24-2019 14:19:54.000</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>Fri May 31 18:22:46 MSK 2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>ENOVIAEngineering</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>Classified Item</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>R417</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="97">
+        <history>
+          <datetime>2019-05-31T15:22:46Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add relationship "Classified Item" description "Relationship to be used for connecting a classification node to a classified item in a taxonomy" from type "Classification" cardinality n revision replicate clone replicate to type "all" cardinality n revision replicate clone replicate trigger create action emxTriggerManager input "RelationshipClassifiedItemCreateAction" trigger delete action emxTriggerManager input "RelationshipClassifiedItemDeleteAction"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:22:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>modify relationship "Classified Item" property "version" value "10-6" property "application" value "Framework" property "installer" value "ENOVIAEngineering" property "original name" value "Classified Item" property "installed date" value "Fri May 31 18:22:46 MSK 2019"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:22:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>modify relationship "Classified Item" add trigger modifyto action emxTriggerManager input "RelationshipClassifiedItemModifyToAction"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:22:57Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>modify relationship "Classified Item" property "version" value "10-6-SP2"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:23:25Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>modify relationship "Classified Item" to remove type "all" add type "Part" add type "DOCUMENTS" from add type "Part Family"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:23:25Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>modify relationship "Classified Item" property "version" value "V6R2008-2.0"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:23:56Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>modify relationship "Classified Item" to add type "Products" add type "Compliance Enterprise Part" add type "Requirement Specification" add type "Requirement" add trigger modifyfrom action emxTriggerManager input "RelationshipClassifiedItemModifyFromAction"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:23:56Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>modify relationship "Classified Item" property "version" value "R207"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:24:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>modify relationship "Classified Item" to add type "Supplier Equivalent Part"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:24:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>modify relationship "Classified Item" property "version" value "R210"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:24:31Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>modify relationship "Classified Item" to add type "LOGICAL STRUCTURES" add type "CONFIGURATION FEATURES"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:24:31Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>modify relationship "Classified Item" property "version" value "R212"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:24:38Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>modify relationship "Classified Item" to add type "Purged Record"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:24:38Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>modify relationship "Classified Item" property "version" value "R213"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:24:54Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>modify relationship "Classified Item" to add type "Internal Material" add property CustomerExposition value Programmer</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:24:54Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>modify relationship "Classified Item" property "version" value "R215"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:25:26Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>modify relationship "Classified Item" add property CustomerExposition value Programmer add property "CustomerExtensible" value "No" add property "Specializable" value "No"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:25:26Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>modify relationship "Classified Item" property "version" value "R216"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:25:48Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>modify relationship "Classified Item" preventduplicates</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:25:48Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>modify relationship "Classified Item" property "version" value "R417"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:26:16Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>modify relationship "Classified Item" to add type "Test Case" add type "Use Case"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:26:16Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>modify relationship "Classified Item" property "version" value "R419"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:26:56Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>modify relationship "Classified Item" to add type "Issue"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:26:56Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>modify relationship "Classified Item" property "version" value "R420"</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:36:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod relation 'Classified Item' to add type VPMCatalogProxy</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:46:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELFmiFunctionReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:46:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELLmiOperationReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:46:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELLmiProductionSystemReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:46:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/RFLPLMFlowReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:46:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/RFLPLMFunctionalReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:46:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/RFLVPMSystemTypeReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:46:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/RFLVPMLogicalReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:46:16Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DMUValidationValidation'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:47:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/CATComponentsFamilyProxyToElement'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:48:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>modify relationship 'Classified Item' to remove type 'VPLMtyp/CATComponentsFamilyProxyToElement'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T15:48:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/CATComponentsFamilyProxyToElement'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/PLMGenericRuleBaseComponent'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/PLMMaintenanceAction'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/PLMManufacturingAction'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/PLMSignoffAction'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/PLMTemplateRepReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/PLMWspPVS'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/PLMWspQuery'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/RFLPLMFunctionalCommunicationReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/SIMObjSimulationConnection'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/SIMItfSimulation'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/SIMObjSimulationObjectGeneric'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELTimeAnalysisRepReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/RFLVPMLogicalReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/PLMTaskAction'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>51</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELFmiFunctionRepresentationReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>52</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/PLMDMTDocument'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>53</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/PLMChgBase'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>54</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/PLMActionBase'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>55</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/PLMDesignAction'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>56</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/PLMDocumentationAction'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>57</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/VPMReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>58</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/VPMRepReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>59</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/CATSysBehaviorLibReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>60</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELLmiCurveOperationReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>61</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELLmiGeneralOperationReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>62</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELLmiGeneralSystemReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>63</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELLmiLoadingOperationReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>64</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELLmiPunctualOperationReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>65</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELLmiRemoveMaterialOperationReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>66</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELLmiStorageSystemReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>67</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELLmiTransferOperationReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>68</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELLmiTransferSystemReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>69</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELLmiTransformationSystemReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>70</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELLmiUnloadingOperationReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>71</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELWkiAlertReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>72</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELWkiDataCollectReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>73</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELWkiInstructionReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:10:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>74</order>
+          <string>modify relationship 'Classified Item' to add type 'VPLMtyp/DELWkiSignOffReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:22:48Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>75</order>
+          <string>modify relationship 'Classified Item' to add type LibraryFeaturePort</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:28:08Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>76</order>
+          <string>modify relationship 'Classified Item' to add type 'CATMatReference'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:28:08Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>77</order>
+          <string>modify relationship 'Classified Item' to add type 'MechanicalInterfaceTemplate'</string>
+        </history>
+        <history>
+          <datetime>2019-05-31T16:31:53Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>78</order>
+          <string>modify relationship 'Classified Item' to add type 'ObjectTypeReference'</string>
+        </history>
+        <history>
+          <datetime>2019-06-05T12:47:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>79</order>
+          <string>modify relationship 'Classified Item' to add type 'Controlled Folder'</string>
+        </history>
+        <history>
+          <datetime>2019-06-05T13:19:48Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>80</order>
+          <string>modify relationship 'Classified Item' to add type 'CONFIGURATION FEATURES'</string>
+        </history>
+        <history>
+          <datetime>2019-06-05T13:19:48Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>81</order>
+          <string>modify relationship 'Classified Item' to add type 'LOGICAL STRUCTURES'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:29Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>82</order>
+          <string>mod relationship 'Classified Item' from add type IMS_MockObject</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:29Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>83</order>
+          <string>mod relationship 'Classified Item' to meaning ConnectFrozen=True|IMS_Tag</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:29Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>84</order>
+          <string>mod relationship 'Classified Item' to remove type Issue</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:29Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>85</order>
+          <string>mod relationship 'Classified Item' to remove type MechanicalInterfaceTemplate</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:29Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>86</order>
+          <string>mod relationship 'Classified Item' to remove type ObjectTypeReference</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:29Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>87</order>
+          <string>mod relationship 'Classified Item' to add type IMS_MockObject</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:29Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>88</order>
+          <string>mod relationship 'Classified Item' remove trigger create action</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:29Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>89</order>
+          <string>mod relationship 'Classified Item' add trigger create action emxTriggerManager input 'RelationshipClassifiedItemCreateAction IMS_RelationshipClassifiedItemCreateAction'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:29Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>90</order>
+          <string>mod relationship 'Classified Item' add trigger create check emxTriggerManager input IMS_RelationshipClassifiedItemCreateCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:29Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>91</order>
+          <string>mod relationship 'Classified Item' add trigger delete check emxTriggerManager input IMS_RelationshipClassifiedItemDeleteCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:29Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>92</order>
+          <string>mod relationship 'Classified Item' remove property version</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:29Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>93</order>
+          <string>mod relationship 'Classified Item' add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:29Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>94</order>
+          <string>mod relationship 'Classified Item' add property 'file date' value '04-24-2019 14:19:54.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:29Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>95</order>
+          <string>mod relationship 'Classified Item' add property version value R417</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:50:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>96</order>
+          <string>mod relationship 'Classified Item' from add type IMS_MockObject</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:50:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>97</order>
+          <string>mod relationship 'Classified Item' to add type IMS_MockObject</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <fromSide>
+      <cardinality>n</cardinality>
+      <revisionAction>replicate</revisionAction>
+      <cloneAction>replicate</cloneAction>
+      <typeRefList count="3">
+        <typeRef>Part Family</typeRef>
+        <typeRef>Classification</typeRef>
+        <typeRef>IMS_MockObject</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </fromSide>
+    <toSide>
+      <meaning>ConnectFrozen=True|IMS_Tag</meaning>
+      <cardinality>n</cardinality>
+      <revisionAction>replicate</revisionAction>
+      <cloneAction>replicate</cloneAction>
+      <typeRefList count="64">
+        <typeRef>Internal Material</typeRef>
+        <typeRef>LibraryFeaturePort</typeRef>
+        <typeRef>Part</typeRef>
+        <typeRef>Requirement Specification</typeRef>
+        <typeRef>Test Case</typeRef>
+        <typeRef>Use Case</typeRef>
+        <typeRef>Purged Record</typeRef>
+        <typeRef>PLMTaskAction</typeRef>
+        <typeRef>VPMCatalogProxy</typeRef>
+        <typeRef>CONFIGURATION FEATURES</typeRef>
+        <typeRef>LOGICAL STRUCTURES</typeRef>
+        <typeRef>Products</typeRef>
+        <typeRef>Requirement</typeRef>
+        <typeRef>DOCUMENTS</typeRef>
+        <typeRef>IMS_MockObject</typeRef>
+        <typeRef>DELWkiAlertReference</typeRef>
+        <typeRef>DELWkiDataCollectReference</typeRef>
+        <typeRef>DELWkiInstructionReference</typeRef>
+        <typeRef>DELWkiSignOffReference</typeRef>
+        <typeRef>Supplier Equivalent Part</typeRef>
+        <typeRef>CATComponentsFamilyProxyToElement</typeRef>
+        <typeRef>DELTimeAnalysisRepReference</typeRef>
+        <typeRef>RFLVPMSystemTypeReference</typeRef>
+        <typeRef>DMUValidationValidation</typeRef>
+        <typeRef>RFLVPMLogicalReference</typeRef>
+        <typeRef>CATSysBehaviorLibReference</typeRef>
+        <typeRef>DELLmiOperationReference</typeRef>
+        <typeRef>DELLmiProductionSystemReference</typeRef>
+        <typeRef>DELLmiCurveOperationReference</typeRef>
+        <typeRef>DELLmiGeneralOperationReference</typeRef>
+        <typeRef>DELLmiGeneralSystemReference</typeRef>
+        <typeRef>DELLmiLoadingOperationReference</typeRef>
+        <typeRef>DELLmiPunctualOperationReference</typeRef>
+        <typeRef>DELLmiRemoveMaterialOperationReference</typeRef>
+        <typeRef>DELLmiStorageSystemReference</typeRef>
+        <typeRef>DELLmiTransferOperationReference</typeRef>
+        <typeRef>DELLmiTransferSystemReference</typeRef>
+        <typeRef>DELLmiTransformationSystemReference</typeRef>
+        <typeRef>DELLmiUnloadingOperationReference</typeRef>
+        <typeRef>CATMatReference</typeRef>
+        <typeRef>DELFmiFunctionReference</typeRef>
+        <typeRef>DELFmiFunctionRepresentationReference</typeRef>
+        <typeRef>PLMDMTDocument</typeRef>
+        <typeRef>PLMChgBase</typeRef>
+        <typeRef>PLMActionBase</typeRef>
+        <typeRef>PLMDesignAction</typeRef>
+        <typeRef>PLMDocumentationAction</typeRef>
+        <typeRef>VPMReference</typeRef>
+        <typeRef>VPMRepReference</typeRef>
+        <typeRef>PLMGenericRuleBaseComponent</typeRef>
+        <typeRef>PLMMaintenanceAction</typeRef>
+        <typeRef>PLMManufacturingAction</typeRef>
+        <typeRef>PLMSignoffAction</typeRef>
+        <typeRef>PLMTemplateRepReference</typeRef>
+        <typeRef>PLMWspPVS</typeRef>
+        <typeRef>PLMWspQuery</typeRef>
+        <typeRef>RFLPLMFlowReference</typeRef>
+        <typeRef>RFLPLMFunctionalReference</typeRef>
+        <typeRef>RFLPLMFunctionalCommunicationReference</typeRef>
+        <typeRef>SIMObjSimulationConnection</typeRef>
+        <typeRef>SIMItfSimulation</typeRef>
+        <typeRef>SIMObjSimulationObjectGeneric</typeRef>
+        <typeRef>Controlled Folder</typeRef>
+        <typeRef>Compliance Enterprise Part</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </toSide>
+    <triggerList count="6">
+      <trigger>
+        <triggerName>DeleteAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>RelationshipClassifiedItemDeleteAction</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ModifyToAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>RelationshipClassifiedItemModifyToAction</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ModifyFromAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>RelationshipClassifiedItemModifyFromAction</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>CreateAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>RelationshipClassifiedItemCreateAction IMS_RelationshipClassifiedItemCreateAction</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>CreateCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>IMS_RelationshipClassifiedItemCreateCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>DeleteCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>IMS_RelationshipClassifiedItemDeleteCheck</inputArguments>
+      </trigger>
+    </triggerList>
+    <preventDuplicates/>
+    <relationshipKind>0</relationshipKind>
+  </relationshipDef>
+</ematrix>

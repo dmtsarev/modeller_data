@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:48Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <relationshipDef id="0.1.1432.27325">
+    <adminProperties>
+      <name>edmHandbookValue</name>
+      <creationInfo>
+        <datetime>2019-07-09T11:01:54Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-09T13:35:44Z</datetime>
+      </modificationInfo>
+      <propertyList count="7">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>enovia</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-09-2019 08:34:55.978</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>edmHandbookValue</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>0</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="13">
+        <history>
+          <datetime>2019-07-09T11:01:54Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add relationship edmHandbookValue</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:35:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod relationship edmHandbookValue preventduplicates</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:35:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod relationship edmHandbookValue from add type IMS_Task</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:35:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod relationship edmHandbookValue from add type IMS_TaskTrace</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:35:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod relationship edmHandbookValue to add type Person</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:35:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod relationship edmHandbookValue add trigger create action emxTriggerManager input IMS_RelationshipHandbookValueCreateAction</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:35:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod relationship edmHandbookValue add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:35:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod relationship edmHandbookValue add property application value enovia</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:35:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod relationship edmHandbookValue add property 'file date' value '07-09-2019 08:34:55.978'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:35:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod relationship edmHandbookValue add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:35:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod relationship edmHandbookValue add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:35:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod relationship edmHandbookValue add property 'original name' value edmHandbookValue</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:35:44Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod relationship edmHandbookValue add property version value 0</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <fromSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="2">
+        <typeRef>IMS_TaskTrace</typeRef>
+        <typeRef>IMS_Task</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </fromSide>
+    <toSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="1">
+        <typeRef>Person</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </toSide>
+    <triggerList count="1">
+      <trigger>
+        <triggerName>CreateAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>IMS_RelationshipHandbookValueCreateAction</inputArguments>
+      </trigger>
+    </triggerList>
+    <preventDuplicates/>
+    <relationshipKind>0</relationshipKind>
+  </relationshipDef>
+</ematrix>

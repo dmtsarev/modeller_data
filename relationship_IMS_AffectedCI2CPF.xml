@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:49Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <relationshipDef id="0.1.49008.22852">
+    <adminProperties>
+      <name>IMS_AffectedCI2CPF</name>
+      <creationInfo>
+        <datetime>2019-07-08T10:52:39Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T11:31:11Z</datetime>
+      </modificationInfo>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:35.847</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_AffectedCI2CPF</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="24">
+        <history>
+          <datetime>2019-07-08T10:52:39Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add relationship IMS_AffectedCI2CPF</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod relationship IMS_AffectedCI2CPF preventduplicates</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod relationship IMS_AffectedCI2CPF from meaning ConnectFrozen=True</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod relationship IMS_AffectedCI2CPF from add type IMS_CIEVENTS</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod relationship IMS_AffectedCI2CPF from add type IMS_EventCategory</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod relationship IMS_AffectedCI2CPF from add type IMS_GBSBuilding</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod relationship IMS_AffectedCI2CPF from add type IMS_GBSRoom</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod relationship IMS_AffectedCI2CPF from add type IMS_PBSSystem</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod relationship IMS_AffectedCI2CPF from add type IMS_RequirementADLAS</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod relationship IMS_AffectedCI2CPF from add type IMS_RequirementEPC</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod relationship IMS_AffectedCI2CPF from add type IMS_RequirementNormative</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod relationship IMS_AffectedCI2CPF from add type IMS_Tag</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod relationship IMS_AffectedCI2CPF to meaning ConnectFrozen=False</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod relationship IMS_AffectedCI2CPF to add type Issue</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod relationship IMS_AffectedCI2CPF add trigger create check emxTriggerManager input TypeIMSModifyRelDirectionCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod relationship IMS_AffectedCI2CPF add trigger delete check emxTriggerManager input TypeIMSModifyRelDirectionCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod relationship IMS_AffectedCI2CPF add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod relationship IMS_AffectedCI2CPF add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod relationship IMS_AffectedCI2CPF add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod relationship IMS_AffectedCI2CPF add property 'file date' value '07-08-2019 08:55:35.847'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod relationship IMS_AffectedCI2CPF add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod relationship IMS_AffectedCI2CPF add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod relationship IMS_AffectedCI2CPF add property 'original name' value IMS_AffectedCI2CPF</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod relationship IMS_AffectedCI2CPF add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <fromSide>
+      <meaning>ConnectFrozen=True</meaning>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="9">
+        <typeRef>IMS_EventCategory</typeRef>
+        <typeRef>IMS_CIEVENTS</typeRef>
+        <typeRef>IMS_PBSSystem</typeRef>
+        <typeRef>IMS_GBSBuilding</typeRef>
+        <typeRef>IMS_GBSRoom</typeRef>
+        <typeRef>IMS_Tag</typeRef>
+        <typeRef>IMS_RequirementADLAS</typeRef>
+        <typeRef>IMS_RequirementNormative</typeRef>
+        <typeRef>IMS_RequirementEPC</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </fromSide>
+    <toSide>
+      <meaning>ConnectFrozen=False</meaning>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="1">
+        <typeRef>Issue</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </toSide>
+    <triggerList count="2">
+      <trigger>
+        <triggerName>CreateCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyRelDirectionCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>DeleteCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyRelDirectionCheck</inputArguments>
+      </trigger>
+    </triggerList>
+    <preventDuplicates/>
+    <relationshipKind>0</relationshipKind>
+  </relationshipDef>
+</ematrix>

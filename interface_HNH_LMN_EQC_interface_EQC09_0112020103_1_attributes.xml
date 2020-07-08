@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:02Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <interfaceType id="0.1.46976.62152">
+    <adminProperties>
+      <name>HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes</name>
+      <creationInfo>
+        <datetime>2019-07-04T17:32:32Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T11:30:24Z</datetime>
+      </modificationInfo>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>04-24-2019 14:19:54.000</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="26">
+        <history>
+          <datetime>2019-07-04T17:32:32Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes abstract false</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add attribute IMS_DesignWeight</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add attribute IMS_IngressionProtected_DeviceIP</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add attribute IMS_LiftCapacity</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add attribute IMS_Material</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add attribute IMS_QualityAssurance</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add attribute IMS_RQDM_YVLSafetyClassFunctional</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add attribute IMS_RQDM_YVLSafetyClassStructural</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add attribute IMS_RQD_AC_LAPC</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add attribute IMS_RQD_EQ_DBE</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add attribute IMS_RQD_EQ_DECC</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add attribute IMS_RQD_EQ_IPE</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add attribute IMS_ReliabilityLifeTime</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add attribute IMS_SafetyClassification</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add attribute IMS_SeismicCategory</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add attribute IMS_TagModel</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes derived HNH_LMN_EQC_interface_EQC_1_relation</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add property 'file date' value '04-24-2019 14:19:54.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add property 'original name' value HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:38:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod interface HNH_LMN_EQC_interface_EQC09_0112020103_1_attributes add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFromInterface>
+    <interfaceTypeRefList count="1">
+      <interfaceTypeRef>HNH_LMN_EQC_interface_EQC_1_relation</interfaceTypeRef>
+    </interfaceTypeRefList>
+    </derivedFromInterface>
+    <attributeDefRefList count="15">
+      <attributeDefRef>IMS_RQD_EQ_DECC</attributeDefRef>
+      <attributeDefRef>IMS_IngressionProtected_DeviceIP</attributeDefRef>
+      <attributeDefRef>IMS_RQDM_YVLSafetyClassStructural</attributeDefRef>
+      <attributeDefRef>IMS_DesignWeight</attributeDefRef>
+      <attributeDefRef>IMS_RQD_EQ_IPE</attributeDefRef>
+      <attributeDefRef>IMS_LiftCapacity</attributeDefRef>
+      <attributeDefRef>IMS_TagModel</attributeDefRef>
+      <attributeDefRef>IMS_RQD_AC_LAPC</attributeDefRef>
+      <attributeDefRef>IMS_Material</attributeDefRef>
+      <attributeDefRef>IMS_QualityAssurance</attributeDefRef>
+      <attributeDefRef>IMS_SafetyClassification</attributeDefRef>
+      <attributeDefRef>IMS_RQD_EQ_DBE</attributeDefRef>
+      <attributeDefRef>IMS_RQDM_YVLSafetyClassFunctional</attributeDefRef>
+      <attributeDefRef>IMS_SeismicCategory</attributeDefRef>
+      <attributeDefRef>IMS_ReliabilityLifeTime</attributeDefRef>
+    </attributeDefRefList>
+  </interfaceType>
+</ematrix>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:05Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.56204.12646">
+    <adminProperties>
+      <name>edmHolidayCalendar</name>
+      <creationInfo>
+        <datetime>2019-07-09T11:01:53Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-09T13:13:30Z</datetime>
+      </modificationInfo>
+      <description>\u041a\u0430\u043b\u0435\u043d\u0434\u0430\u0440\u044c \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0445 \u0438 \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u0447\u043d\u044b\u0445 \u0434\u043d\u0435\u0439</description>
+      <propertyList count="7">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>enovia</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-09-2019 13:13:05.376</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>edmHolidayCalendar</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>0</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="14">
+        <history>
+          <datetime>2019-07-09T11:01:53Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type edmHolidayCalendar</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type edmHolidayCalendar description '                                     '</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type edmHolidayCalendar add attribute edmAtt1</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type edmHolidayCalendar add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type edmHolidayCalendar add property application value enovia</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type edmHolidayCalendar add property 'file date' value '07-09-2019 08:34:49.160'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type edmHolidayCalendar add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type edmHolidayCalendar add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type edmHolidayCalendar add property 'original name' value edmHolidayCalendar</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type edmHolidayCalendar add property version value 0</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type edmHolidayCalendar derived DOCUMENTS</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:13:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type edmHolidayCalendar description '\u041a\u0430\u043b\u0435\u043d\u0434\u0430\u0440\u044c \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0445 \u0438 \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u0447\u043d\u044b\u0445 \u0434\u043d\u0435\u0439'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:13:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type edmHolidayCalendar remove property 'file date'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:13:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type edmHolidayCalendar add property 'file date' value '07-09-2019 13:13:05.376'</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>DOCUMENTS</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <attributeDefRefList count="1">
+      <attributeDefRef>edmAtt1</attributeDefRef>
+    </attributeDefRefList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

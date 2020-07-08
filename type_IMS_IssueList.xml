@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:09Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.5752.49374">
+    <adminProperties>
+      <name>IMS_IssueList</name>
+      <creationInfo>
+        <datetime>2019-07-05T09:16:14Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:03:11Z</datetime>
+      </modificationInfo>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-05-2019 08:56:40.000</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_IssueList</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="22">
+        <history>
+          <datetime>2019-07-05T09:16:14Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type IMS_IssueList</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type IMS_IssueList add attribute IMS_AnswerEn</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type IMS_IssueList add attribute IMS_AnswerRu</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type IMS_IssueList add attribute IMS_ApplicableRequirement</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type IMS_IssueList add attribute IMS_Chapter</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type IMS_IssueList add attribute IMS_IssueAccept</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type IMS_IssueList add attribute IMS_IssueTextEn</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type IMS_IssueList add attribute IMS_IssueTextRu</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type IMS_IssueList add attribute IMS_Language</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type IMS_IssueList add attribute IMS_Name</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type IMS_IssueList add attribute IMS_Page</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type IMS_IssueList add trigger connect action emxTriggerManager input TypeIMSIssueListConnectAction</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type IMS_IssueList add trigger create action emxTriggerManager input TypeAllCreationAction</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type IMS_IssueList add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod type IMS_IssueList add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod type IMS_IssueList add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod type IMS_IssueList add property 'file date' value '07-05-2019 08:56:40.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod type IMS_IssueList add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod type IMS_IssueList add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod type IMS_IssueList add property 'original name' value IMS_IssueList</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod type IMS_IssueList add property version</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:48Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod type IMS_IssueList derived Issue</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>Issue</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <attributeDefRefList count="10">
+      <attributeDefRef>IMS_AnswerEn</attributeDefRef>
+      <attributeDefRef>IMS_Chapter</attributeDefRef>
+      <attributeDefRef>IMS_AnswerRu</attributeDefRef>
+      <attributeDefRef>IMS_IssueAccept</attributeDefRef>
+      <attributeDefRef>IMS_Language</attributeDefRef>
+      <attributeDefRef>IMS_ApplicableRequirement</attributeDefRef>
+      <attributeDefRef>IMS_Name</attributeDefRef>
+      <attributeDefRef>IMS_Page</attributeDefRef>
+      <attributeDefRef>IMS_IssueTextEn</attributeDefRef>
+      <attributeDefRef>IMS_IssueTextRu</attributeDefRef>
+    </attributeDefRefList>
+    <triggerList count="2">
+      <trigger>
+        <triggerName>ConnectAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSIssueListConnectAction</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>CreateAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeAllCreationAction</inputArguments>
+      </trigger>
+    </triggerList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

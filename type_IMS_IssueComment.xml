@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:09Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.1008.45222">
+    <adminProperties>
+      <name>IMS_IssueComment</name>
+      <creationInfo>
+        <datetime>2019-07-04T17:32:22Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:03:11Z</datetime>
+      </modificationInfo>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>04-24-2019 14:19:54.000</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_IssueComment</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="40">
+        <history>
+          <datetime>2019-07-04T17:32:22Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type IMS_IssueComment</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type IMS_IssueComment add attribute IMS_AnswerAuthor</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type IMS_IssueComment add attribute IMS_AnswerDate</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type IMS_IssueComment add attribute IMS_AttachmentInfo</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type IMS_IssueComment add attribute IMS_AuthorityReleaseDate</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type IMS_IssueComment add attribute IMS_AuthorityRequirementNumber</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type IMS_IssueComment add attribute IMS_ClosingMilestoner</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type IMS_IssueComment add attribute IMS_CommentDate</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type IMS_IssueComment add attribute IMS_CommentGrade</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type IMS_IssueComment add attribute IMS_CommentGroup</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type IMS_IssueComment add attribute IMS_CommentName</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type IMS_IssueComment add attribute IMS_CommentOrigin</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type IMS_IssueComment add attribute IMS_CommentWorkflowState</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type IMS_IssueComment add attribute IMS_CommentatorID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod type IMS_IssueComment add attribute IMS_CommentedRevision</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod type IMS_IssueComment add attribute IMS_CommentedSupplierRevision</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod type IMS_IssueComment add attribute IMS_Dept</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod type IMS_IssueComment add attribute IMS_DiaryNumber</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod type IMS_IssueComment add attribute IMS_ID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod type IMS_IssueComment add attribute IMS_IssueTextEn</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod type IMS_IssueComment add attribute IMS_IssueTextRu</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod type IMS_IssueComment add attribute IMS_MFilesID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod type IMS_IssueComment add attribute IMS_Name</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod type IMS_IssueComment add attribute IMS_OriginalCommentID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod type IMS_IssueComment add attribute IMS_OriginatorID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod type IMS_IssueComment add attribute IMS_Reference</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod type IMS_IssueComment add attribute IMS_RequirementID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod type IMS_IssueComment add attribute IMS_ResponseDate</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod type IMS_IssueComment add attribute IMS_ReviewArea</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod type IMS_IssueComment add attribute IMS_RowNumber</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod type IMS_IssueComment add attribute IMS_Status</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod type IMS_IssueComment add attribute Originator</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod type IMS_IssueComment add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod type IMS_IssueComment add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:46Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod type IMS_IssueComment add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod type IMS_IssueComment add property 'file date' value '04-24-2019 14:19:54.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod type IMS_IssueComment add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod type IMS_IssueComment add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod type IMS_IssueComment add property 'original name' value IMS_IssueComment</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:47Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod type IMS_IssueComment add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <attributeDefRefList count="31">
+      <attributeDefRef>IMS_CommentOrigin</attributeDefRef>
+      <attributeDefRef>IMS_AuthorityReleaseDate</attributeDefRef>
+      <attributeDefRef>IMS_ClosingMilestoner</attributeDefRef>
+      <attributeDefRef>IMS_CommentGrade</attributeDefRef>
+      <attributeDefRef>IMS_ResponseDate</attributeDefRef>
+      <attributeDefRef>IMS_RowNumber</attributeDefRef>
+      <attributeDefRef>Originator</attributeDefRef>
+      <attributeDefRef>IMS_Dept</attributeDefRef>
+      <attributeDefRef>IMS_AuthorityRequirementNumber</attributeDefRef>
+      <attributeDefRef>IMS_CommentedRevision</attributeDefRef>
+      <attributeDefRef>IMS_AttachmentInfo</attributeDefRef>
+      <attributeDefRef>IMS_MFilesID</attributeDefRef>
+      <attributeDefRef>IMS_CommentWorkflowState</attributeDefRef>
+      <attributeDefRef>IMS_AnswerAuthor</attributeDefRef>
+      <attributeDefRef>IMS_Name</attributeDefRef>
+      <attributeDefRef>IMS_RequirementID</attributeDefRef>
+      <attributeDefRef>IMS_OriginatorID</attributeDefRef>
+      <attributeDefRef>IMS_CommentGroup</attributeDefRef>
+      <attributeDefRef>IMS_CommentedSupplierRevision</attributeDefRef>
+      <attributeDefRef>IMS_DiaryNumber</attributeDefRef>
+      <attributeDefRef>IMS_Reference</attributeDefRef>
+      <attributeDefRef>IMS_IssueTextEn</attributeDefRef>
+      <attributeDefRef>IMS_AnswerDate</attributeDefRef>
+      <attributeDefRef>IMS_Status</attributeDefRef>
+      <attributeDefRef>IMS_CommentName</attributeDefRef>
+      <attributeDefRef>IMS_ID</attributeDefRef>
+      <attributeDefRef>IMS_IssueTextRu</attributeDefRef>
+      <attributeDefRef>IMS_OriginalCommentID</attributeDefRef>
+      <attributeDefRef>IMS_CommentDate</attributeDefRef>
+      <attributeDefRef>IMS_CommentatorID</attributeDefRef>
+      <attributeDefRef>IMS_ReviewArea</attributeDefRef>
+    </attributeDefRefList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

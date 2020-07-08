@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:07Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.52980.53318">
+    <adminProperties>
+      <name>IMS_Family</name>
+      <creationInfo>
+        <datetime>2019-07-05T09:16:13Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:03:10Z</datetime>
+      </modificationInfo>
+      <description>Represents container</description>
+      <propertyList count="9">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>SubscriptionEventsMenu</name>
+          <adminRef>
+            <adminType>menu</adminType>
+            <adminName>LBCDocumentFamilySubscriptionEvents</adminName>
+          </adminRef>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:04.366</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_Family</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="21">
+        <history>
+          <datetime>2019-07-05T09:16:13Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type IMS_Family</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:16Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type IMS_Family description 'Represents container'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:16Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type IMS_Family add attribute IMS_ChangeOwnerRole</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type IMS_Family add attribute IMS_DMS</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type IMS_Family add attribute IMS_DescriptionRu</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type IMS_Family add attribute IMS_DocCode</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type IMS_Family add attribute IMS_FolderClassCode</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type IMS_Family add attribute IMS_Name</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type IMS_Family add attribute IMS_NameRu</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type IMS_Family add attribute IMS_SPFMasterID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type IMS_Family add attribute IMS_UsedInEvaluate</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type IMS_Family add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type IMS_Family add property SubscriptionEventsMenu to menu LBCDocumentFamilySubscriptionEvents</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type IMS_Family add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod type IMS_Family add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod type IMS_Family add property 'file date' value '07-08-2019 08:55:04.366'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod type IMS_Family add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod type IMS_Family add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod type IMS_Family add property 'original name' value IMS_Family</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod type IMS_Family add property version</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:03:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod type IMS_Family derived 'Document Family'</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>Document Family</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <attributeDefRefList count="9">
+      <attributeDefRef>IMS_NameRu</attributeDefRef>
+      <attributeDefRef>IMS_ChangeOwnerRole</attributeDefRef>
+      <attributeDefRef>IMS_DescriptionRu</attributeDefRef>
+      <attributeDefRef>IMS_UsedInEvaluate</attributeDefRef>
+      <attributeDefRef>IMS_SPFMasterID</attributeDefRef>
+      <attributeDefRef>IMS_FolderClassCode</attributeDefRef>
+      <attributeDefRef>IMS_Name</attributeDefRef>
+      <attributeDefRef>IMS_DMS</attributeDefRef>
+      <attributeDefRef>IMS_DocCode</attributeDefRef>
+    </attributeDefRefList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

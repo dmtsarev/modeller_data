@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:56Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <relationshipDef id="0.1.53136.39904">
+    <adminProperties>
+      <name>IMS_HOPItem2HopRelationObject</name>
+      <creationInfo>
+        <datetime>2019-07-08T10:52:41Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T11:31:18Z</datetime>
+      </modificationInfo>
+      <propertyList count="7">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>IMS_HNH</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:38.936</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_HOPRelation</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>1</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="18">
+        <history>
+          <datetime>2019-07-08T10:52:41Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add relationship IMS_HOPItem2HopRelationObject</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:54Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject add attribute IMS_FromID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:55Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject add attribute IMS_FromType</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:55Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject add attribute IMS_RelationType</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:55Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject add attribute IMS_SPFMasterID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:55Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject add attribute IMS_SPFRevisionID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:55Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject add attribute IMS_SPFVersionID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:55Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject add attribute IMS_ToID</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:55Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject add attribute IMS_ToType</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:55Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject from add type IMS_HOPItem</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:55Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject to add type IMS_HOPRelationObject</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:55Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:55Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject add property application value IMS_HNH</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:55Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject add property 'file date' value '07-08-2019 08:55:38.936'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:55Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:55Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:55Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject add property 'original name' value IMS_HOPRelation</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:55Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod relationship IMS_HOPItem2HopRelationObject add property version value 1</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <fromSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="1">
+        <typeRef>IMS_HOPItem</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </fromSide>
+    <toSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="1">
+        <typeRef>IMS_HOPRelationObject</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </toSide>
+    <attributeDefRefList count="8">
+      <attributeDefRef>IMS_ToID</attributeDefRef>
+      <attributeDefRef>IMS_RelationType</attributeDefRef>
+      <attributeDefRef>IMS_SPFMasterID</attributeDefRef>
+      <attributeDefRef>IMS_FromID</attributeDefRef>
+      <attributeDefRef>IMS_SPFRevisionID</attributeDefRef>
+      <attributeDefRef>IMS_ToType</attributeDefRef>
+      <attributeDefRef>IMS_FromType</attributeDefRef>
+      <attributeDefRef>IMS_SPFVersionID</attributeDefRef>
+    </attributeDefRefList>
+    <relationshipKind>0</relationshipKind>
+  </relationshipDef>
+</ematrix>

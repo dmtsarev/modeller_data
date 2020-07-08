@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:48Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <relationshipDef id="0.1.17132.49458">
+    <adminProperties>
+      <name>Change Affected Item</name>
+      <creationInfo>
+        <datetime>2019-06-05T10:10:37Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T12:17:20Z</datetime>
+      </modificationInfo>
+      <description>Relationship between CA and affected items</description>
+      <propertyList count="5">
+        <property>
+          <name>application</name>
+          <value>Framework</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>Wed Jun 05 13:10:37 MSK 2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>ENOVIAEngineering</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>Change Affected Item</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>R216</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="2">
+        <history>
+          <datetime>2019-06-05T10:10:37Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add relationship "Change Affected Item" description "Relationship between CA and affected items" preventduplicate attribute "Reason for Change" attribute "Requested Change" from type "Change Action" revision none clone none cardinality many propagateconnection to type "all" revision none clone none cardinality many propagateconnection trigger delete override emxTriggerManager input "RelationshipChangeAffectedItemDeleteOverride" trigger transaction action emxTriggerManager input "RelationshipChangeAffectedItemTransactionAction" trigger delete action emxTriggerManager input "RelationshipChangeAffectedItemDeleteAction" trigger delete check emxTriggerManager input "RelationshipChangeAffectedItemDeleteCheck" trigger ModifyFrom action emxTriggerManager input "RelationshipChangeAffectedItemModifyFromAction" nothidden</string>
+        </history>
+        <history>
+          <datetime>2019-06-05T10:10:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>modify relationship "Change Affected Item" property "version" value "R216" property "application" value "Framework" property "installer" value "ENOVIAEngineering" property "original name" value "Change Affected Item" property "installed date" value "Wed Jun 05 13:10:37 MSK 2019"</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <fromSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <typeRefList count="1">
+        <typeRef>Change Action</typeRef>
+      </typeRefList>
+      <propagateConnection/>
+    </fromSide>
+    <toSide>
+      <cardinality>n</cardinality>
+      <revisionAction>none</revisionAction>
+      <cloneAction>none</cloneAction>
+      <allowAllTypes/>
+      <propagateConnection/>
+    </toSide>
+    <attributeDefRefList count="2">
+      <attributeDefRef>Reason for Change</attributeDefRef>
+      <attributeDefRef>Requested Change</attributeDefRef>
+    </attributeDefRefList>
+    <triggerList count="5">
+      <trigger>
+        <triggerName>DeleteOverride</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>RelationshipChangeAffectedItemDeleteOverride</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>TransactionAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>RelationshipChangeAffectedItemTransactionAction</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>DeleteAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>RelationshipChangeAffectedItemDeleteAction</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>DeleteCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>RelationshipChangeAffectedItemDeleteCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ModifyFromAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>RelationshipChangeAffectedItemModifyFromAction</inputArguments>
+      </trigger>
+    </triggerList>
+    <preventDuplicates/>
+    <relationshipKind>0</relationshipKind>
+  </relationshipDef>
+</ematrix>

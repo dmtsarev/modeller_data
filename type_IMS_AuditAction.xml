@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:05Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.52980.8059">
+    <adminProperties>
+      <name>IMS_AuditAction</name>
+      <creationInfo>
+        <datetime>2019-07-05T09:16:13Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:03:10Z</datetime>
+      </modificationInfo>
+      <description>IMS_AuditAction</description>
+      <propertyList count="16">
+        <property>
+          <name>CustomerExposition</name>
+          <value>Programmer</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>CustomerExtensible</name>
+          <value>No</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.3DIconName</name>
+          <value>Task_3DNAVREP.cgr</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.IconName</name>
+          <value>I_Task</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.NewMajorRevisionAvailability</name>
+          <value>No</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.NewMinorRevisionAvailability</name>
+          <value>No</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>Specializable</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>UserExitForDeleteReference</name>
+          <value>com.dassault_systemes.vplm.modeler.dmt.implementation.VPLMCmdTaskDeleteReference</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-05-2019 08:56:40.000</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-05-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_AuditAction</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="34">
+        <history>
+          <datetime>2019-07-05T09:16:13Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type IMS_AuditAction</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type IMS_AuditAction description IMS_AuditAction</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type IMS_AuditAction add attribute IMS_AP_COAUTHORS</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type IMS_AuditAction add attribute IMS_AP_CONTRACT_STAGE</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type IMS_AuditAction add attribute IMS_AP_KKS_CODE</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type IMS_AuditAction add attribute IMS_AP_ORG_NAME</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type IMS_AuditAction add attribute IMS_AP_OWNER</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type IMS_AuditAction add attribute IMS_DescriptionRu</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type IMS_AuditAction add attribute IMS_Name</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type IMS_AuditAction add attribute IMS_NameRu</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type IMS_AuditAction add attribute IMS_ObjectProcessState</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type IMS_AuditAction add attribute IMS_SPFMasterID</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type IMS_AuditAction add attribute IMS_UID</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type IMS_AuditAction add attribute Status</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod type IMS_AuditAction add attribute Synopsis</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod type IMS_AuditAction add attribute 'Task Estimated Duration Maximum'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod type IMS_AuditAction add attribute 'Task Estimated Duration Minimum'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod type IMS_AuditAction add property CustomerExposition value Programmer</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod type IMS_AuditAction add property CustomerExtensible value No</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod type IMS_AuditAction add property IPML.3DIconName value Task_3DNAVREP.cgr</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod type IMS_AuditAction add property IPML.IconName value I_Task</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod type IMS_AuditAction add property IPML.NewMajorRevisionAvailability value No</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod type IMS_AuditAction add property IPML.NewMinorRevisionAvailability value No</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod type IMS_AuditAction add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod type IMS_AuditAction add property Specializable value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod type IMS_AuditAction add property UserExitForDeleteReference value com.dassault_systemes.vplm.modeler.dmt.implementation.VPLMCmdTaskDeleteReference</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod type IMS_AuditAction add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod type IMS_AuditAction add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod type IMS_AuditAction add property 'file date' value '07-05-2019 08:56:40.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod type IMS_AuditAction add property 'installed date' value 07-05-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod type IMS_AuditAction add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod type IMS_AuditAction add property 'original name' value IMS_AuditAction</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod type IMS_AuditAction add property version</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T09:25:03Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod type IMS_AuditAction derived 'Task Management'</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>Task Management</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <attributeDefRefList count="4">
+      <attributeDefRef>Synopsis</attributeDefRef>
+      <attributeDefRef>Status</attributeDefRef>
+      <attributeDefRef>Task Estimated Duration Maximum</attributeDefRef>
+      <attributeDefRef>Task Estimated Duration Minimum</attributeDefRef>
+    </attributeDefRefList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:54Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <relationshipDef id="0.1.42368.15654">
+    <adminProperties>
+      <name>IMS_Doc2CI</name>
+      <creationInfo>
+        <datetime>2019-07-05T09:16:16Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T11:31:16Z</datetime>
+      </modificationInfo>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:38.124</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_Doc2CI</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="17">
+        <history>
+          <datetime>2019-07-05T09:16:16Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add relationship IMS_Doc2CI</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:49Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod relationship IMS_Doc2CI add attribute IMS_DescriptionEn</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:49Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod relationship IMS_Doc2CI add attribute IMS_EndState</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:49Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod relationship IMS_Doc2CI add attribute IMS_FailureAssumption</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:49Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod relationship IMS_Doc2CI add attribute IMS_SpecificFailureAssumption</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:49Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod relationship IMS_Doc2CI from revision replicate</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:49Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod relationship IMS_Doc2CI from add type all</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:49Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod relationship IMS_Doc2CI to revision replicate</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:49Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod relationship IMS_Doc2CI to add type all</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:49Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod relationship IMS_Doc2CI add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:49Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod relationship IMS_Doc2CI add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:49Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod relationship IMS_Doc2CI add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:49Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod relationship IMS_Doc2CI add property 'file date' value '07-08-2019 08:55:38.124'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:49Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod relationship IMS_Doc2CI add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:49Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod relationship IMS_Doc2CI add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:49Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod relationship IMS_Doc2CI add property 'original name' value IMS_Doc2CI</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T13:06:49Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod relationship IMS_Doc2CI add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <fromSide>
+      <cardinality>n</cardinality>
+      <revisionAction>replicate</revisionAction>
+      <cloneAction>none</cloneAction>
+      <allowAllTypes/>
+      <propagateConnection/>
+    </fromSide>
+    <toSide>
+      <cardinality>n</cardinality>
+      <revisionAction>replicate</revisionAction>
+      <cloneAction>none</cloneAction>
+      <allowAllTypes/>
+      <propagateConnection/>
+    </toSide>
+    <attributeDefRefList count="4">
+      <attributeDefRef>IMS_FailureAssumption</attributeDefRef>
+      <attributeDefRef>IMS_EndState</attributeDefRef>
+      <attributeDefRef>IMS_SpecificFailureAssumption</attributeDefRef>
+      <attributeDefRef>IMS_DescriptionEn</attributeDefRef>
+    </attributeDefRefList>
+    <relationshipKind>0</relationshipKind>
+  </relationshipDef>
+</ematrix>

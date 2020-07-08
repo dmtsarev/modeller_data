@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:26:48Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <attributeDef id="0.1.26108.34327">
+    <adminProperties>
+      <name>edmLastUpdate</name>
+      <creationInfo>
+        <datetime>2019-07-09T11:02:45Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-09T11:02:45Z</datetime>
+      </modificationInfo>
+      <description>Last Successfull Modified Integration Objects</description>
+      <propertyList count="7">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>enovia</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-09-2019 08:34:58.052</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-09-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>edmLastUpdate</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>0</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="9">
+        <history>
+          <datetime>2019-07-09T11:02:45Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add attribute edmLastUpdate type date type date</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod attribute edmLastUpdate description 'Last Successfull Modified Integration Objects'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod attribute edmLastUpdate add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod attribute edmLastUpdate add property application value enovia</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod attribute edmLastUpdate add property 'file date' value '07-09-2019 08:34:58.052'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod attribute edmLastUpdate add property 'installed date' value 07-09-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod attribute edmLastUpdate add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod attribute edmLastUpdate add property 'original name' value edmLastUpdate</string>
+        </history>
+        <history>
+          <datetime>2019-07-09T11:02:45Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod attribute edmLastUpdate add property version value 0</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <primitiveType>datetime</primitiveType>
+    <maxlength>0</maxlength>
+    <attrValueType>0</attrValueType>
+  </attributeDef>
+</ematrix>

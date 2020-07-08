@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:06Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.36624.35250">
+    <adminProperties>
+      <name>IMS_CommentList</name>
+      <creationInfo>
+        <datetime>2019-07-08T10:52:33Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:03:12Z</datetime>
+      </modificationInfo>
+      <description>CommentList Hanhikivi-1</description>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:03.368</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-08-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_CommentList</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="19">
+        <history>
+          <datetime>2019-07-08T10:52:33Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type IMS_CommentList</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type IMS_CommentList description 'CommentList Hanhikivi-1'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type IMS_CommentList add attribute IMS_DocumentID</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type IMS_CommentList add attribute IMS_DocumentName</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type IMS_CommentList add attribute IMS_DocumentResponsible</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type IMS_CommentList add attribute IMS_DocumentRevision</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:18Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type IMS_CommentList add attribute IMS_DocumentState</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type IMS_CommentList add attribute IMS_SupplierDocumentID</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type IMS_CommentList add attribute IMS_SupplierDocumentRevision</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type IMS_CommentList add attribute IMS_TechnicalCoordinator</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type IMS_CommentList add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type IMS_CommentList add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type IMS_CommentList add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type IMS_CommentList add property 'file date' value '07-08-2019 08:55:03.368'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod type IMS_CommentList add property 'installed date' value 07-08-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod type IMS_CommentList add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod type IMS_CommentList add property 'original name' value IMS_CommentList</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod type IMS_CommentList add property version</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:19Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod type IMS_CommentList derived DOCUMENTS</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>DOCUMENTS</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <attributeDefRefList count="8">
+      <attributeDefRef>IMS_DocumentID</attributeDefRef>
+      <attributeDefRef>IMS_SupplierDocumentRevision</attributeDefRef>
+      <attributeDefRef>IMS_TechnicalCoordinator</attributeDefRef>
+      <attributeDefRef>IMS_DocumentResponsible</attributeDefRef>
+      <attributeDefRef>IMS_SupplierDocumentID</attributeDefRef>
+      <attributeDefRef>IMS_DocumentName</attributeDefRef>
+      <attributeDefRef>IMS_DocumentRevision</attributeDefRef>
+      <attributeDefRef>IMS_DocumentState</attributeDefRef>
+    </attributeDefRefList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:05Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.52980.31465">
+    <adminProperties>
+      <name>IMS_Chapter</name>
+      <creationInfo>
+        <datetime>2019-07-05T09:16:13Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:03:10Z</datetime>
+      </modificationInfo>
+      <description>SUI Chapter</description>
+      <propertyList count="36">
+        <property>
+          <name>CustomerExposition</name>
+          <value>Programmer</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>CustomerExtensible</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>ExchangeXPDM</name>
+          <value>Rmt_Chapter_ExportCompletion.KProc</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>ExportChannel</name>
+          <value>Rmt_Chapter_ExportCompletion.KProc</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>ExportDesign</name>
+          <value>Rmt_Chapter_ExportCompletion.KProc</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>ExportReview</name>
+          <value>None</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.3DIconName</name>
+          <value>CAT3DNav_ReqChapter.cgr</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.ChangeManagementSupport</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.ChangeMaturityAvailability</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.Configurable</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.DeleteAvailability</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.DuplicateAvailability</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.EditPropertiesAvailability</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.EvolutionAvailability</name>
+          <value>No</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.IconName</name>
+          <value>I_VPMNavReqChapter</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.KweNew_InstanciationMethod</name>
+          <value>PLMRequirementChapterDelegateInstanciation</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.LockUnlockAvailability</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.NewMajorRevisionAvailability</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.NewMinorRevisionAvailability</name>
+          <value>No</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.Newable</name>
+          <value>All_CAA</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.SaveAsNewAvailability</name>
+          <value>No</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.SortingChildrenInTree</name>
+          <value>TreeOrder</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>IPML.TransferOwnershipAvailability</name>
+          <value>Yes</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>OWNING_APPLICATION</name>
+          <value>Requirements</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>SubscriptionEventsMenu</name>
+          <adminRef>
+            <adminType>menu</adminType>
+            <adminName>RMTChapterEvents</adminName>
+          </adminRef>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>UserExitForClone</name>
+          <value>com.dassault_systemes.vplm.modeler.requirement.implementation.VPLMCmdChapterClone</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>UserExitForDeleteReference</name>
+          <value>com.dassault_systemes.vplm.modeler.requirement.implementation.VPLMCmdChapterDeleteReference</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>UserExitForNewVersion</name>
+          <value>com.dassault_systemes.vplm.modeler.requirement.implementation.VPLMCmdChapterVersion</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:03.040</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-05-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_Chapter</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="71">
+        <history>
+          <datetime>2019-07-05T09:16:13Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type IMS_Chapter</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type IMS_Chapter description 'SUI Chapter'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type IMS_Chapter add attribute IMS_AnswerEn</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type IMS_Chapter add attribute IMS_AnswerRu</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type IMS_Chapter add attribute IMS_CreationDate</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type IMS_Chapter add attribute IMS_Name</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type IMS_Chapter add attribute IMS_Sort</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type IMS_Chapter add trigger changename check emxTriggerManager input TypeChapterModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type IMS_Chapter add trigger changeowner action emxTriggerManager input 'RMTObjectOwnerChangeNotificationAction TypeAllVPLMPosChangeOwnerAction'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type IMS_Chapter add trigger changeowner check emxTriggerManager input TypeChapterModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type IMS_Chapter add trigger changepolicy check emxTriggerManager input TypeChapterModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type IMS_Chapter add trigger changetype check emxTriggerManager input TypeChapterModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type IMS_Chapter add trigger changevault check emxTriggerManager input TypeChapterModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type IMS_Chapter add trigger checkin check emxTriggerManager input TypeChapterModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod type IMS_Chapter add trigger connect check emxTriggerManager input TypeChapterModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod type IMS_Chapter add trigger copy action emxTriggerManager input RMTCopyAction</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod type IMS_Chapter add trigger create action emxTriggerManager input 'TypeAllCreateAction TypeChapterCreateAction TypeAllVPLMPosCreateAction'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod type IMS_Chapter add trigger delete check emxTriggerManager input TypeChapterModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod type IMS_Chapter add trigger disconnect check emxTriggerManager input TypeChapterModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod type IMS_Chapter add trigger majorrevision action emxTriggerManager input 'TypeAllMajorReviseAction TypeChapterMajorReviseAction RMTObjectMajorReviseNotificationAction'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod type IMS_Chapter add trigger majorrevision check emxTriggerManager input TypeChapterMajorReviseCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod type IMS_Chapter add trigger modifyattribute check emxTriggerManager input TypeChapterModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod type IMS_Chapter add trigger modifydescription check emxTriggerManager input TypeChapterModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod type IMS_Chapter add trigger removefile check emxTriggerManager input TypeChapterModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod type IMS_Chapter add trigger revision action emxTriggerManager input 'TypeAllReviseAction TypeChapterReviseAction RMTObjectReviseNotificationAction'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod type IMS_Chapter add trigger revision check emxTriggerManager input TypeChapterReviseCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod type IMS_Chapter add property CustomerExposition value Programmer</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod type IMS_Chapter add property CustomerExtensible value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod type IMS_Chapter add property ExchangeXPDM value Rmt_Chapter_ExportCompletion.KProc</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod type IMS_Chapter add property ExportChannel value Rmt_Chapter_ExportCompletion.KProc</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod type IMS_Chapter add property ExportDesign value Rmt_Chapter_ExportCompletion.KProc</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod type IMS_Chapter add property ExportReview value None</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod type IMS_Chapter add property IPML.3DIconName value CAT3DNav_ReqChapter.cgr</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod type IMS_Chapter add property IPML.ChangeManagementSupport value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod type IMS_Chapter add property IPML.ChangeMaturityAvailability value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod type IMS_Chapter add property IPML.Configurable value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod type IMS_Chapter add property IPML.DeleteAvailability value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod type IMS_Chapter add property IPML.DuplicateAvailability value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod type IMS_Chapter add property IPML.EditPropertiesAvailability value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod type IMS_Chapter add property IPML.EvolutionAvailability value No</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod type IMS_Chapter add property IPML.IconName value I_VPMNavReqChapter</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod type IMS_Chapter add property IPML.KweNew_InstanciationMethod value PLMRequirementChapterDelegateInstanciation</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod type IMS_Chapter add property IPML.LockUnlockAvailability value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod type IMS_Chapter add property IPML.NewMajorRevisionAvailability value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod type IMS_Chapter add property IPML.NewMinorRevisionAvailability value No</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod type IMS_Chapter add property IPML.Newable value All_CAA</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod type IMS_Chapter add property IPML.SaveAsNewAvailability value No</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod type IMS_Chapter add property IPML.SortingChildrenInTree value TreeOrder</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod type IMS_Chapter add property IPML.TransferOwnershipAvailability value Yes</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>mod type IMS_Chapter add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>51</order>
+          <string>mod type IMS_Chapter add property OWNING_APPLICATION value Requirements</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>52</order>
+          <string>mod type IMS_Chapter add property SubscriptionEventsMenu to menu RMTChapterEvents</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>53</order>
+          <string>mod type IMS_Chapter add property UserExitForClone value com.dassault_systemes.vplm.modeler.requirement.implementation.VPLMCmdChapterClone</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>54</order>
+          <string>mod type IMS_Chapter add property UserExitForDeleteReference value com.dassault_systemes.vplm.modeler.requirement.implementation.VPLMCmdChapterDeleteReference</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:00Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>55</order>
+          <string>mod type IMS_Chapter add property UserExitForNewVersion value com.dassault_systemes.vplm.modeler.requirement.implementation.VPLMCmdChapterVersion</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>56</order>
+          <string>mod type IMS_Chapter add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>57</order>
+          <string>mod type IMS_Chapter add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>58</order>
+          <string>mod type IMS_Chapter add property 'file date' value '07-05-2019 08:56:40.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>59</order>
+          <string>mod type IMS_Chapter add property 'installed date' value 07-05-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>60</order>
+          <string>mod type IMS_Chapter add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>61</order>
+          <string>mod type IMS_Chapter add property 'original name' value IMS_Chapter</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>62</order>
+          <string>mod type IMS_Chapter add property version</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:29:01Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>63</order>
+          <string>mod type IMS_Chapter derived Chapter</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:08Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>64</order>
+          <string>mod type IMS_Chapter add attribute IMS_AnswerEn</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:08Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>65</order>
+          <string>mod type IMS_Chapter add attribute IMS_AnswerRu</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>66</order>
+          <string>mod type IMS_Chapter add attribute IMS_CreationDate</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>67</order>
+          <string>mod type IMS_Chapter add attribute IMS_DescriptionRu</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>68</order>
+          <string>mod type IMS_Chapter add attribute IMS_Name</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>69</order>
+          <string>mod type IMS_Chapter add attribute IMS_Sort</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>70</order>
+          <string>mod type IMS_Chapter remove property 'file date'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:28:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>71</order>
+          <string>mod type IMS_Chapter add property 'file date' value '07-08-2019 08:55:03.040'</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <derivedFrom>
+    <typeRefList count="1">
+      <typeRef>Chapter</typeRef>
+    </typeRefList>
+    </derivedFrom>
+    <attributeDefRefList count="6">
+      <attributeDefRef>IMS_AnswerEn</attributeDefRef>
+      <attributeDefRef>IMS_DescriptionRu</attributeDefRef>
+      <attributeDefRef>IMS_AnswerRu</attributeDefRef>
+      <attributeDefRef>IMS_Name</attributeDefRef>
+      <attributeDefRef>IMS_CreationDate</attributeDefRef>
+      <attributeDefRef>IMS_Sort</attributeDefRef>
+    </attributeDefRefList>
+    <triggerList count="19">
+      <trigger>
+        <triggerName>ChangeNameCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeChapterModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ChangeOwnerAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>RMTObjectOwnerChangeNotificationAction TypeAllVPLMPosChangeOwnerAction</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ChangeOwnerCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeChapterModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ChangePolicyCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeChapterModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ChangeTypeCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeChapterModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ChangeVaultCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeChapterModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>CheckinCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeChapterModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ConnectCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeChapterModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>CopyAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>RMTCopyAction</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>CreateAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeAllCreateAction TypeChapterCreateAction TypeAllVPLMPosCreateAction</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>DeleteCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeChapterModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>DisconnectCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeChapterModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>MajorRevisionAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeAllMajorReviseAction TypeChapterMajorReviseAction RMTObjectMajorReviseNotificationAction</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>MajorRevisionCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeChapterMajorReviseCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ModifyAttributeCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeChapterModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ModifyDescriptionCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeChapterModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>RemoveFileCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeChapterModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>RevisionAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeAllReviseAction TypeChapterReviseAction RMTObjectReviseNotificationAction</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>RevisionCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeChapterReviseCheck</inputArguments>
+      </trigger>
+    </triggerList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>

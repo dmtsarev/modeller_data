@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:29:06Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <type id="0.1.48840.6171">
+    <adminProperties>
+      <name>IMS_CIEVENTS</name>
+      <creationInfo>
+        <datetime>2019-07-04T17:32:21Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:03:11Z</datetime>
+      </modificationInfo>
+      <propertyList count="8">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:02.588</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-05-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_CIEVENTS</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="44">
+        <history>
+          <datetime>2019-07-04T17:32:21Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add type IMS_CIEVENTS</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:28:53Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod type IMS_CIEVENTS abstract true</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:28:53Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_CI</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:28:53Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_Frozen</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:28:53Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod type IMS_CIEVENTS add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:28:53Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod type IMS_CIEVENTS add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:28:53Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod type IMS_CIEVENTS add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:28:53Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod type IMS_CIEVENTS add property 'file date' value '07-05-2019 08:56:40.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:28:53Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod type IMS_CIEVENTS add property 'installed date' value 07-05-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:28:53Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod type IMS_CIEVENTS add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:28:53Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod type IMS_CIEVENTS add property 'original name' value IMS_CIEVENTS</string>
+        </history>
+        <history>
+          <datetime>2019-07-05T14:28:53Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod type IMS_CIEVENTS add property version</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_CI</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_CIStatus</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_CI_Attribute1</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_CI_Attribute2</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_CI_Attribute3</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_CI_ID</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_CI_Notes</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_DescriptionEn</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_EndState</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_FailureAssumption</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:58Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_FortumCIStatus</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_Frozen</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_IsLast</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_SPFFortumRevision</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_SPFMasterID</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_SpecificFailureAssumption</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod type IMS_CIEVENTS add attribute IMS_Superseded</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod type IMS_CIEVENTS add trigger changename check emxTriggerManager input TypeIMSModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod type IMS_CIEVENTS add trigger changeowner check emxTriggerManager input TypeIMSModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod type IMS_CIEVENTS add trigger changetype check emxTriggerManager input TypeIMSModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod type IMS_CIEVENTS add trigger changevault check emxTriggerManager input TypeIMSModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod type IMS_CIEVENTS add trigger checkin check emxTriggerManager input TypeIMSModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod type IMS_CIEVENTS add trigger connect check emxTriggerManager input TypeIMSModifyRelationCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod type IMS_CIEVENTS add trigger create action emxTriggerManager input IMS_SetIsLastTrigger</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod type IMS_CIEVENTS add trigger delete check emxTriggerManager input TypeIMSModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod type IMS_CIEVENTS add trigger delete override emxTriggerManager input IMS_SetIsLastTrigger</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod type IMS_CIEVENTS add trigger disconnect check emxTriggerManager input TypeIMSModifyReationCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod type IMS_CIEVENTS add trigger modifyattribute check emxTriggerManager input TypeIMSModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod type IMS_CIEVENTS add trigger modifydescription check emxTriggerManager input TypeIMSModifyCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod type IMS_CIEVENTS add trigger revision action emxTriggerManager input 'IMS_SetIsLastTrigger TypeIMS_CIReviseAction TypeIMSCIReviseAction'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod type IMS_CIEVENTS remove property 'file date'</string>
+        </history>
+        <history>
+          <datetime>2019-07-08T15:27:59Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod type IMS_CIEVENTS add property 'file date' value '07-08-2019 08:55:02.588'</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <abstract/>
+    <attributeDefRefList count="17">
+      <attributeDefRef>IMS_CI</attributeDefRef>
+      <attributeDefRef>IMS_CI_ID</attributeDefRef>
+      <attributeDefRef>IMS_CI_Attribute1</attributeDefRef>
+      <attributeDefRef>IMS_FailureAssumption</attributeDefRef>
+      <attributeDefRef>IMS_SPFMasterID</attributeDefRef>
+      <attributeDefRef>IMS_IsLast</attributeDefRef>
+      <attributeDefRef>IMS_CI_Notes</attributeDefRef>
+      <attributeDefRef>IMS_CI_Attribute2</attributeDefRef>
+      <attributeDefRef>IMS_EndState</attributeDefRef>
+      <attributeDefRef>IMS_SpecificFailureAssumption</attributeDefRef>
+      <attributeDefRef>IMS_SPFFortumRevision</attributeDefRef>
+      <attributeDefRef>IMS_CIStatus</attributeDefRef>
+      <attributeDefRef>IMS_FortumCIStatus</attributeDefRef>
+      <attributeDefRef>IMS_DescriptionEn</attributeDefRef>
+      <attributeDefRef>IMS_CI_Attribute3</attributeDefRef>
+      <attributeDefRef>IMS_Frozen</attributeDefRef>
+      <attributeDefRef>IMS_Superseded</attributeDefRef>
+    </attributeDefRefList>
+    <triggerList count="13">
+      <trigger>
+        <triggerName>ChangeNameCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ChangeOwnerCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ChangeTypeCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ChangeVaultCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>CheckinCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ConnectCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyRelationCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>CreateAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>IMS_SetIsLastTrigger</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>DeleteCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>DeleteOverride</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>IMS_SetIsLastTrigger</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>DisconnectCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyReationCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ModifyAttributeCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>ModifyDescriptionCheck</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>TypeIMSModifyCheck</inputArguments>
+      </trigger>
+      <trigger>
+        <triggerName>RevisionAction</triggerName>
+        <programRef>emxTriggerManager</programRef>
+        <inputArguments>IMS_SetIsLastTrigger TypeIMS_CIReviseAction TypeIMSCIReviseAction</inputArguments>
+      </trigger>
+    </triggerList>
+    <typeKind>0</typeKind>
+  </type>
+</ematrix>
