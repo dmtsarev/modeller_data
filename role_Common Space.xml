@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:27Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.4710.59994">
+<adminProperties>
+<name>Common Space</name>
+<creationInfo>
+<datetime>2020-03-19T09:53:43Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-04-08T12:10:35Z</datetime>
+</modificationInfo>
+<description>Common Space</description>
+<propertyList count="5">
+<property>
+<name>FAMILY</name>
+<value>DesignTeam</value>
+<flags>0</flags>
+</property>
+<property>
+<name>SOLUTION</name>
+<value>Team</value>
+<flags>0</flags>
+</property>
+<property>
+<name>Title</name>
+<value>Common Space</value>
+<flags>0</flags>
+</property>
+<property>
+<name>type</name>
+<value>Project</value>
+<flags>0</flags>
+</property>
+<property>
+<name>vplm_readAbility</name>
+<value>Private</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="2">
+<history>
+<datetime>2020-03-19T09:53:43Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role 'Common Space' property type value Project property SOLUTION value Team property FAMILY value DesignTeam property vplm_readAbility value Private maturity private description 'Common Space' asaproject</string>
+</history>
+<history>
+<datetime>2020-03-20T12:22:37Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role 'Common Space' property Title value 'Common Space'</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>4</roleType>
+<maturity>3</maturity>
+<category>0</category>
+</role>
+</ematrix>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:48Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.28608.39137">
+    <adminProperties>
+      <name>IMS_SPFDataAccessGroupPolicy</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:39Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:06:39Z</datetime>
+      </modificationInfo>
+      <propertyList count="9">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:22.493</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_SPFDataAccessGroupPolicy</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Active</name>
+          <value>Active</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="24">
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_SPFDataAccessGroupPolicy</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy add type IMS_SPFDataAccessGroup</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy add state Active public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy state Active !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy state Active promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy state Active checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy state Active version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy state Active action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy state Active check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy state Active majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy state Active minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy state Active published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy state Active public read read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy state Active user IMS_Admin all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy state Active user IMS_TITAN_DocCreator fromconnect fromconnect,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy add property state_Active value Active</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy add property 'file date' value '07-08-2019 08:55:22.493'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy add property 'original name' value IMS_SPFDataAccessGroupPolicy</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_SPFDataAccessGroupPolicy add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence></sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <typeRefList count="1">
+      <typeRef>IMS_SPFDataAccessGroup</typeRef>
+    </typeRefList>
+    <stateDefList count="1">
+      <stateDef>
+        <name>Active</name>
+        <majorrevisionable/>
+        <userAccessList count="4">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_TITAN_DocCreator</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Admin</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

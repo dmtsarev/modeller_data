@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:42Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.7084.33604">
+    <adminProperties>
+      <name>edmTranslation</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:25:39Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T11:31:05Z</datetime>
+      </modificationInfo>
+      <propertyList count="7">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>enovia</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-09-2019 08:35:01.438</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>edmTranslation</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>0</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="78">
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy edmTranslation</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy edmTranslation add type edmServiceManager</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy edmTranslation add format all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy edmTranslation defaultformat 0</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy edmTranslation sequence 0,1,2,...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy edmTranslation store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy edmTranslation add state MessageProcessing public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy edmTranslation add state MessageDone public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy edmTranslation add state AnswerProcessing public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy edmTranslation add state AnswerDone public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy edmTranslation state MessageProcessing !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy edmTranslation state MessageProcessing promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy edmTranslation state MessageProcessing checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy edmTranslation state MessageProcessing version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy edmTranslation state MessageProcessing action emxTriggerManager input edmStateSendMailFromEvent</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy edmTranslation state MessageProcessing check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy edmTranslation state MessageProcessing majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy edmTranslation state MessageProcessing minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy edmTranslation state MessageProcessing published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy edmTranslation state MessageProcessing owner changepolicy changepolicy,modify,read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy edmTranslation state MessageProcessing public fromconnect fromconnect,fromdisconnect,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy edmTranslation state MessageProcessing user edmServiceManagerDeveloper create create</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy edmTranslation state MessageProcessing user edmTranslate fromconnect fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy edmTranslation state MessageProcessing user edmTranslateInspector all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy edmTranslation state MessageProcessing user edmTranslateView read read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy edmTranslation state MessageProcessing add trigger promote check emxTriggerManager input edmTranslateMessagePromoteCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy edmTranslation state AnswerDone !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy edmTranslation state AnswerDone promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy edmTranslation state AnswerDone checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy edmTranslation state AnswerDone version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy edmTranslation state AnswerDone action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy edmTranslation state AnswerDone check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy edmTranslation state AnswerDone majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy edmTranslation state AnswerDone minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy edmTranslation state AnswerDone published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy edmTranslation state AnswerDone owner read read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy edmTranslation state AnswerDone public fromconnect fromconnect,fromdisconnect,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy edmTranslation state AnswerDone user edmServiceManagerAuthor read read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy edmTranslation state AnswerDone user edmTranslate read read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy edmTranslation state AnswerDone user edmTranslateInspector all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod policy edmTranslation state AnswerDone user edmTranslateView read read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod policy edmTranslation state AnswerProcessing !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod policy edmTranslation state AnswerProcessing promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod policy edmTranslation state AnswerProcessing checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod policy edmTranslation state AnswerProcessing version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod policy edmTranslation state AnswerProcessing action emxTriggerManager input edmStateSendMailFromEvent</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod policy edmTranslation state AnswerProcessing check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod policy edmTranslation state AnswerProcessing majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod policy edmTranslation state AnswerProcessing minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>mod policy edmTranslation state AnswerProcessing published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>51</order>
+          <string>mod policy edmTranslation state AnswerProcessing owner read read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>52</order>
+          <string>mod policy edmTranslation state AnswerProcessing public fromconnect fromconnect,fromdisconnect,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>53</order>
+          <string>mod policy edmTranslation state AnswerProcessing user edmTranslate modify modify,promote,read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>54</order>
+          <string>mod policy edmTranslation state AnswerProcessing user edmTranslateInspector all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>55</order>
+          <string>mod policy edmTranslation state AnswerProcessing user edmTranslateView read read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>56</order>
+          <string>mod policy edmTranslation state AnswerProcessing add trigger promote check emxTriggerManager input edmTranslateAnswerPromoteCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>57</order>
+          <string>mod policy edmTranslation state MessageDone !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>58</order>
+          <string>mod policy edmTranslation state MessageDone promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>59</order>
+          <string>mod policy edmTranslation state MessageDone checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>60</order>
+          <string>mod policy edmTranslation state MessageDone version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>61</order>
+          <string>mod policy edmTranslation state MessageDone action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>62</order>
+          <string>mod policy edmTranslation state MessageDone check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>63</order>
+          <string>mod policy edmTranslation state MessageDone majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>64</order>
+          <string>mod policy edmTranslation state MessageDone minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>65</order>
+          <string>mod policy edmTranslation state MessageDone published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>66</order>
+          <string>mod policy edmTranslation state MessageDone owner demote demote,modify,promote,read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>67</order>
+          <string>mod policy edmTranslation state MessageDone public fromconnect fromconnect,fromdisconnect,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>68</order>
+          <string>mod policy edmTranslation state MessageDone user edmTranslate read read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>69</order>
+          <string>mod policy edmTranslation state MessageDone user edmTranslateInspector all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>70</order>
+          <string>mod policy edmTranslation state MessageDone user edmTranslateView read read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>71</order>
+          <string>mod policy edmTranslation state MessageDone add trigger promote check emxTriggerManager input edmTranslateAnswerRuPromoteCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>72</order>
+          <string>mod policy edmTranslation add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>73</order>
+          <string>mod policy edmTranslation add property application value enovia</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>74</order>
+          <string>mod policy edmTranslation add property 'file date' value '07-09-2019 08:35:01.438'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>75</order>
+          <string>mod policy edmTranslation add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>76</order>
+          <string>mod policy edmTranslation add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>77</order>
+          <string>mod policy edmTranslation add property 'original name' value edmTranslation</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:39Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>78</order>
+          <string>mod policy edmTranslation add property version value 0</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>0,1,2,...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="1">
+      <typeRef>edmServiceManager</typeRef>
+    </typeRefList>
+    <formatRefList count="56">
+      <formatRef>generic</formatRef>
+      <formatRef>Mill</formatRef>
+      <formatRef>Drill</formatRef>
+      <formatRef>Artwork</formatRef>
+      <formatRef>idf</formatRef>
+      <formatRef>Assembly Placement</formatRef>
+      <formatRef>doc</formatRef>
+      <formatRef>dot</formatRef>
+      <formatRef>msg</formatRef>
+      <formatRef>ppa</formatRef>
+      <formatRef>ppt</formatRef>
+      <formatRef>xla</formatRef>
+      <formatRef>xls</formatRef>
+      <formatRef>HPGL</formatRef>
+      <formatRef>IGES</formatRef>
+      <formatRef>Image</formatRef>
+      <formatRef>Markup</formatRef>
+      <formatRef>mxMedium Image</formatRef>
+      <formatRef>PDF</formatRef>
+      <formatRef>TIF</formatRef>
+      <formatRef>TXT</formatRef>
+      <formatRef>XML</formatRef>
+      <formatRef>JT</formatRef>
+      <formatRef>MSDS</formatRef>
+      <formatRef>Test Method</formatRef>
+      <formatRef>JView</formatRef>
+      <formatRef>Supplier PDF Content</formatRef>
+      <formatRef>THUMBNAIL</formatRef>
+      <formatRef>3DXMLCGR</formatRef>
+      <formatRef>CGR</formatRef>
+      <formatRef>PNG</formatRef>
+      <formatRef>CGM</formatRef>
+      <formatRef>rco</formatRef>
+      <formatRef>0</formatRef>
+      <formatRef>mxThumbnail Image</formatRef>
+      <formatRef>1</formatRef>
+      <formatRef>2</formatRef>
+      <formatRef>3</formatRef>
+      <formatRef>4</formatRef>
+      <formatRef>5</formatRef>
+      <formatRef>6</formatRef>
+      <formatRef>7</formatRef>
+      <formatRef>8</formatRef>
+      <formatRef>9</formatRef>
+      <formatRef>mxSmall Image</formatRef>
+      <formatRef>mxLarge Image</formatRef>
+      <formatRef>mxImage</formatRef>
+      <formatRef>Input</formatRef>
+      <formatRef>Output</formatRef>
+      <formatRef>Log</formatRef>
+      <formatRef>3DXML</formatRef>
+      <formatRef>prt</formatRef>
+      <formatRef>asm</formatRef>
+      <formatRef>drw</formatRef>
+      <formatRef>zip</formatRef>
+      <formatRef>bom</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>0</formatRef>
+    </defaultFormat>
+    <allowAllFormats/>
+    <stateDefList count="4">
+      <stateDef>
+        <name>MessageProcessing</name>
+        <majorrevisionable/>
+        <actionProgram>
+          <programRef>emxTriggerManager</programRef>
+          <inputArguments>edmStateSendMailFromEvent</inputArguments>
+        </actionProgram>
+        <userAccessList count="6">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <changePolicyAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmTranslateView</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmTranslateInspector</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmTranslate</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmServiceManagerDeveloper</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <createAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <triggerList count="1">
+          <trigger>
+            <triggerName>PromoteCheck</triggerName>
+            <programRef>emxTriggerManager</programRef>
+            <inputArguments>edmTranslateMessagePromoteCheck</inputArguments>
+          </trigger>
+        </triggerList>
+      </stateDef>
+      <stateDef>
+        <name>MessageDone</name>
+        <majorrevisionable/>
+        <userAccessList count="5">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <promoteAccess/>
+          <demoteAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmTranslateView</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmTranslateInspector</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmTranslate</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <triggerList count="1">
+          <trigger>
+            <triggerName>PromoteCheck</triggerName>
+            <programRef>emxTriggerManager</programRef>
+            <inputArguments>edmTranslateAnswerRuPromoteCheck</inputArguments>
+          </trigger>
+        </triggerList>
+      </stateDef>
+      <stateDef>
+        <name>AnswerProcessing</name>
+        <majorrevisionable/>
+        <actionProgram>
+          <programRef>emxTriggerManager</programRef>
+          <inputArguments>edmStateSendMailFromEvent</inputArguments>
+        </actionProgram>
+        <userAccessList count="5">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmTranslateView</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmTranslateInspector</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmTranslate</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <promoteAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <triggerList count="1">
+          <trigger>
+            <triggerName>PromoteCheck</triggerName>
+            <programRef>emxTriggerManager</programRef>
+            <inputArguments>edmTranslateAnswerPromoteCheck</inputArguments>
+          </trigger>
+        </triggerList>
+      </stateDef>
+      <stateDef>
+        <name>AnswerDone</name>
+        <majorrevisionable/>
+        <userAccessList count="6">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmTranslateView</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmTranslateInspector</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmTranslate</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmServiceManagerAuthor</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

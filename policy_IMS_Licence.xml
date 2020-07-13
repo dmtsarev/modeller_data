@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:46Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.22080.29658">
+    <adminProperties>
+      <name>IMS_Licence</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:33Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:50:17Z</datetime>
+      </modificationInfo>
+      <description>Policy for IMS_Licence</description>
+      <propertyList count="14">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-05-2019 08:56:46.000</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_Licence</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Applying</name>
+          <value>Applying</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Canceled</name>
+          <value>Canceled</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Development</name>
+          <value>Development</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Initiation</name>
+          <value>Initiation</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Obtaining</name>
+          <value>Obtaining</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Termination</name>
+          <value>Termination</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>R207</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="85">
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_Licence</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_Licence description 'Policy for IMS_Licence'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_Licence add type IMS_Licence</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_Licence store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_Licence add allstate public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_Licence allstate revoke public none none filter '' remove revoke public all all revoke owner none none filter '' remove revoke owner all all public none none filter '' remove public all all owner none none filter '' remove owner all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_Licence allstate owner all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_Licence allstate public all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_Licence add state Initiation public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_Licence add state Development public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_Licence add state Obtaining public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_Licence add state Applying public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_Licence add state Termination public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_Licence add state Canceled public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_Licence state Initiation !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_Licence state Initiation promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_Licence state Initiation checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_Licence state Initiation version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_Licence state Initiation action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_Licence state Initiation check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_Licence state Initiation majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_Licence state Initiation minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_Licence state Initiation published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_Licence state Applying !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_Licence state Applying promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_Licence state Applying checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_Licence state Applying version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_Licence state Applying action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy IMS_Licence state Applying check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy IMS_Licence state Applying majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy IMS_Licence state Applying minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy IMS_Licence state Applying published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy IMS_Licence state Applying signature ToDevelopment branch Development filter 'attribute[IMS_Modify] == "TRUE"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy IMS_Licence state Applying signature ToTermination branch Termination filter 'attribute[IMS_Modify] == "FALSE"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy IMS_Licence state Termination !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy IMS_Licence state Termination promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy IMS_Licence state Termination checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy IMS_Licence state Termination version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy IMS_Licence state Termination action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy IMS_Licence state Termination check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod policy IMS_Licence state Termination majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod policy IMS_Licence state Termination minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod policy IMS_Licence state Termination published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod policy IMS_Licence state Development !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod policy IMS_Licence state Development promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod policy IMS_Licence state Development checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod policy IMS_Licence state Development version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod policy IMS_Licence state Development action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod policy IMS_Licence state Development check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>mod policy IMS_Licence state Development majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>51</order>
+          <string>mod policy IMS_Licence state Development minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>52</order>
+          <string>mod policy IMS_Licence state Development published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>53</order>
+          <string>mod policy IMS_Licence state Obtaining !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>54</order>
+          <string>mod policy IMS_Licence state Obtaining promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>55</order>
+          <string>mod policy IMS_Licence state Obtaining checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>56</order>
+          <string>mod policy IMS_Licence state Obtaining version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>57</order>
+          <string>mod policy IMS_Licence state Obtaining action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>58</order>
+          <string>mod policy IMS_Licence state Obtaining check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>59</order>
+          <string>mod policy IMS_Licence state Obtaining majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>60</order>
+          <string>mod policy IMS_Licence state Obtaining minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>61</order>
+          <string>mod policy IMS_Licence state Obtaining published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>62</order>
+          <string>mod policy IMS_Licence state Canceled !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>63</order>
+          <string>mod policy IMS_Licence state Canceled promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>64</order>
+          <string>mod policy IMS_Licence state Canceled checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>65</order>
+          <string>mod policy IMS_Licence state Canceled version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>66</order>
+          <string>mod policy IMS_Licence state Canceled action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>67</order>
+          <string>mod policy IMS_Licence state Canceled check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>68</order>
+          <string>mod policy IMS_Licence state Canceled majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>69</order>
+          <string>mod policy IMS_Licence state Canceled minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>70</order>
+          <string>mod policy IMS_Licence state Canceled published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>71</order>
+          <string>mod policy IMS_Licence add property state_Initiation value Initiation</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>72</order>
+          <string>mod policy IMS_Licence add property state_Applying value Applying</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>73</order>
+          <string>mod policy IMS_Licence add property state_Termination value Termination</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>74</order>
+          <string>mod policy IMS_Licence add property state_Development value Development</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>75</order>
+          <string>mod policy IMS_Licence add property state_Obtaining value Obtaining</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>76</order>
+          <string>mod policy IMS_Licence add property state_Canceled value Canceled</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>77</order>
+          <string>mod policy IMS_Licence add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>78</order>
+          <string>mod policy IMS_Licence add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>79</order>
+          <string>mod policy IMS_Licence add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>80</order>
+          <string>mod policy IMS_Licence add property 'file date' value '07-05-2019 08:56:46.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>81</order>
+          <string>mod policy IMS_Licence add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>82</order>
+          <string>mod policy IMS_Licence add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>83</order>
+          <string>mod policy IMS_Licence add property 'original name' value IMS_Licence</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>84</order>
+          <string>mod policy IMS_Licence add property version value R207</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:50:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>85</order>
+          <string> modify policy 'IMS_Licence' state 'Applying' signature 'ToDevelopment' add filter 'attribute[IMS_Modify] == "TRUE"' signature 'ToTermination' add filter 'attribute[IMS_Modify] == "FALSE"';</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence></sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="1">
+      <typeRef>IMS_Licence</typeRef>
+    </typeRefList>
+      <allstateDef>
+        <name>allstate</name>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </allstateDef>
+    <stateDefList count="6">
+      <stateDef>
+        <name>Initiation</name>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Development</name>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Obtaining</name>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Applying</name>
+        <majorrevisionable/>
+        <userAccessList count="4">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>ToDevelopment</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_Modify] == "TRUE"</expressionFilter>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>ToTermination</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_Modify] == "FALSE"</expressionFilter>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <signatureDefList count="2">
+          <signatureDef>
+            <name>ToDevelopment</name>
+            <stateDefRef>Development</stateDefRef>
+          </signatureDef>
+          <signatureDef>
+            <name>ToTermination</name>
+            <stateDefRef>Termination</stateDefRef>
+          </signatureDef>
+        </signatureDefList>
+      </stateDef>
+      <stateDef>
+        <name>Termination</name>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Canceled</name>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

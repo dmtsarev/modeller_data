@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:45Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.11200.3650">
+    <adminProperties>
+      <name>IMS_DocumentCheckList</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:23Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:06:23Z</datetime>
+      </modificationInfo>
+      <propertyList count="12">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:19.888</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_DocumentCheckList</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Check</name>
+          <value>Check</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Created</name>
+          <value>Created</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Exists</name>
+          <value>Exists</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Signed</name>
+          <value>Signed</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="54">
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_DocumentCheckList</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_DocumentCheckList add type IMS_DocumentCheckList</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_DocumentCheckList add type IMS_DocumentCheckListForm</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_DocumentCheckList add type IMS_DocumentCheckListFormItem</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_DocumentCheckList add format generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_DocumentCheckList defaultformat generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_DocumentCheckList store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_DocumentCheckList add state Created public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_DocumentCheckList add state Check public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_DocumentCheckList add state Exists public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_DocumentCheckList state Check !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_DocumentCheckList state Check promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_DocumentCheckList state Check checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_DocumentCheckList state Check version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_DocumentCheckList state Check action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_DocumentCheckList state Check check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_DocumentCheckList state Check majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_DocumentCheckList state Check minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_DocumentCheckList state Check published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_DocumentCheckList state Check owner all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_DocumentCheckList state Check public all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_DocumentCheckList state Created !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_DocumentCheckList state Created promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_DocumentCheckList state Created checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_DocumentCheckList state Created version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_DocumentCheckList state Created action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_DocumentCheckList state Created check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_DocumentCheckList state Created majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy IMS_DocumentCheckList state Created minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy IMS_DocumentCheckList state Created published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy IMS_DocumentCheckList state Created owner all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy IMS_DocumentCheckList state Created public all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy IMS_DocumentCheckList state Exists !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy IMS_DocumentCheckList state Exists promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy IMS_DocumentCheckList state Exists checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy IMS_DocumentCheckList state Exists version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy IMS_DocumentCheckList state Exists action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy IMS_DocumentCheckList state Exists check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy IMS_DocumentCheckList state Exists majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy IMS_DocumentCheckList state Exists minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod policy IMS_DocumentCheckList state Exists published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod policy IMS_DocumentCheckList state Exists public all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod policy IMS_DocumentCheckList add property state_Check value Check</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod policy IMS_DocumentCheckList add property state_Created value Created</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod policy IMS_DocumentCheckList add property state_Exists value Exists</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod policy IMS_DocumentCheckList add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod policy IMS_DocumentCheckList add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod policy IMS_DocumentCheckList add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod policy IMS_DocumentCheckList add property 'file date' value '07-08-2019 08:55:19.888'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>mod policy IMS_DocumentCheckList add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>51</order>
+          <string>mod policy IMS_DocumentCheckList add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>52</order>
+          <string>mod policy IMS_DocumentCheckList add property 'original name' value IMS_DocumentCheckList</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>53</order>
+          <string>mod policy IMS_DocumentCheckList add property state_Signed value Signed</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:23Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>54</order>
+          <string>mod policy IMS_DocumentCheckList add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence></sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="3">
+      <typeRef>IMS_DocumentCheckList</typeRef>
+      <typeRef>IMS_DocumentCheckListForm</typeRef>
+      <typeRef>IMS_DocumentCheckListFormItem</typeRef>
+    </typeRefList>
+    <formatRefList count="1">
+      <formatRef>generic</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+    <stateDefList count="3">
+      <stateDef>
+        <name>Created</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Check</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Exists</name>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

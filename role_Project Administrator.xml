@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:25Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.52541.63917">
+<adminProperties>
+<name>Project Administrator</name>
+<creationInfo>
+<datetime>2020-03-19T08:49:59Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-05-14T14:51:35Z</datetime>
+</modificationInfo>
+<description>Project Administrator</description>
+<propertyList count="5">
+<property>
+<name>application</name>
+<value>Framework</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installed date</name>
+<value>Thu Mar 19 11:49:59 MSK 2020</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installer</name>
+<value>ENOVIAEngineering</value>
+<flags>0</flags>
+</property>
+<property>
+<name>original name</name>
+<value>Project Administrator</value>
+<flags>0</flags>
+</property>
+<property>
+<name>version</name>
+<value>R216</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="13">
+<history>
+<datetime>2020-03-19T08:49:59Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role "Project Administrator" description "Project Administrator" assign person "Test Everything"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:49:59Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role "Project Administrator" property "version" value "9-0-3-0" property "application" value "Framework" property "installer" value "ENOVIAEngineering" property "original name" value "Project Administrator" property "installed date" value "Thu Mar 19 11:49:59 MSK 2020"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:50:15Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role "Project Administrator" parent "Employee"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:50:15Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>4</order>
+<string>modify role "Project Administrator" property "version" value "9-5-0-0"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:50:26Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>5</order>
+<string>modify role "Project Administrator" parent "Employee","Project User"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:50:26Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>6</order>
+<string>modify role "Project Administrator" property "version" value "9-5-1-3"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:50:58Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>7</order>
+<string>modify role "Project Administrator" hidden</string>
+</history>
+<history>
+<datetime>2020-03-19T08:50:58Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>8</order>
+<string>modify role "Project Administrator" property "version" value "10-5"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:51:57Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>9</order>
+<string>modify role "Project Administrator" child "VPLMProjectAdministrator"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:51:57Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>10</order>
+<string>modify role "Project Administrator" property "version" value "R214"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:52:13Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>11</order>
+<string>modify role "Project Administrator" remove child "VPLMProjectAdministrator"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:52:13Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>12</order>
+<string>modify role "Project Administrator" property "version" value "R216"</string>
+</history>
+<history>
+<datetime>2020-03-19T15:07:13Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>13</order>
+<string>modify role 'Project Administrator' nothidden</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>1</roleType>
+<maturity>0</maturity>
+<category>0</category>
+<parentRole count="2">
+<roleRef>Employee</roleRef>
+<roleRef>Project User</roleRef>
+</parentRole>
+</role>
+</ematrix>

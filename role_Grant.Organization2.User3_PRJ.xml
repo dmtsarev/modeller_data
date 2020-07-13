@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:28Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.59677.2849">
+<adminProperties>
+<name>Grant.Organization2.User3_PRJ</name>
+<creationInfo>
+<datetime>2020-04-30T06:50:12Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-04-30T07:15:08Z</datetime>
+</modificationInfo>
+<hidden/>
+<historyList count="1">
+<history>
+<datetime>2020-04-30T06:50:12Z</datetime>
+<agent>User Agent</agent>
+<event>create</event>
+<order>1</order>
+<string>add role Grant.Organization2.User3_PRJ parent Grant,Organization2,User3_PRJ hidden</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>1</roleType>
+<maturity>0</maturity>
+<category>0</category>
+<parentRole count="3">
+<roleRef>Organization2</roleRef>
+<roleRef>User3_PRJ</roleRef>
+<roleRef>Grant</roleRef>
+</parentRole>
+</role>
+</ematrix>

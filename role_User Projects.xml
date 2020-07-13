@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:23Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.26704.24479">
+<adminProperties>
+<name>User Projects</name>
+<creationInfo>
+<datetime>2020-03-19T08:44:56Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-04-08T12:10:39Z</datetime>
+</modificationInfo>
+<description>This role should be used as a parent to all User Specific projects used for granting</description>
+<hidden/>
+<propertyList count="6">
+<property>
+<name>SOLUTION</name>
+<value>VPM</value>
+<flags>0</flags>
+</property>
+<property>
+<name>application</name>
+<value>Framework</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installed date</name>
+<value>Thu Mar 19 11:44:56 MSK 2020</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installer</name>
+<value>ENOVIAEngineering</value>
+<flags>0</flags>
+</property>
+<property>
+<name>original name</name>
+<value>User Projects</value>
+<flags>0</flags>
+</property>
+<property>
+<name>version</name>
+<value>R214</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="3">
+<history>
+<datetime>2020-03-19T08:44:56Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role "User Projects" hidden asaproject description "This role should be used as a parent to all User Specific projects used for granting"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:56Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role "User Projects" property "version" value "R214" property "application" value "Framework" property "installer" value "ENOVIAEngineering" property "original name" value "User Projects" property "installed date" value "Thu Mar 19 11:44:56 MSK 2020"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:59:17Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role 'User Projects' property SOLUTION value VPM</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>4</roleType>
+<maturity>0</maturity>
+<category>0</category>
+</role>
+</ematrix>

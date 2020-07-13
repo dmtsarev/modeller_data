@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:45Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.12288.31936">
+    <adminProperties>
+      <name>IMS_DocumentSet_ALSTOM_Approval</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:24Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:06:24Z</datetime>
+      </modificationInfo>
+      <propertyList count="4">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:20.122</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="27">
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_DocumentSet_ALSTOM_Approval</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval add type IMS_Document</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval add type IMS_DocumentBinded</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval add type IMS_DocumentSet</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval add format generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval defaultformat generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval sequence 00,01,02,...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval add allstate public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval allstate revoke public none none filter '' remove revoke public all all revoke owner none none filter '' remove revoke owner all all public none none filter '' remove public all all owner none none filter '' remove owner all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval allstate public changetype changetype</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval allstate user IMS_Admin all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval allstate user IMS_Alstom_Reviewers checkout checkout,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval add state Consensus public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval state Consensus !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval state Consensus promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval state Consensus checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval state Consensus version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval state Consensus action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval state Consensus check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval state Consensus majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval state Consensus minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval state Consensus published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval add property 'file date' value '07-08-2019 08:55:20.122'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_DocumentSet_ALSTOM_Approval add property installer value 'The MxUpdate Team'</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>00,01,02,...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="3">
+      <typeRef>IMS_Document</typeRef>
+      <typeRef>IMS_DocumentBinded</typeRef>
+      <typeRef>IMS_DocumentSet</typeRef>
+    </typeRefList>
+    <formatRefList count="1">
+      <formatRef>generic</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+      <allstateDef>
+        <name>allstate</name>
+        <userAccessList count="4">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <changeTypeAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Alstom_Reviewers</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Admin</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </allstateDef>
+    <stateDefList count="1">
+      <stateDef>
+        <name>Consensus</name>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

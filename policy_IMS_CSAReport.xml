@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:44Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.1408.53750">
+    <adminProperties>
+      <name>IMS_CSAReport</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:14Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:06:15Z</datetime>
+      </modificationInfo>
+      <propertyList count="11">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-10-2019 12:05:43.089</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_CSAReport</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Approved</name>
+          <value>Approved</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Completed</name>
+          <value>Completed</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Draft</name>
+          <value>Draft</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="66">
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_CSAReport</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_CSAReport add type IMS_CSAReport</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_CSAReport add format generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_CSAReport defaultformat generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_CSAReport sequence 01,02,03,...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_CSAReport store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_CSAReport add allstate public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_CSAReport allstate revoke public none none filter '' remove revoke public all all revoke owner none none filter '' remove revoke owner all all public none none filter '' remove public all all owner none none filter '' remove owner all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_CSAReport allstate public read read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_CSAReport allstate user IMS_RS_ConfigurationManager checkout checkout,delete,fromdisconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_CSAReport add state Draft public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_CSAReport add state Completed public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_CSAReport add state Approved public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_CSAReport state Draft !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_CSAReport state Draft promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_CSAReport state Draft checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_CSAReport state Draft version true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_CSAReport state Draft action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_CSAReport state Draft check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_CSAReport state Draft majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_CSAReport state Draft minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_CSAReport state Draft published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_CSAReport state Draft owner read read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_CSAReport state Draft public checkout checkout,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:14Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_CSAReport state Draft user IMS_AP_ConfigurationManager changename changename,checkin,checkout,create,fromconnect,fromdisconnect,lock,modify,promote,read,show,toconnect,todisconnect,unlock</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string><![CDATA[mod policy IMS_CSAReport state Draft user IMS_RS_ConfigurationManager changename changename,checkin,checkout,create,fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect filter name=='FH1.G.P000.1.&&&&&&.&&&&&&.088.HS.0001.E']]></string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_CSAReport state Draft user 'Test Everything' all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_CSAReport state Draft add trigger promote override emxTriggerManager input IMS_PolicyCSAReportPromoteNotification</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy IMS_CSAReport state Completed !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy IMS_CSAReport state Completed promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy IMS_CSAReport state Completed checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy IMS_CSAReport state Completed version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy IMS_CSAReport state Completed action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy IMS_CSAReport state Completed check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy IMS_CSAReport state Completed majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy IMS_CSAReport state Completed minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy IMS_CSAReport state Completed published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy IMS_CSAReport state Completed owner read read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy IMS_CSAReport state Completed public checkout checkout,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy IMS_CSAReport state Completed user IMS_RS_ConfigurationManager checkin checkin,checkout,demote,fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod policy IMS_CSAReport state Completed add trigger demote override emxTriggerManager input IMS_PolicyCSAReportDemoteNotification</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod policy IMS_CSAReport state Completed add trigger promote override emxTriggerManager input IMS_PolicyCSAReportPromoteNotification</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod policy IMS_CSAReport state Approved !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod policy IMS_CSAReport state Approved promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod policy IMS_CSAReport state Approved checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod policy IMS_CSAReport state Approved version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod policy IMS_CSAReport state Approved action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod policy IMS_CSAReport state Approved check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod policy IMS_CSAReport state Approved majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>mod policy IMS_CSAReport state Approved minorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>51</order>
+          <string>mod policy IMS_CSAReport state Approved published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>52</order>
+          <string>mod policy IMS_CSAReport state Approved owner read read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>53</order>
+          <string>mod policy IMS_CSAReport state Approved public checkin checkin,checkout,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>54</order>
+          <string>mod policy IMS_CSAReport state Approved user IMS_AP_ConfigurationManager checkin checkin,checkout,read,revise,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>55</order>
+          <string><![CDATA[mod policy IMS_CSAReport state Approved user IMS_RS_ConfigurationManager revise revise filter name=='FH1.G.P000.1.&&&&&&.&&&&&&.088.HS.0001.E']]></string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>56</order>
+          <string>mod policy IMS_CSAReport add property state_Draft value Draft</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>57</order>
+          <string>mod policy IMS_CSAReport add property state_Completed value Completed</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>58</order>
+          <string>mod policy IMS_CSAReport add property state_Approved value Approved</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>59</order>
+          <string>mod policy IMS_CSAReport add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>60</order>
+          <string>mod policy IMS_CSAReport add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>61</order>
+          <string>mod policy IMS_CSAReport add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>62</order>
+          <string>mod policy IMS_CSAReport add property 'file date' value '07-10-2019 12:05:43.089'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>63</order>
+          <string>mod policy IMS_CSAReport add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>64</order>
+          <string>mod policy IMS_CSAReport add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>65</order>
+          <string>mod policy IMS_CSAReport add property 'original name' value IMS_CSAReport</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>66</order>
+          <string>mod policy IMS_CSAReport add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>01,02,03,...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="1">
+      <typeRef>IMS_CSAReport</typeRef>
+    </typeRefList>
+    <formatRefList count="1">
+      <formatRef>generic</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+      <allstateDef>
+        <name>allstate</name>
+        <userAccessList count="3">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_ConfigurationManager</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <deleteAccess/>
+          <checkoutAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </allstateDef>
+    <stateDefList count="3">
+      <stateDef>
+        <name>Draft</name>
+        <majorrevisionable/>
+        <versionable/>
+        <autoPromotion/>
+        <checkoutHistory/>
+        <userAccessList count="5">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Test Everything</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_ConfigurationManager</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <lockAccess/>
+          <unlockAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <changeNameAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_ConfigurationManager</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter><![CDATA[name=='FH1.G.P000.1.&&&&&&.&&&&&&.088.HS.0001.E']]></expressionFilter>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <changeNameAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <triggerList count="1">
+          <trigger>
+            <triggerName>PromoteOverride</triggerName>
+            <programRef>emxTriggerManager</programRef>
+            <inputArguments>IMS_PolicyCSAReportPromoteNotification</inputArguments>
+          </trigger>
+        </triggerList>
+      </stateDef>
+      <stateDef>
+        <name>Completed</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <userAccessList count="3">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_ConfigurationManager</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <promoteAccess/>
+          <demoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <triggerList count="2">
+          <trigger>
+            <triggerName>DemoteOverride</triggerName>
+            <programRef>emxTriggerManager</programRef>
+            <inputArguments>IMS_PolicyCSAReportDemoteNotification</inputArguments>
+          </trigger>
+          <trigger>
+            <triggerName>PromoteOverride</triggerName>
+            <programRef>emxTriggerManager</programRef>
+            <inputArguments>IMS_PolicyCSAReportPromoteNotification</inputArguments>
+          </trigger>
+        </triggerList>
+      </stateDef>
+      <stateDef>
+        <name>Approved</name>
+        <revisionable/>
+        <majorrevisionable/>
+        <userAccessList count="4">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_ConfigurationManager</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <reviseAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_ConfigurationManager</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter><![CDATA[name=='FH1.G.P000.1.&&&&&&.&&&&&&.088.HS.0001.E']]></expressionFilter>
+        <access>
+          <reviseAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

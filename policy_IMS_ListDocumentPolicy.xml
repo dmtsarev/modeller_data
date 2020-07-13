@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:46Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.22080.2599">
+    <adminProperties>
+      <name>IMS_ListDocumentPolicy</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:33Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:17:57Z</datetime>
+      </modificationInfo>
+      <propertyList count="16">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:21.744</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_ListDocumentPolicy</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Approved_FV</name>
+          <value>Approved_FV</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Approved_STUK</name>
+          <value>Approved_STUK</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Declined_FV</name>
+          <value>Declined_FV</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Declined_STUK</name>
+          <value>Declined_STUK</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Developed</name>
+          <value>Developed</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Not_developed</name>
+          <value>Not_developed</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Review_FV</name>
+          <value>Review_FV</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Review_STUK</name>
+          <value>Review_STUK</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="122">
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_ListDocumentPolicy</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_ListDocumentPolicy add type IMS_ListDocument</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_ListDocumentPolicy add format all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_ListDocumentPolicy defaultformat 0</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_ListDocumentPolicy sequence 01,02,03,...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_ListDocumentPolicy store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_ListDocumentPolicy add allstate public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_ListDocumentPolicy allstate revoke public none none filter '' remove revoke public all all revoke owner none none filter '' remove revoke owner all all public none none filter '' remove public all all owner none none filter '' remove owner all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_ListDocumentPolicy allstate public checkin checkin,checkout,fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_ListDocumentPolicy allstate user IMS_AP_Designer checkin checkin,checkout,demote,fromconnect,fromdisconnect,modify,modifyform,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_ListDocumentPolicy add state Not_developed public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_ListDocumentPolicy add state Developed public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_ListDocumentPolicy add state Review_FV public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_ListDocumentPolicy add state Declined_FV public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_ListDocumentPolicy add state Approved_FV public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_ListDocumentPolicy add state Review_STUK public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_ListDocumentPolicy add state Declined_STUK public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_ListDocumentPolicy add state Approved_STUK public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_STUK !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_STUK promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_STUK checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_STUK version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_STUK action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_STUK check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_STUK majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_STUK minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_STUK published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_STUK public fromconnect fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy IMS_ListDocumentPolicy state Developed !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy IMS_ListDocumentPolicy state Developed promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy IMS_ListDocumentPolicy state Developed checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy IMS_ListDocumentPolicy state Developed version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy IMS_ListDocumentPolicy state Developed action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy IMS_ListDocumentPolicy state Developed check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy IMS_ListDocumentPolicy state Developed majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy IMS_ListDocumentPolicy state Developed minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy IMS_ListDocumentPolicy state Developed published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy IMS_ListDocumentPolicy state Developed public fromconnect fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy IMS_ListDocumentPolicy state Developed user IMS_AP_Designer create create,fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_FV !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_FV promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_FV checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_FV version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_FV action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_FV check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_FV majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_FV minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_FV published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_FV owner read read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_FV public fromconnect fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>51</order>
+          <string>mod policy IMS_ListDocumentPolicy state Not_developed !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>52</order>
+          <string>mod policy IMS_ListDocumentPolicy state Not_developed promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>53</order>
+          <string>mod policy IMS_ListDocumentPolicy state Not_developed checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>54</order>
+          <string>mod policy IMS_ListDocumentPolicy state Not_developed version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>55</order>
+          <string>mod policy IMS_ListDocumentPolicy state Not_developed action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>56</order>
+          <string>mod policy IMS_ListDocumentPolicy state Not_developed check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>57</order>
+          <string>mod policy IMS_ListDocumentPolicy state Not_developed majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>58</order>
+          <string>mod policy IMS_ListDocumentPolicy state Not_developed minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>59</order>
+          <string>mod policy IMS_ListDocumentPolicy state Not_developed published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>60</order>
+          <string>mod policy IMS_ListDocumentPolicy state Not_developed public create create,fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>61</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_FV !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>62</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_FV promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>63</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_FV checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>64</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_FV version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>65</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_FV action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>66</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_FV check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>67</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_FV majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>68</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_FV minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>69</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_FV published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:33Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>70</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_FV public fromconnect fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>71</order>
+          <string>mod policy IMS_ListDocumentPolicy state Declined_FV signature Approved_FV branch Approved_FV filter '' add approve Employee</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>72</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_STUK !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>73</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_STUK promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>74</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_STUK checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>75</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_STUK version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>76</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_STUK action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>77</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_STUK check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>78</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_STUK majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>79</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_STUK minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>80</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_STUK published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>81</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_STUK public fromconnect fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>82</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_STUK signature Approved_STUK branch Approved_STUK filter '' add approve Employee</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>83</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_STUK signature Declined_STUK branch Declined_STUK filter '' add approve Employee</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>84</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_STUK !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>85</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_STUK promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>86</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_STUK checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>87</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_STUK version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>88</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_STUK action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>89</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_STUK check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>90</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_STUK majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>91</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_STUK minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>92</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_STUK published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>93</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_STUK public fromconnect fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>94</order>
+          <string>mod policy IMS_ListDocumentPolicy state Approved_STUK user Employee read read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>95</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_FV !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>96</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_FV promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>97</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_FV checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>98</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_FV version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>99</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_FV action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>100</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_FV check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>101</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_FV majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>102</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_FV minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>103</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_FV published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>104</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_FV public fromconnect fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>105</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_FV signature Approved_FV branch Approved_FV filter '' add approve Employee</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>106</order>
+          <string>mod policy IMS_ListDocumentPolicy state Review_FV signature Declined_FV branch Declined_FV filter '' add approve Employee</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>107</order>
+          <string>mod policy IMS_ListDocumentPolicy add property state_Declined_STUK value Declined_STUK</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>108</order>
+          <string>mod policy IMS_ListDocumentPolicy add property state_Developed value Developed</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>109</order>
+          <string>mod policy IMS_ListDocumentPolicy add property state_Approved_FV value Approved_FV</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>110</order>
+          <string>mod policy IMS_ListDocumentPolicy add property state_Not_developed value Not_developed</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>111</order>
+          <string>mod policy IMS_ListDocumentPolicy add property state_Declined_FV value Declined_FV</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>112</order>
+          <string>mod policy IMS_ListDocumentPolicy add property state_Review_STUK value Review_STUK</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>113</order>
+          <string>mod policy IMS_ListDocumentPolicy add property state_Approved_STUK value Approved_STUK</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>114</order>
+          <string>mod policy IMS_ListDocumentPolicy add property state_Review_FV value Review_FV</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>115</order>
+          <string>mod policy IMS_ListDocumentPolicy add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>116</order>
+          <string>mod policy IMS_ListDocumentPolicy add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>117</order>
+          <string>mod policy IMS_ListDocumentPolicy add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>118</order>
+          <string>mod policy IMS_ListDocumentPolicy add property 'file date' value '07-08-2019 08:55:21.744'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>119</order>
+          <string>mod policy IMS_ListDocumentPolicy add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>120</order>
+          <string>mod policy IMS_ListDocumentPolicy add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>121</order>
+          <string>mod policy IMS_ListDocumentPolicy add property 'original name' value IMS_ListDocumentPolicy</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>122</order>
+          <string>mod policy IMS_ListDocumentPolicy add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>01,02,03,...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="1">
+      <typeRef>IMS_ListDocument</typeRef>
+    </typeRefList>
+    <formatRefList count="56">
+      <formatRef>generic</formatRef>
+      <formatRef>Mill</formatRef>
+      <formatRef>Drill</formatRef>
+      <formatRef>Artwork</formatRef>
+      <formatRef>idf</formatRef>
+      <formatRef>Assembly Placement</formatRef>
+      <formatRef>doc</formatRef>
+      <formatRef>dot</formatRef>
+      <formatRef>msg</formatRef>
+      <formatRef>ppa</formatRef>
+      <formatRef>ppt</formatRef>
+      <formatRef>xla</formatRef>
+      <formatRef>xls</formatRef>
+      <formatRef>HPGL</formatRef>
+      <formatRef>IGES</formatRef>
+      <formatRef>Image</formatRef>
+      <formatRef>Markup</formatRef>
+      <formatRef>mxMedium Image</formatRef>
+      <formatRef>PDF</formatRef>
+      <formatRef>TIF</formatRef>
+      <formatRef>TXT</formatRef>
+      <formatRef>XML</formatRef>
+      <formatRef>JT</formatRef>
+      <formatRef>MSDS</formatRef>
+      <formatRef>Test Method</formatRef>
+      <formatRef>JView</formatRef>
+      <formatRef>Supplier PDF Content</formatRef>
+      <formatRef>THUMBNAIL</formatRef>
+      <formatRef>3DXMLCGR</formatRef>
+      <formatRef>CGR</formatRef>
+      <formatRef>PNG</formatRef>
+      <formatRef>CGM</formatRef>
+      <formatRef>rco</formatRef>
+      <formatRef>0</formatRef>
+      <formatRef>mxThumbnail Image</formatRef>
+      <formatRef>1</formatRef>
+      <formatRef>2</formatRef>
+      <formatRef>3</formatRef>
+      <formatRef>4</formatRef>
+      <formatRef>5</formatRef>
+      <formatRef>6</formatRef>
+      <formatRef>7</formatRef>
+      <formatRef>8</formatRef>
+      <formatRef>9</formatRef>
+      <formatRef>mxSmall Image</formatRef>
+      <formatRef>mxLarge Image</formatRef>
+      <formatRef>mxImage</formatRef>
+      <formatRef>Input</formatRef>
+      <formatRef>Output</formatRef>
+      <formatRef>Log</formatRef>
+      <formatRef>3DXML</formatRef>
+      <formatRef>prt</formatRef>
+      <formatRef>asm</formatRef>
+      <formatRef>drw</formatRef>
+      <formatRef>zip</formatRef>
+      <formatRef>bom</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>0</formatRef>
+    </defaultFormat>
+    <allowAllFormats/>
+      <allstateDef>
+        <name>allstate</name>
+        <userAccessList count="3">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <promoteAccess/>
+          <demoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <modifyFormAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </allstateDef>
+    <stateDefList count="8">
+      <stateDef>
+        <name>Not_developed</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <checkoutHistory/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Developed</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <checkoutHistory/>
+        <userAccessList count="3">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Review_FV</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <checkoutHistory/>
+        <userAccessList count="6">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>Approved_FV</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>Declined_FV</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Employee</userRef>
+        <userAccessKey>Approved_FV</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <approveAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Employee</userRef>
+        <userAccessKey>Declined_FV</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <approveAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <signatureDefList count="2">
+          <signatureDef>
+            <name>Approved_FV</name>
+            <stateDefRef>Approved_FV</stateDefRef>
+          </signatureDef>
+          <signatureDef>
+            <name>Declined_FV</name>
+            <stateDefRef>Declined_FV</stateDefRef>
+          </signatureDef>
+        </signatureDefList>
+      </stateDef>
+      <stateDef>
+        <name>Declined_FV</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <checkoutHistory/>
+        <userAccessList count="4">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>Approved_FV</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Employee</userRef>
+        <userAccessKey>Approved_FV</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <approveAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <signatureDefList count="1">
+          <signatureDef>
+            <name>Approved_FV</name>
+            <stateDefRef>Approved_FV</stateDefRef>
+          </signatureDef>
+        </signatureDefList>
+      </stateDef>
+      <stateDef>
+        <name>Approved_FV</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <checkoutHistory/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Review_STUK</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <checkoutHistory/>
+        <userAccessList count="6">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>Approved_STUK</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>Declined_STUK</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Employee</userRef>
+        <userAccessKey>Approved_STUK</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <approveAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Employee</userRef>
+        <userAccessKey>Declined_STUK</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <approveAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <signatureDefList count="2">
+          <signatureDef>
+            <name>Approved_STUK</name>
+            <stateDefRef>Approved_STUK</stateDefRef>
+          </signatureDef>
+          <signatureDef>
+            <name>Declined_STUK</name>
+            <stateDefRef>Declined_STUK</stateDefRef>
+          </signatureDef>
+        </signatureDefList>
+      </stateDef>
+      <stateDef>
+        <name>Declined_STUK</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <checkoutHistory/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Approved_STUK</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <checkoutHistory/>
+        <userAccessList count="3">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Employee</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

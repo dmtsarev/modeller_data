@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:42Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.45540.65255">
+    <adminProperties>
+      <name>edmCITRM</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:25:37Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:25:37Z</datetime>
+      </modificationInfo>
+      <propertyList count="7">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>enovia</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-09-2019 08:35:00.954</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>edmCITRM</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>0</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="37">
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy edmCITRM</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy edmCITRM add type edmCITRM</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy edmCITRM add format generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy edmCITRM defaultformat generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy edmCITRM sequence 0,1,2,...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy edmCITRM store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy edmCITRM add state Created public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy edmCITRM add state Exists public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy edmCITRM state Exists !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy edmCITRM state Exists promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy edmCITRM state Exists checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy edmCITRM state Exists version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy edmCITRM state Exists action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy edmCITRM state Exists check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy edmCITRM state Exists majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy edmCITRM state Exists minorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy edmCITRM state Exists published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy edmCITRM state Exists owner checkout checkout,fromconnect,fromdisconnect,read,revise,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy edmCITRM state Exists public checkout checkout,fromconnect,fromdisconnect,read,revise,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy edmCITRM state Created !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy edmCITRM state Created promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy edmCITRM state Created checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy edmCITRM state Created version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy edmCITRM state Created action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy edmCITRM state Created check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy edmCITRM state Created majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy edmCITRM state Created minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy edmCITRM state Created published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy edmCITRM state Created owner checkin checkin,checkout,create,fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy edmCITRM state Created public checkin checkin,checkout,create,fromdisconnect,modify,promote,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy edmCITRM add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy edmCITRM add property application value enovia</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy edmCITRM add property 'file date' value '07-09-2019 08:35:00.954'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy edmCITRM add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy edmCITRM add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy edmCITRM add property 'original name' value edmCITRM</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy edmCITRM add property version value 0</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>0,1,2,...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="1">
+      <typeRef>edmCITRM</typeRef>
+    </typeRefList>
+    <formatRefList count="1">
+      <formatRef>generic</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+    <stateDefList count="2">
+      <stateDef>
+        <name>Created</name>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Exists</name>
+        <revisionable/>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <reviseAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <reviseAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

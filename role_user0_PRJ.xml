@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:28Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.54049.33776">
+<adminProperties>
+<name>user0_PRJ</name>
+<creationInfo>
+<datetime>2020-05-05T20:21:26Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-05-05T20:21:26Z</datetime>
+</modificationInfo>
+<hidden/>
+<historyList count="1">
+<history>
+<datetime>2020-05-05T20:21:26Z</datetime>
+<agent>User Agent</agent>
+<event>create</event>
+<order>1</order>
+<string>add role user0_PRJ asaproject parent 'User Projects' hidden</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>4</roleType>
+<maturity>0</maturity>
+<category>0</category>
+<parentRole count="1">
+<roleRef>User Projects</roleRef>
+</parentRole>
+</role>
+</ematrix>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:23Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.37131.28900">
+<adminProperties>
+<name>Grant</name>
+<creationInfo>
+<datetime>2020-03-19T08:44:25Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-04-08T12:10:36Z</datetime>
+</modificationInfo>
+<description>This role is used to create Grant Sequrity Context.</description>
+<hidden/>
+<propertyList count="5">
+<property>
+<name>application</name>
+<value>Framework</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installed date</name>
+<value>Thu Mar 19 11:44:25 MSK 2020</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installer</name>
+<value>ENOVIAEngineering</value>
+<flags>0</flags>
+</property>
+<property>
+<name>original name</name>
+<value>Grant</value>
+<flags>0</flags>
+</property>
+<property>
+<name>version</name>
+<value>R216</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="8">
+<history>
+<datetime>2020-03-19T08:44:25Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role "Grant" description "This role is used to create Grant Sequrity Context." parent "Global User" property mxSym_person_TestEverything value UNRESOLVED</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:25Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role "Grant" property "version" value "R214" property "application" value "Framework" property "installer" value "ENOVIAEngineering" property "original name" value "Grant" property "installed date" value "Thu Mar 19 11:44:25 MSK 2020"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:25Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>3</order>
+<string>mod role "Grant" hidden</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:25Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>4</order>
+<string>modify role "Grant" property "version" value "R215"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:25Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>5</order>
+<string>mod role "Grant" remove parent</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:25Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>6</order>
+<string>modify role "Grant" property "version" value "R216"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:40Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>7</order>
+<string>delete property mxSym_person_TestEverything on role "Grant"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:40Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>8</order>
+<string>modify role "Grant" add assign person "Test Everything"</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>1</roleType>
+<maturity>0</maturity>
+<category>0</category>
+</role>
+</ematrix>

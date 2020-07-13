@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:29Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.10797.31733">
+<adminProperties>
+<name>CS_AtomProekt</name>
+<creationInfo>
+<datetime>2020-07-08T08:43:16Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-07-08T09:00:28Z</datetime>
+</modificationInfo>
+<propertyList count="4">
+<property>
+<name>FAMILY</name>
+<value>DesignTeam</value>
+<flags>0</flags>
+</property>
+<property>
+<name>SOLUTION</name>
+<value>Team</value>
+<flags>0</flags>
+</property>
+<property>
+<name>Title</name>
+<value>CS_AtomProekt</value>
+<flags>0</flags>
+</property>
+<property>
+<name>vplm_readAbility</name>
+<value>Private</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="6">
+<history>
+<datetime>2020-07-08T08:43:16Z</datetime>
+<agent>admin_platform</agent>
+<event>create</event>
+<order>1</order>
+<string>add role CS_AtomProekt property vplm_readAbility value Public maturity public property Title value CS_AtomProekt asaproject</string>
+</history>
+<history>
+<datetime>2020-07-08T08:43:17Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role CS_AtomProekt property vplm_readAbility value Private maturity private</string>
+</history>
+<history>
+<datetime>2020-07-08T08:43:17Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role CS_AtomProekt property SOLUTION value Team</string>
+</history>
+<history>
+<datetime>2020-07-08T08:43:17Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>4</order>
+<string>modify role CS_AtomProekt property FAMILY value DesignTeam</string>
+</history>
+<history>
+<datetime>2020-07-08T08:56:00Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>5</order>
+<string>modify role CS_AtomProekt property Title value 'jsc atomproekt'</string>
+</history>
+<history>
+<datetime>2020-07-08T09:00:28Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>6</order>
+<string>modify role CS_AtomProekt property Title value CS_AtomProekt</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>4</roleType>
+<maturity>3</maturity>
+<category>0</category>
+</role>
+</ematrix>

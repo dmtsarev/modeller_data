@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:23Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.18773.12762">
+<adminProperties>
+<name>Global User</name>
+<creationInfo>
+<datetime>2020-03-19T08:43:58Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-04-08T12:10:36Z</datetime>
+</modificationInfo>
+<description>All users are assigned to this role in order to do global access grants</description>
+<hidden/>
+<propertyList count="5">
+<property>
+<name>application</name>
+<value>Framework</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installed date</name>
+<value>03-19-2020</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installer</name>
+<value>ENOVIAEngineering</value>
+<flags>0</flags>
+</property>
+<property>
+<name>original name</name>
+<value>Global User</value>
+<flags>0</flags>
+</property>
+<property>
+<name>version</name>
+<value>10-6</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="13">
+<history>
+<datetime>2020-03-19T08:43:58Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role 'Global User' description 'All users are assigned to this role in order to do global access grants' property mxSym_person_TestEverything value UNRESOLVED hidden</string>
+</history>
+<history>
+<datetime>2020-03-19T08:43:58Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>2</order>
+<string>add property application on role 'Global User' value Framework</string>
+</history>
+<history>
+<datetime>2020-03-19T08:43:58Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>3</order>
+<string>add property version on role 'Global User' value 9-5-0-0</string>
+</history>
+<history>
+<datetime>2020-03-19T08:43:58Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>4</order>
+<string>add property 'original name' on role 'Global User' value 'Global User'</string>
+</history>
+<history>
+<datetime>2020-03-19T08:43:58Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>5</order>
+<string>add property installer on role 'Global User' value ENOVIAEngineering</string>
+</history>
+<history>
+<datetime>2020-03-19T08:43:58Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>6</order>
+<string>add property 'installed date' on role 'Global User' value 03-19-2020</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:40Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>7</order>
+<string>delete property mxSym_person_TestEverything on role "Global User"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:40Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>8</order>
+<string>modify role "Global User" add assign person "Test Everything"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:45:11Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>9</order>
+<string>modify role "Global User" hidden</string>
+</history>
+<history>
+<datetime>2020-03-19T08:45:11Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>10</order>
+<string>modify role "Global User" property "version" value "10-5"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:45:11Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>11</order>
+<string>modify role "Global User" assign person "Test Everything"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:45:11Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>12</order>
+<string>modify role "Global User" property "version" value "10-6"</string>
+</history>
+<history>
+<datetime>2020-03-19T09:42:41Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>13</order>
+<string>modify role 'Global User' remove child 'VPLM Matrix User'</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>1</roleType>
+<maturity>0</maturity>
+<category>0</category>
+</role>
+</ematrix>

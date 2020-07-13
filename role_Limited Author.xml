@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:25Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.27423.39808">
+<adminProperties>
+<name>Limited Author</name>
+<creationInfo>
+<datetime>2020-03-19T08:50:12Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-05-14T14:51:35Z</datetime>
+</modificationInfo>
+<description>Limited Author</description>
+<propertyList count="5">
+<property>
+<name>application</name>
+<value>Framework</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installed date</name>
+<value>Thu Mar 19 11:50:12 MSK 2020</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installer</name>
+<value>ENOVIAEngineering</value>
+<flags>0</flags>
+</property>
+<property>
+<name>original name</name>
+<value>Limited Author</value>
+<flags>0</flags>
+</property>
+<property>
+<name>version</name>
+<value>10-6</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="9">
+<history>
+<datetime>2020-03-19T08:50:12Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role "Limited Author" description "Limited Author" assign person "Test Everything"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:50:12Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role "Limited Author" property "version" value "9-3-1-0" property "application" value "Framework" property "installer" value "ENOVIAEngineering" property "original name" value "Limited Author" property "installed date" value "Thu Mar 19 11:50:12 MSK 2020"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:50:37Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role "Limited Author" parent "Employee"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:50:37Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>4</order>
+<string>modify role "Limited Author" property "version" value "9-5-6-0"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:50:59Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>5</order>
+<string>modify role "Limited Author" hidden</string>
+</history>
+<history>
+<datetime>2020-03-19T08:50:59Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>6</order>
+<string>modify role "Limited Author" property "version" value "10-5"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:51:09Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>7</order>
+<string>modify role "Limited Author" parent "Library User"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:51:09Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>8</order>
+<string>modify role "Limited Author" property "version" value "10-6"</string>
+</history>
+<history>
+<datetime>2020-03-19T13:08:38Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>9</order>
+<string>modify role 'Limited Author' nothidden</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>1</roleType>
+<maturity>0</maturity>
+<category>0</category>
+<parentRole count="1">
+<roleRef>Library User</roleRef>
+</parentRole>
+</role>
+</ematrix>

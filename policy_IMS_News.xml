@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:47Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.23169.1184">
+    <adminProperties>
+      <name>IMS_News</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:34Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:06:34Z</datetime>
+      </modificationInfo>
+      <propertyList count="10">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:21.838</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_News</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Exist</name>
+          <value>Exist</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Exists</name>
+          <value>Exists</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="28">
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_News</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_News add type IMS_News</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_News add format generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_News defaultformat generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_News sequence 01,02,03...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_News store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_News add state Exists public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_News state Exists !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_News state Exists promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_News state Exists checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_News state Exists version true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_News state Exists action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_News state Exists check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_News state Exists majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_News state Exists minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_News state Exists published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_News state Exists owner all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_News state Exists public changename changename,changeowner,changepolicy,changetype,changevault,checkin,checkout,create,demote,disable,enable,execute,freeze,fromconnect,fromdisconnect,grant,lock,modify,modifyform,override,promote,read,revise,revoke,schedule,show,thaw,toconnect,todisconnect,unlock,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_News add property state_Exists value Exists</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_News add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_News add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_News add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_News add property 'file date' value '07-08-2019 08:55:21.838'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_News add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_News add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_News add property 'original name' value IMS_News</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_News add property state_Exist value Exist</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_News add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>01,02,03...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="1">
+      <typeRef>IMS_News</typeRef>
+    </typeRefList>
+    <formatRefList count="1">
+      <formatRef>generic</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+    <stateDefList count="1">
+      <stateDef>
+        <name>Exists</name>
+        <majorrevisionable/>
+        <versionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <lockAccess/>
+          <unlockAccess/>
+          <changeOwnerAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <demoteAccess/>
+          <enableAccess/>
+          <disableAccess/>
+          <overrideAccess/>
+          <scheduleAccess/>
+          <reviseAccess/>
+          <changeVaultAccess/>
+          <changeNameAccess/>
+          <changePolicyAccess/>
+          <changeTypeAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <freezeAccess/>
+          <thawAccess/>
+          <executeAccess/>
+          <modifyFormAccess/>
+          <viewFormAccess/>
+          <grantAccess/>
+          <revokeAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

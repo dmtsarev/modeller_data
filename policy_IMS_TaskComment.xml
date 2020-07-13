@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:48Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.30784.1536">
+    <adminProperties>
+      <name>IMS_TaskComment</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:41Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:06:42Z</datetime>
+      </modificationInfo>
+      <propertyList count="13">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:22.946</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_TaskComment</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Approve</name>
+          <value>Approve</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Create</name>
+          <value>Create</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Reject</name>
+          <value>Reject</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Send</name>
+          <value>Send</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Sended</name>
+          <value>Sended</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="58">
+        <history>
+          <datetime>2019-07-10T12:06:41Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_TaskComment</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:41Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_TaskComment add type IMS_TaskComment</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:41Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_TaskComment sequence 1</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:41Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_TaskComment store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:41Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_TaskComment add state Create public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_TaskComment add state Reject public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_TaskComment add state Approve public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_TaskComment state Reject !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_TaskComment state Reject promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_TaskComment state Reject checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_TaskComment state Reject version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_TaskComment state Reject action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_TaskComment state Reject check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_TaskComment state Reject majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_TaskComment state Reject minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_TaskComment state Reject published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_TaskComment state Reject public checkout checkout,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_TaskComment state Reject signature ToReject branch Reject filter '' add approve Employee</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_TaskComment state Create !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_TaskComment state Create promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_TaskComment state Create checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_TaskComment state Create version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_TaskComment state Create action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_TaskComment state Create check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_TaskComment state Create majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_TaskComment state Create minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_TaskComment state Create published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_TaskComment state Create owner changename changename,changeowner,checkin,checkout,create,delete,fromconnect,fromdisconnect,grant,modify,modifyform,promote,read,revoke,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy IMS_TaskComment state Create public checkout checkout,promote,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy IMS_TaskComment state Create user IMS_AP_Designer checkout checkout,promote,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy IMS_TaskComment state Create user IMS_Admin all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy IMS_TaskComment state Create user 'Test Everything' all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy IMS_TaskComment state Create signature ToApprove branch Approve filter '' add approve Employee</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy IMS_TaskComment state Create signature ToReject branch Reject filter '' add approve Employee</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy IMS_TaskComment state Approve !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy IMS_TaskComment state Approve promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy IMS_TaskComment state Approve checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy IMS_TaskComment state Approve version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy IMS_TaskComment state Approve action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy IMS_TaskComment state Approve check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod policy IMS_TaskComment state Approve majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod policy IMS_TaskComment state Approve minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod policy IMS_TaskComment state Approve published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod policy IMS_TaskComment state Approve owner checkout checkout,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod policy IMS_TaskComment state Approve public checkout checkout,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod policy IMS_TaskComment add property state_Reject value Reject</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod policy IMS_TaskComment add property state_Create value Create</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod policy IMS_TaskComment add property state_Approve value Approve</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod policy IMS_TaskComment add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>mod policy IMS_TaskComment add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>51</order>
+          <string>mod policy IMS_TaskComment add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>52</order>
+          <string>mod policy IMS_TaskComment add property 'file date' value '07-08-2019 08:55:22.946'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>53</order>
+          <string>mod policy IMS_TaskComment add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>54</order>
+          <string>mod policy IMS_TaskComment add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>55</order>
+          <string>mod policy IMS_TaskComment add property 'original name' value IMS_TaskComment</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>56</order>
+          <string>mod policy IMS_TaskComment add property state_Send value Send</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>57</order>
+          <string>mod policy IMS_TaskComment add property state_Sended value Sended</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:42Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>58</order>
+          <string>mod policy IMS_TaskComment add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>1</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="1">
+      <typeRef>IMS_TaskComment</typeRef>
+    </typeRefList>
+    <stateDefList count="3">
+      <stateDef>
+        <name>Create</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <userAccessList count="9">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <promoteAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>ToApprove</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>ToReject</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <deleteAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <changeOwnerAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <changeNameAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <modifyFormAccess/>
+          <viewFormAccess/>
+          <grantAccess/>
+          <revokeAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <promoteAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Test Everything</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Admin</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Employee</userRef>
+        <userAccessKey>ToApprove</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <approveAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Employee</userRef>
+        <userAccessKey>ToReject</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <approveAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <signatureDefList count="2">
+          <signatureDef>
+            <name>ToApprove</name>
+            <stateDefRef>Approve</stateDefRef>
+          </signatureDef>
+          <signatureDef>
+            <name>ToReject</name>
+            <stateDefRef>Reject</stateDefRef>
+          </signatureDef>
+        </signatureDefList>
+      </stateDef>
+      <stateDef>
+        <name>Reject</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <userAccessList count="4">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>ToReject</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Employee</userRef>
+        <userAccessKey>ToReject</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <approveAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <signatureDefList count="1">
+          <signatureDef>
+            <name>ToReject</name>
+            <stateDefRef>Reject</stateDefRef>
+          </signatureDef>
+        </signatureDefList>
+      </stateDef>
+      <stateDef>
+        <name>Approve</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

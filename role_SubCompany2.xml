@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:28Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.9067.15829">
+<adminProperties>
+<name>SubCompany2</name>
+<creationInfo>
+<datetime>2020-05-05T20:15:51Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-06-22T00:15:55Z</datetime>
+</modificationInfo>
+<propertyList count="3">
+<property>
+<name>application</name>
+<value>Framework</value>
+<flags>0</flags>
+</property>
+<property>
+<name>original name</name>
+<value>SubCompany2</value>
+<flags>0</flags>
+</property>
+<property>
+<name>version</name>
+<value>3DEXPERIENCE R2019x HotFix 7</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="4">
+<history>
+<datetime>2020-05-05T20:15:51Z</datetime>
+<agent>User Agent</agent>
+<event>create</event>
+<order>1</order>
+<string>add role SubCompany2 asanorg</string>
+</history>
+<history>
+<datetime>2020-05-05T20:15:51Z</datetime>
+<agent>User Agent</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role SubCompany2 property application value Framework property version value '3DEXPERIENCE R2019x HotFix 7' property 'original name' value SubCompany2</string>
+</history>
+<history>
+<datetime>2020-05-05T20:15:51Z</datetime>
+<agent>User Agent</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role SubCompany2 asanorg parent ASE</string>
+</history>
+<history>
+<datetime>2020-06-22T00:15:55Z</datetime>
+<agent>User Agent</agent>
+<event>modify</event>
+<order>4</order>
+<string>modify role SubCompany2 asanorg parent OrgRoleObject</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>5</roleType>
+<maturity>0</maturity>
+<category>0</category>
+<parentRole count="1">
+<roleRef>OrgRoleObject</roleRef>
+</parentRole>
+</role>
+</ematrix>

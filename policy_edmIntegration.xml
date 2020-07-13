@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:42Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.45540.34012">
+    <adminProperties>
+      <name>edmIntegration</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:25:37Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:25:37Z</datetime>
+      </modificationInfo>
+      <propertyList count="7">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>enovia</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-09-2019 08:35:00.985</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>edmIntegration</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>0</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="22">
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy edmIntegration</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy edmIntegration add type edmIntegration</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy edmIntegration add format generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy edmIntegration defaultformat generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy edmIntegration store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy edmIntegration add state Exists public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy edmIntegration state Exists !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy edmIntegration state Exists promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy edmIntegration state Exists checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy edmIntegration state Exists version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy edmIntegration state Exists action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy edmIntegration state Exists check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy edmIntegration state Exists majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy edmIntegration state Exists minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy edmIntegration state Exists published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy edmIntegration add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy edmIntegration add property application value enovia</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy edmIntegration add property 'file date' value '07-09-2019 08:35:00.985'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy edmIntegration add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy edmIntegration add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy edmIntegration add property 'original name' value edmIntegration</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy edmIntegration add property version value 0</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence></sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="1">
+      <typeRef>edmIntegration</typeRef>
+    </typeRefList>
+    <formatRefList count="1">
+      <formatRef>generic</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+    <stateDefList count="1">
+      <stateDef>
+        <name>Exists</name>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

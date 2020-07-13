@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:23Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.58892.10347">
+<adminProperties>
+<name>Administration Manager</name>
+<creationInfo>
+<datetime>2020-03-19T08:43:57Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-04-08T12:10:35Z</datetime>
+</modificationInfo>
+<description>has priviledge to create administration business objects like AutoName, etc.</description>
+<hidden/>
+<propertyList count="5">
+<property>
+<name>application</name>
+<value>Framework</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installed date</name>
+<value>03-19-2020</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installer</name>
+<value>ENOVIAEngineering</value>
+<flags>0</flags>
+</property>
+<property>
+<name>original name</name>
+<value>Administration Manager</value>
+<flags>0</flags>
+</property>
+<property>
+<name>version</name>
+<value>10-5</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="12">
+<history>
+<datetime>2020-03-19T08:43:57Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role 'Administration Manager' description 'has priviledge to create administration business objects like AutoName, etc.' assign person 'Administration User' property mxSym_person_TestEverything value UNRESOLVED</string>
+</history>
+<history>
+<datetime>2020-03-19T08:43:57Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>2</order>
+<string>add property application on role 'Administration Manager' value Framework</string>
+</history>
+<history>
+<datetime>2020-03-19T08:43:57Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>3</order>
+<string>add property version on role 'Administration Manager' value 8-0-0-0</string>
+</history>
+<history>
+<datetime>2020-03-19T08:43:57Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>4</order>
+<string>add property 'original name' on role 'Administration Manager' value 'Administration Manager'</string>
+</history>
+<history>
+<datetime>2020-03-19T08:43:57Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>5</order>
+<string>add property installer on role 'Administration Manager' value ENOVIAEngineering</string>
+</history>
+<history>
+<datetime>2020-03-19T08:43:57Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>6</order>
+<string>add property 'installed date' on role 'Administration Manager' value 03-19-2020</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:40Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>7</order>
+<string>delete property mxSym_person_TestEverything on role "Administration Manager"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:40Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>8</order>
+<string>modify role "Administration Manager" add assign person "Test Everything"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:48Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>9</order>
+<string>modify role "Administration Manager" parent "Employee"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:48Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>10</order>
+<string>modify role "Administration Manager" property "version" value "9-5-0-0"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:51Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>11</order>
+<string>modify role "Administration Manager" hidden</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:51Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>12</order>
+<string>modify role "Administration Manager" property "version" value "10-5"</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>1</roleType>
+<maturity>0</maturity>
+<category>0</category>
+<parentRole count="1">
+<roleRef>Employee</roleRef>
+</parentRole>
+</role>
+</ematrix>

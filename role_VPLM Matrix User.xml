@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:27Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.61271.13763">
+<adminProperties>
+<name>VPLM Matrix User</name>
+<creationInfo>
+<datetime>2020-03-19T08:57:31Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-05-14T14:51:35Z</datetime>
+</modificationInfo>
+<description>VPLM Matrix user role</description>
+<historyList count="7">
+<history>
+<datetime>2020-03-19T08:57:31Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role 'VPLM Matrix User' description 'VPLM Matrix user role' parent 'Global User'</string>
+</history>
+<history>
+<datetime>2020-03-19T08:57:31Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role 'VPLM Matrix User' asarole parent 'Global User'</string>
+</history>
+<history>
+<datetime>2020-03-19T08:57:31Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role 'VPLM Matrix User' hidden</string>
+</history>
+<history>
+<datetime>2020-03-19T08:58:56Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>4</order>
+<string>modify role 'VPLM Matrix User' !hidden</string>
+</history>
+<history>
+<datetime>2020-03-19T09:05:37Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>5</order>
+<string>modify role 'VPLM Matrix User' child VPLMViewer</string>
+</history>
+<history>
+<datetime>2020-03-19T09:13:31Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>6</order>
+<string> modify role "VPLM Matrix User" remove child "VPLMViewer";</string>
+</history>
+<history>
+<datetime>2020-04-16T11:16:08Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>7</order>
+<string>modify role 'VPLM Matrix User' child IMS_Adm_Creator child 'VPLM Matrix Administrator' child VPLMCatia</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>1</roleType>
+<maturity>0</maturity>
+<category>0</category>
+<parentRole count="1">
+<roleRef>Project User</roleRef>
+</parentRole>
+</role>
+</ematrix>

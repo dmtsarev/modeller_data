@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:45Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.12288.30763">
+    <adminProperties>
+      <name>IMS_DocumentLotSupplier</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:24Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:06:24Z</datetime>
+      </modificationInfo>
+      <propertyList count="12">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:20.106</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_DocumentLotSupplier</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Accepted</name>
+          <value>Accepted</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Created</name>
+          <value>Created</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Published</name>
+          <value>Published</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Rejected</name>
+          <value>Rejected</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="71">
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_DocumentLotSupplier</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_DocumentLotSupplier add type IMS_Document</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_DocumentLotSupplier add type IMS_DocumentBinded</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_DocumentLotSupplier add type IMS_DocumentSet</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_DocumentLotSupplier add format generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_DocumentLotSupplier defaultformat generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_DocumentLotSupplier sequence 01,02,03,...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_DocumentLotSupplier store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_DocumentLotSupplier add state Created public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_DocumentLotSupplier add state Published public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_DocumentLotSupplier add state Rejected public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_DocumentLotSupplier add state Accepted public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_DocumentLotSupplier state Published !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_DocumentLotSupplier state Published promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_DocumentLotSupplier state Published checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_DocumentLotSupplier state Published version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_DocumentLotSupplier state Published action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_DocumentLotSupplier state Published check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_DocumentLotSupplier state Published majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_DocumentLotSupplier state Published minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_DocumentLotSupplier state Published published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_DocumentLotSupplier state Published owner changename changename,changeowner,changepolicy,changetype,changevault,checkin,checkout,create,delete,disable,enable,execute,freeze,fromconnect,fromdisconnect,grant,lock,modify,modifyform,override,read,revise,revoke,schedule,show,thaw,toconnect,todisconnect,unlock,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_DocumentLotSupplier state Published user IMS_Procurement all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_DocumentLotSupplier state Published signature ToRejected branch Rejected filter ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_DocumentLotSupplier state Published signature TpAccepted branch Accepted filter ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_DocumentLotSupplier state Created !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_DocumentLotSupplier state Created promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_DocumentLotSupplier state Created checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy IMS_DocumentLotSupplier state Created version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy IMS_DocumentLotSupplier state Created action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy IMS_DocumentLotSupplier state Created check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy IMS_DocumentLotSupplier state Created majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy IMS_DocumentLotSupplier state Created minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy IMS_DocumentLotSupplier state Created published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy IMS_DocumentLotSupplier state Created owner all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy IMS_DocumentLotSupplier state Created user IMS_Procurement checkout checkout,modify,read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy IMS_DocumentLotSupplier state Accepted !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy IMS_DocumentLotSupplier state Accepted promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy IMS_DocumentLotSupplier state Accepted checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy IMS_DocumentLotSupplier state Accepted version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod policy IMS_DocumentLotSupplier state Accepted action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod policy IMS_DocumentLotSupplier state Accepted check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod policy IMS_DocumentLotSupplier state Accepted majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod policy IMS_DocumentLotSupplier state Accepted minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod policy IMS_DocumentLotSupplier state Accepted published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod policy IMS_DocumentLotSupplier state Accepted owner checkout checkout,modify,read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod policy IMS_DocumentLotSupplier state Accepted user IMS_Procurement all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod policy IMS_DocumentLotSupplier state Rejected !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod policy IMS_DocumentLotSupplier state Rejected promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>mod policy IMS_DocumentLotSupplier state Rejected checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>51</order>
+          <string>mod policy IMS_DocumentLotSupplier state Rejected version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>52</order>
+          <string>mod policy IMS_DocumentLotSupplier state Rejected action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>53</order>
+          <string>mod policy IMS_DocumentLotSupplier state Rejected check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>54</order>
+          <string>mod policy IMS_DocumentLotSupplier state Rejected majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>55</order>
+          <string>mod policy IMS_DocumentLotSupplier state Rejected minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>56</order>
+          <string>mod policy IMS_DocumentLotSupplier state Rejected published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>57</order>
+          <string>mod policy IMS_DocumentLotSupplier state Rejected owner checkout checkout,modify,read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>58</order>
+          <string>mod policy IMS_DocumentLotSupplier state Rejected user IMS_Procurement all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>59</order>
+          <string>mod policy IMS_DocumentLotSupplier state Rejected signature ToRejected branch Rejected filter ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>60</order>
+          <string>mod policy IMS_DocumentLotSupplier add property state_Published value Published</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>61</order>
+          <string>mod policy IMS_DocumentLotSupplier add property state_Created value Created</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>62</order>
+          <string>mod policy IMS_DocumentLotSupplier add property state_Accepted value Accepted</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>63</order>
+          <string>mod policy IMS_DocumentLotSupplier add property state_Rejected value Rejected</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>64</order>
+          <string>mod policy IMS_DocumentLotSupplier add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>65</order>
+          <string>mod policy IMS_DocumentLotSupplier add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>66</order>
+          <string>mod policy IMS_DocumentLotSupplier add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>67</order>
+          <string>mod policy IMS_DocumentLotSupplier add property 'file date' value '07-08-2019 08:55:20.106'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>68</order>
+          <string>mod policy IMS_DocumentLotSupplier add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>69</order>
+          <string>mod policy IMS_DocumentLotSupplier add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>70</order>
+          <string>mod policy IMS_DocumentLotSupplier add property 'original name' value IMS_DocumentLotSupplier</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:24Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>71</order>
+          <string>mod policy IMS_DocumentLotSupplier add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>01,02,03,...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="3">
+      <typeRef>IMS_Document</typeRef>
+      <typeRef>IMS_DocumentBinded</typeRef>
+      <typeRef>IMS_DocumentSet</typeRef>
+    </typeRefList>
+    <formatRefList count="1">
+      <formatRef>generic</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+    <stateDefList count="4">
+      <stateDef>
+        <name>Created</name>
+        <majorrevisionable/>
+        <checkoutHistory/>
+        <userAccessList count="3">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Procurement</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Published</name>
+        <majorrevisionable/>
+        <checkoutHistory/>
+        <userAccessList count="5">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>ToRejected</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>TpAccepted</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <deleteAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <lockAccess/>
+          <unlockAccess/>
+          <changeOwnerAccess/>
+          <createAccess/>
+          <enableAccess/>
+          <disableAccess/>
+          <overrideAccess/>
+          <scheduleAccess/>
+          <reviseAccess/>
+          <changeVaultAccess/>
+          <changeNameAccess/>
+          <changePolicyAccess/>
+          <changeTypeAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <freezeAccess/>
+          <thawAccess/>
+          <executeAccess/>
+          <modifyFormAccess/>
+          <viewFormAccess/>
+          <grantAccess/>
+          <revokeAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Procurement</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <signatureDefList count="2">
+          <signatureDef>
+            <name>ToRejected</name>
+            <stateDefRef>Rejected</stateDefRef>
+          </signatureDef>
+          <signatureDef>
+            <name>TpAccepted</name>
+            <stateDefRef>Accepted</stateDefRef>
+          </signatureDef>
+        </signatureDefList>
+      </stateDef>
+      <stateDef>
+        <name>Rejected</name>
+        <majorrevisionable/>
+        <checkoutHistory/>
+        <userAccessList count="4">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>ToRejected</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Procurement</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <signatureDefList count="1">
+          <signatureDef>
+            <name>ToRejected</name>
+            <stateDefRef>Rejected</stateDefRef>
+          </signatureDef>
+        </signatureDefList>
+      </stateDef>
+      <stateDef>
+        <name>Accepted</name>
+        <majorrevisionable/>
+        <checkoutHistory/>
+        <userAccessList count="3">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Procurement</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

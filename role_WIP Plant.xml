@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:27Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.19414.40223">
+<adminProperties>
+<name>WIP Plant</name>
+<creationInfo>
+<datetime>2020-03-19T08:54:56Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-04-08T12:10:39Z</datetime>
+</modificationInfo>
+<propertyList count="3">
+<property>
+<name>application</name>
+<value>Framework</value>
+<flags>0</flags>
+</property>
+<property>
+<name>original name</name>
+<value>WIP Plant</value>
+<flags>0</flags>
+</property>
+<property>
+<name>version</name>
+<value>R215</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="1">
+<history>
+<datetime>2020-03-19T08:54:56Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role 'WIP Plant' asanorg property application value Framework property version value R215 property 'original name' value 'WIP Plant'</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>5</roleType>
+<maturity>0</maturity>
+<category>0</category>
+</role>
+</ematrix>

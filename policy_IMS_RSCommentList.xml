@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:47Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.26432.41266">
+    <adminProperties>
+      <name>IMS_RSCommentList</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:37Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:06:37Z</datetime>
+      </modificationInfo>
+      <description>Policy for Comment List for IMS project</description>
+      <propertyList count="11">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>04-24-2019 14:19:54.000</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_RSCommentList</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Closed</name>
+          <value>Closed</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Created</name>
+          <value>Created</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_PreReview_AP</name>
+          <value>PreReview_AP</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="49">
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_RSCommentList</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_RSCommentList description 'Policy for Comment List for IMS project'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_RSCommentList add type IMS_RSCommentList</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_RSCommentList add format generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_RSCommentList defaultformat generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_RSCommentList sequence 00,01,02,...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_RSCommentList store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_RSCommentList add allstate public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_RSCommentList allstate revoke public none none filter '' remove revoke public all all revoke owner none none filter '' remove revoke owner all all public none none filter '' remove public all all owner none none filter '' remove owner all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_RSCommentList allstate user Guest checkout checkout,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_RSCommentList allstate user IMS_RS_Designer checkin checkin,checkout,create,fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_RSCommentList allstate user IMS_TITAN_Designer checkin checkin,checkout,create,fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_RSCommentList add state Created public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_RSCommentList add state PreReview_AP public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_RSCommentList state Created !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_RSCommentList state Created promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_RSCommentList state Created checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_RSCommentList state Created version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_RSCommentList state Created action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_RSCommentList state Created check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_RSCommentList state Created majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_RSCommentList state Created minorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_RSCommentList state Created published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_RSCommentList state Created user IMS_AP_Designer all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_RSCommentList state Created user IMS_RS_DocCoordinator all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_RSCommentList state Created user IMS_RS_Reviewers all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_RSCommentList state Created user IMS_TITAN_Designer create create,fromconnect,read,revise,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_RSCommentList state Created user 'Test Everything' all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy IMS_RSCommentList state Created add trigger promote action emxTriggerManager input PolicyIMSIssueStatePreApprovePromoteAction</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy IMS_RSCommentList state PreReview_AP !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy IMS_RSCommentList state PreReview_AP promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy IMS_RSCommentList state PreReview_AP checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy IMS_RSCommentList state PreReview_AP version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy IMS_RSCommentList state PreReview_AP action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy IMS_RSCommentList state PreReview_AP check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy IMS_RSCommentList state PreReview_AP majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy IMS_RSCommentList state PreReview_AP minorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy IMS_RSCommentList state PreReview_AP published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy IMS_RSCommentList add property state_Created value Created</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy IMS_RSCommentList add property state_PreReview_AP value PreReview_AP</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod policy IMS_RSCommentList add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod policy IMS_RSCommentList add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod policy IMS_RSCommentList add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod policy IMS_RSCommentList add property 'file date' value '04-24-2019 14:19:54.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod policy IMS_RSCommentList add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod policy IMS_RSCommentList add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod policy IMS_RSCommentList add property 'original name' value IMS_RSCommentList</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod policy IMS_RSCommentList add property state_Closed value Closed</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod policy IMS_RSCommentList add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>00,01,02,...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="1">
+      <typeRef>IMS_RSCommentList</typeRef>
+    </typeRefList>
+    <formatRefList count="1">
+      <formatRef>generic</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+      <allstateDef>
+        <name>allstate</name>
+        <userAccessList count="5">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_TITAN_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Guest</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </allstateDef>
+    <stateDefList count="2">
+      <stateDef>
+        <name>Created</name>
+        <revisionable/>
+        <majorrevisionable/>
+        <userAccessList count="7">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_TITAN_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <createAccess/>
+          <reviseAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Test Everything</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_Reviewers</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_DocCoordinator</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <triggerList count="1">
+          <trigger>
+            <triggerName>PromoteAction</triggerName>
+            <programRef>emxTriggerManager</programRef>
+            <inputArguments>PolicyIMSIssueStatePreApprovePromoteAction</inputArguments>
+          </trigger>
+        </triggerList>
+      </stateDef>
+      <stateDef>
+        <name>PreReview_AP</name>
+        <revisionable/>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:46Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.23168.27959">
+    <adminProperties>
+      <name>IMS_NCR</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:34Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:06:34Z</datetime>
+      </modificationInfo>
+      <propertyList count="17">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:21.822</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_NCR</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_CPRP</name>
+          <value>CPRP</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Closed</name>
+          <value>Closed</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Created</name>
+          <value>Created</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Custom</name>
+          <value>Custom</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Draft</name>
+          <value>Draft</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_OVED</name>
+          <value>OVED</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Open</name>
+          <value>Open</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Received_RS</name>
+          <value>Received_RS</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Sent_AP</name>
+          <value>Sent_AP</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="59">
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_NCR</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_NCR add type IMS_NCR</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_NCR add format generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_NCR defaultformat generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_NCR sequence 0,1,2,...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_NCR store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_NCR add allstate public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_NCR allstate revoke public none none filter '' remove revoke public all all revoke owner none none filter '' remove revoke owner all all public none none filter '' remove public all all owner none none filter '' remove owner all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_NCR allstate owner checkin checkin,checkout,delete,fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_NCR allstate public checkout checkout,create,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_NCR allstate user IMS_AP_Quality checkin checkin,checkout,create,modify,read</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_NCR add state Draft public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_NCR add state Open public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_NCR add state Closed public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_NCR state Draft !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_NCR state Draft promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_NCR state Draft checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_NCR state Draft version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_NCR state Draft action emxTriggerManager input edmStateSendMailFromEvent</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_NCR state Draft check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_NCR state Draft majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_NCR state Draft minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_NCR state Draft published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_NCR state Closed !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_NCR state Closed promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_NCR state Closed checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_NCR state Closed version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_NCR state Closed action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy IMS_NCR state Closed check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy IMS_NCR state Closed majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy IMS_NCR state Closed minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy IMS_NCR state Closed published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy IMS_NCR state Closed public checkout checkout,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy IMS_NCR state Open !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy IMS_NCR state Open promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy IMS_NCR state Open checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy IMS_NCR state Open version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy IMS_NCR state Open action emxTriggerManager input edmStateSendMailFromEvent</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy IMS_NCR state Open check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy IMS_NCR state Open majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod policy IMS_NCR state Open minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod policy IMS_NCR state Open published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod policy IMS_NCR add property state_Draft value Draft</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod policy IMS_NCR add property state_Closed value Closed</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod policy IMS_NCR add property state_Open value Open</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod policy IMS_NCR add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod policy IMS_NCR add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod policy IMS_NCR add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod policy IMS_NCR add property 'file date' value '07-08-2019 08:55:21.822'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>mod policy IMS_NCR add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>51</order>
+          <string>mod policy IMS_NCR add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>52</order>
+          <string>mod policy IMS_NCR add property 'original name' value IMS_NCR</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>53</order>
+          <string>mod policy IMS_NCR add property state_CPRP value CPRP</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>54</order>
+          <string>mod policy IMS_NCR add property state_Created value Created</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>55</order>
+          <string>mod policy IMS_NCR add property state_Custom value Custom</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>56</order>
+          <string>mod policy IMS_NCR add property state_OVED value OVED</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>57</order>
+          <string>mod policy IMS_NCR add property state_Received_RS value Received_RS</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>58</order>
+          <string>mod policy IMS_NCR add property state_Sent_AP value Sent_AP</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:34Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>59</order>
+          <string>mod policy IMS_NCR add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>0,1,2,...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="1">
+      <typeRef>IMS_NCR</typeRef>
+    </typeRefList>
+    <formatRefList count="1">
+      <formatRef>generic</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+      <allstateDef>
+        <name>allstate</name>
+        <userAccessList count="3">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <createAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <deleteAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_Quality</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <createAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </allstateDef>
+    <stateDefList count="3">
+      <stateDef>
+        <name>Draft</name>
+        <majorrevisionable/>
+        <actionProgram>
+          <programRef>emxTriggerManager</programRef>
+          <inputArguments>edmStateSendMailFromEvent</inputArguments>
+        </actionProgram>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Open</name>
+        <majorrevisionable/>
+        <actionProgram>
+          <programRef>emxTriggerManager</programRef>
+          <inputArguments>edmStateSendMailFromEvent</inputArguments>
+        </actionProgram>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Closed</name>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

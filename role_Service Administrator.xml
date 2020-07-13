@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:24Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.11049.38415">
+<adminProperties>
+<name>Service Administrator</name>
+<creationInfo>
+<datetime>2020-03-19T08:46:42Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-05-14T14:51:35Z</datetime>
+</modificationInfo>
+<description>Manages service objects and performs deployment process</description>
+<propertyList count="5">
+<property>
+<name>application</name>
+<value>Framework</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installed date</name>
+<value>Thu Mar 19 11:46:42 MSK 2020</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installer</name>
+<value>ENOVIAEngineering</value>
+<flags>0</flags>
+</property>
+<property>
+<name>original name</name>
+<value>Service Administrator</value>
+<flags>0</flags>
+</property>
+<property>
+<name>version</name>
+<value>V6R2009x</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="3">
+<history>
+<datetime>2020-03-19T08:46:42Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role "Service Administrator" description "Manages service objects and performs deployment process" parent "Employee" assign person "Test Everything"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:46:42Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role "Service Administrator" property "version" value "V6R2009x" property "application" value "Framework" property "installer" value "ENOVIAEngineering" property "original name" value "Service Administrator" property "installed date" value "Thu Mar 19 11:46:42 MSK 2020"</string>
+</history>
+<history>
+<datetime>2020-03-19T09:04:16Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role 'Service Administrator' child 'VPLM Matrix Administrator'</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>1</roleType>
+<maturity>0</maturity>
+<category>0</category>
+<parentRole count="1">
+<roleRef>Employee</roleRef>
+</parentRole>
+</role>
+</ematrix>

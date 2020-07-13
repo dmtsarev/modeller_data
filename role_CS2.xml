@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:22Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.47900.26848">
+<adminProperties>
+<name>CS2</name>
+<creationInfo>
+<datetime>2020-05-05T21:30:36Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-05-05T21:30:36Z</datetime>
+</modificationInfo>
+<propertyList count="4">
+<property>
+<name>FAMILY</name>
+<value>DesignTeam</value>
+<flags>0</flags>
+</property>
+<property>
+<name>SOLUTION</name>
+<value>Team</value>
+<flags>0</flags>
+</property>
+<property>
+<name>Title</name>
+<value>CS2</value>
+<flags>0</flags>
+</property>
+<property>
+<name>vplm_readAbility</name>
+<value>Private</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="4">
+<history>
+<datetime>2020-05-05T21:30:36Z</datetime>
+<agent>admin_platform</agent>
+<event>create</event>
+<order>1</order>
+<string>add role CS2 property vplm_readAbility value Public maturity public property Title value CS2 asaproject</string>
+</history>
+<history>
+<datetime>2020-05-05T21:30:36Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role CS2 property vplm_readAbility value Private maturity private</string>
+</history>
+<history>
+<datetime>2020-05-05T21:30:36Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role CS2 property SOLUTION value Team</string>
+</history>
+<history>
+<datetime>2020-05-05T21:30:36Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>4</order>
+<string>modify role CS2 property FAMILY value DesignTeam</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>4</roleType>
+<maturity>3</maturity>
+<category>0</category>
+</role>
+</ematrix>

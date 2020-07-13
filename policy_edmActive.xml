@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:42Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.32960.26229">
+    <adminProperties>
+      <name>edmActive</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:43Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:06:43Z</datetime>
+      </modificationInfo>
+      <propertyList count="7">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>enovia</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-09-2019 08:35:00.658</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>edmActive</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>0</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="34">
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy edmActive</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy edmActive add type edmHolidayCalendar</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy edmActive add type edmReport</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy edmActive add type edmServiceManagerProject</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy edmActive sequence 0,1,2,...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy edmActive add state InActive public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy edmActive add state Active public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy edmActive state InActive !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy edmActive state InActive promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy edmActive state InActive checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy edmActive state InActive version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy edmActive state InActive action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy edmActive state InActive check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy edmActive state InActive majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy edmActive state InActive minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy edmActive state InActive published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy edmActive state InActive public fromconnect fromconnect,fromdisconnect,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy edmActive state Active !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy edmActive state Active promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy edmActive state Active checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy edmActive state Active version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy edmActive state Active action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy edmActive state Active check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy edmActive state Active majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy edmActive state Active minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy edmActive state Active published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy edmActive state Active public fromconnect fromconnect,fromdisconnect,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy edmActive add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy edmActive add property application value enovia</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy edmActive add property 'file date' value '07-09-2019 08:35:00.658'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy edmActive add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy edmActive add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy edmActive add property 'original name' value edmActive</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:43Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy edmActive add property version value 0</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>0,1,2,...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <typeRefList count="3">
+      <typeRef>edmHolidayCalendar</typeRef>
+      <typeRef>edmReport</typeRef>
+      <typeRef>edmServiceManagerProject</typeRef>
+    </typeRefList>
+    <stateDefList count="2">
+      <stateDef>
+        <name>InActive</name>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Active</name>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

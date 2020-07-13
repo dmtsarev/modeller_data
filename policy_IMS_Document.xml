@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:44Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.10112.6701">
+    <adminProperties>
+      <name>IMS_Document</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:22Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:50:17Z</datetime>
+      </modificationInfo>
+      <description>For ims document</description>
+      <propertyList count="14">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:19.763</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_Document</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Approved</name>
+          <value>Approved</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Declined</name>
+          <value>Declined</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_PreApproved</name>
+          <value>PreApproved</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_PreReviewed</name>
+          <value>PreReviewed</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Published</name>
+          <value>Published</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Reviewed</name>
+          <value>Reviewed</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="112">
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_Document</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_Document description 'For ims document'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_Document add type IMS_Document</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_Document add type IMS_DocumentSet</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_Document add format generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_Document defaultformat generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_Document sequence 00,01,02,...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_Document store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_Document add allstate public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_Document allstate revoke public none none filter '' remove revoke public all all revoke owner none none filter '' remove revoke owner all all public none none filter '' remove public all all owner none none filter '' remove owner all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_Document allstate user IMS_Admin all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_Document add state Published public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_Document add state PreReviewed public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_Document add state Declined public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_Document add state Reviewed public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_Document add state PreApproved public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_Document add state Approved public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_Document state Declined !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_Document state Declined promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_Document state Declined checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_Document state Declined version true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_Document state Declined action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_Document state Declined check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_Document state Declined majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_Document state Declined minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_Document state Declined published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_Document state Declined public fromconnect fromconnect,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_Document state Declined user IMS_ContractorApprover checkin checkin,checkout,fromconnect,modify,promote,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy IMS_Document state Declined user IMS_ContractorUser checkin checkin,checkout,fromconnect,modify,promote,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy IMS_Document state Declined add trigger promote action emxTriggerManager input PolicyIMSDocumentPromotePreReviewAction</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy IMS_Document state Declined signature ToPreReviewed branch PreReviewed filter ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy IMS_Document state PreReviewed !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy IMS_Document state PreReviewed promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy IMS_Document state PreReviewed checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy IMS_Document state PreReviewed version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy IMS_Document state PreReviewed action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy IMS_Document state PreReviewed check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy IMS_Document state PreReviewed majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy IMS_Document state PreReviewed minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy IMS_Document state PreReviewed published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod policy IMS_Document state PreReviewed public fromconnect fromconnect,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod policy IMS_Document state PreReviewed user IMS_OwnerApprover fromconnect fromconnect,promote,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod policy IMS_Document state PreReviewed user IMS_OwnerUser fromconnect fromconnect,promote,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod policy IMS_Document state PreReviewed user IMS_RS_DocCoordinator checkin checkin,checkout,fromconnect,fromdisconnect,modify,modifyform,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod policy IMS_Document state PreReviewed user IMS_RS_Reviewers checkin checkin,checkout,fromconnect,fromdisconnect,modify,modifyform,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod policy IMS_Document state PreReviewed add trigger demote action emxTriggerManager input PolicyIMSDocumentPromoteDeclinedAction</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod policy IMS_Document state PreReviewed add trigger promote action emxTriggerManager input PolicyIMSDocumentPromoteReviewedAction</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod policy IMS_Document state PreReviewed signature ToDeclined branch Declined filter 'attribute[IMS_CreateIssueForDoc] == "yes"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod policy IMS_Document state PreReviewed signature ToReviewed branch Reviewed filter 'attribute[IMS_CreateIssueForDoc] == "no"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>mod policy IMS_Document state Approved !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>51</order>
+          <string>mod policy IMS_Document state Approved promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>52</order>
+          <string>mod policy IMS_Document state Approved checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>53</order>
+          <string>mod policy IMS_Document state Approved version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>54</order>
+          <string>mod policy IMS_Document state Approved action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>55</order>
+          <string>mod policy IMS_Document state Approved check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>56</order>
+          <string>mod policy IMS_Document state Approved majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>57</order>
+          <string>mod policy IMS_Document state Approved minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>58</order>
+          <string>mod policy IMS_Document state Approved published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>59</order>
+          <string>mod policy IMS_Document state Approved public fromconnect fromconnect,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>60</order>
+          <string>mod policy IMS_Document state Published !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>61</order>
+          <string>mod policy IMS_Document state Published promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>62</order>
+          <string>mod policy IMS_Document state Published checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>63</order>
+          <string>mod policy IMS_Document state Published version true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>64</order>
+          <string>mod policy IMS_Document state Published action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>65</order>
+          <string>mod policy IMS_Document state Published check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>66</order>
+          <string>mod policy IMS_Document state Published majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>67</order>
+          <string>mod policy IMS_Document state Published minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>68</order>
+          <string>mod policy IMS_Document state Published published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>69</order>
+          <string>mod policy IMS_Document state Published user IMS_Contractor read read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>70</order>
+          <string>mod policy IMS_Document state Published user IMS_ContractorApprover fromconnect fromconnect,promote,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>71</order>
+          <string>mod policy IMS_Document state Published user IMS_ContractorUser all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>72</order>
+          <string>mod policy IMS_Document state Published add trigger promote action emxTriggerManager input PolicyIMSDocumentPromotePreReviewAction</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>73</order>
+          <string>mod policy IMS_Document state Reviewed !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>74</order>
+          <string>mod policy IMS_Document state Reviewed promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>75</order>
+          <string>mod policy IMS_Document state Reviewed checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>76</order>
+          <string>mod policy IMS_Document state Reviewed version true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>77</order>
+          <string>mod policy IMS_Document state Reviewed action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>78</order>
+          <string>mod policy IMS_Document state Reviewed check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>79</order>
+          <string>mod policy IMS_Document state Reviewed majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>80</order>
+          <string>mod policy IMS_Document state Reviewed minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>81</order>
+          <string>mod policy IMS_Document state Reviewed published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>82</order>
+          <string>mod policy IMS_Document state Reviewed public fromconnect fromconnect,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>83</order>
+          <string>mod policy IMS_Document state Reviewed user IMS_ContractorApprover checkin checkin,checkout,fromconnect,modify,promote,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>84</order>
+          <string>mod policy IMS_Document state Reviewed user IMS_ContractorUser checkin checkin,checkout,fromconnect,modify,promote,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>85</order>
+          <string>mod policy IMS_Document state PreApproved !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>86</order>
+          <string>mod policy IMS_Document state PreApproved promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>87</order>
+          <string>mod policy IMS_Document state PreApproved checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>88</order>
+          <string>mod policy IMS_Document state PreApproved version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>89</order>
+          <string>mod policy IMS_Document state PreApproved action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>90</order>
+          <string>mod policy IMS_Document state PreApproved check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>91</order>
+          <string>mod policy IMS_Document state PreApproved majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>92</order>
+          <string>mod policy IMS_Document state PreApproved minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>93</order>
+          <string>mod policy IMS_Document state PreApproved published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>94</order>
+          <string>mod policy IMS_Document state PreApproved public fromconnect fromconnect,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>95</order>
+          <string>mod policy IMS_Document state PreApproved user IMS_OwnerApprover fromconnect fromconnect,promote,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>96</order>
+          <string>mod policy IMS_Document state PreApproved user IMS_OwnerUser fromconnect fromconnect,promote,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>97</order>
+          <string>mod policy IMS_Document state PreApproved add trigger promote action emxTriggerManager input PolicyIMSDocumentPromoteApporvedAction</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>98</order>
+          <string>mod policy IMS_Document add property state_Declined value Declined</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>99</order>
+          <string>mod policy IMS_Document add property state_PreReviewed value PreReviewed</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>100</order>
+          <string>mod policy IMS_Document add property state_Approved value Approved</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>101</order>
+          <string>mod policy IMS_Document add property state_Published value Published</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>102</order>
+          <string>mod policy IMS_Document add property state_Reviewed value Reviewed</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>103</order>
+          <string>mod policy IMS_Document add property state_PreApproved value PreApproved</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>104</order>
+          <string>mod policy IMS_Document add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>105</order>
+          <string>mod policy IMS_Document add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>106</order>
+          <string>mod policy IMS_Document add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>107</order>
+          <string>mod policy IMS_Document add property 'file date' value '07-08-2019 08:55:19.763'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>108</order>
+          <string>mod policy IMS_Document add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>109</order>
+          <string>mod policy IMS_Document add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>110</order>
+          <string>mod policy IMS_Document add property 'original name' value IMS_Document</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>111</order>
+          <string>mod policy IMS_Document add property version</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:50:17Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>112</order>
+          <string> modify policy 'IMS_Document' state 'Published' state 'PreReviewed' signature 'ToReviewed' add filter 'attribute[IMS_CreateIssueForDoc] == "no"' signature 'ToDeclined' add filter 'attribute[IMS_CreateIssueForDoc] == "yes"';</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>00,01,02,...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="2">
+      <typeRef>IMS_Document</typeRef>
+      <typeRef>IMS_DocumentSet</typeRef>
+    </typeRefList>
+    <formatRefList count="1">
+      <formatRef>generic</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+      <allstateDef>
+        <name>allstate</name>
+        <userAccessList count="3">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Admin</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </allstateDef>
+    <stateDefList count="6">
+      <stateDef>
+        <name>Published</name>
+        <majorrevisionable/>
+        <versionable/>
+        <userAccessList count="5">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_ContractorUser</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_ContractorApprover</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Contractor</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <triggerList count="1">
+          <trigger>
+            <triggerName>PromoteAction</triggerName>
+            <programRef>emxTriggerManager</programRef>
+            <inputArguments>PolicyIMSDocumentPromotePreReviewAction</inputArguments>
+          </trigger>
+        </triggerList>
+      </stateDef>
+      <stateDef>
+        <name>PreReviewed</name>
+        <majorrevisionable/>
+        <userAccessList count="8">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>ToDeclined</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_CreateIssueForDoc] == "yes"</expressionFilter>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>ToReviewed</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_CreateIssueForDoc] == "no"</expressionFilter>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_Reviewers</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <modifyFormAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_DocCoordinator</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <modifyFormAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_OwnerUser</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_OwnerApprover</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <signatureDefList count="2">
+          <signatureDef>
+            <name>ToDeclined</name>
+            <stateDefRef>Declined</stateDefRef>
+          </signatureDef>
+          <signatureDef>
+            <name>ToReviewed</name>
+            <stateDefRef>Reviewed</stateDefRef>
+          </signatureDef>
+        </signatureDefList>
+        <triggerList count="2">
+          <trigger>
+            <triggerName>DemoteAction</triggerName>
+            <programRef>emxTriggerManager</programRef>
+            <inputArguments>PolicyIMSDocumentPromoteDeclinedAction</inputArguments>
+          </trigger>
+          <trigger>
+            <triggerName>PromoteAction</triggerName>
+            <programRef>emxTriggerManager</programRef>
+            <inputArguments>PolicyIMSDocumentPromoteReviewedAction</inputArguments>
+          </trigger>
+        </triggerList>
+      </stateDef>
+      <stateDef>
+        <name>Declined</name>
+        <majorrevisionable/>
+        <versionable/>
+        <userAccessList count="5">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>ToPreReviewed</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_ContractorUser</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_ContractorApprover</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <signatureDefList count="1">
+          <signatureDef>
+            <name>ToPreReviewed</name>
+            <stateDefRef>PreReviewed</stateDefRef>
+          </signatureDef>
+        </signatureDefList>
+        <triggerList count="1">
+          <trigger>
+            <triggerName>PromoteAction</triggerName>
+            <programRef>emxTriggerManager</programRef>
+            <inputArguments>PolicyIMSDocumentPromotePreReviewAction</inputArguments>
+          </trigger>
+        </triggerList>
+      </stateDef>
+      <stateDef>
+        <name>Reviewed</name>
+        <majorrevisionable/>
+        <versionable/>
+        <userAccessList count="4">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_ContractorUser</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_ContractorApprover</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>PreApproved</name>
+        <majorrevisionable/>
+        <userAccessList count="4">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_OwnerUser</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_OwnerApprover</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <triggerList count="1">
+          <trigger>
+            <triggerName>PromoteAction</triggerName>
+            <programRef>emxTriggerManager</programRef>
+            <inputArguments>PolicyIMSDocumentPromoteApporvedAction</inputArguments>
+          </trigger>
+        </triggerList>
+      </stateDef>
+      <stateDef>
+        <name>Approved</name>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

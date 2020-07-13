@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:43Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.22336.6521">
+    <adminProperties>
+      <name>IMS_BBS</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:03:30Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:03:30Z</datetime>
+      </modificationInfo>
+      <propertyList count="11">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:17.501</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_BBS</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Created</name>
+          <value>Created</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Frozen</name>
+          <value>Frozen</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Opened</name>
+          <value>Opened</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="57">
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_BBS</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_BBS add type IMS_BBSMajor</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_BBS add type IMS_BBSMinor</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_BBS sequence 0,1,2....</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_BBS store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_BBS add allstate public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_BBS allstate revoke public none none filter '' remove revoke public all all revoke owner none none filter '' remove revoke owner all all public none none filter '' remove public all all owner none none filter '' remove owner all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_BBS allstate public fromconnect fromconnect,fromdisconnect,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_BBS allstate user 'Test Everything' all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_BBS add state Created public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_BBS add state Opened public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_BBS add state Frozen public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_BBS state Created !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_BBS state Created promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_BBS state Created checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_BBS state Created version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_BBS state Created action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_BBS state Created check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_BBS state Created majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_BBS state Created minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_BBS state Created published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_BBS state Created owner checkin checkin,checkout,fromconnect,fromdisconnect,modify,modifyform,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_BBS state Created user IMS_AP_ConfigurationManager all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_BBS state Opened !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_BBS state Opened promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_BBS state Opened checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_BBS state Opened version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_BBS state Opened action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy IMS_BBS state Opened check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy IMS_BBS state Opened majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy IMS_BBS state Opened minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy IMS_BBS state Opened published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy IMS_BBS state Opened public fromconnect fromconnect,fromdisconnect,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy IMS_BBS state Opened user IMS_AP_ConfigurationManager fromconnect fromconnect,fromdisconnect,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy IMS_BBS state Opened add trigger promote action emxTriggerManager input PolicyIMSBBSStateOpenedPromoteAction</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy IMS_BBS state Frozen !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy IMS_BBS state Frozen promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy IMS_BBS state Frozen checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy IMS_BBS state Frozen version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy IMS_BBS state Frozen action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod policy IMS_BBS state Frozen check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod policy IMS_BBS state Frozen majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod policy IMS_BBS state Frozen minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod policy IMS_BBS state Frozen published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod policy IMS_BBS state Frozen public read read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod policy IMS_BBS state Frozen add trigger demote check edmDisableAnyPromoteDemote.tcl input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod policy IMS_BBS add property state_Created value Created</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod policy IMS_BBS add property state_Opened value Opened</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod policy IMS_BBS add property state_Frozen value Frozen</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>mod policy IMS_BBS add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>51</order>
+          <string>mod policy IMS_BBS add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>52</order>
+          <string>mod policy IMS_BBS add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>53</order>
+          <string>mod policy IMS_BBS add property 'file date' value '07-08-2019 08:55:17.501'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>54</order>
+          <string>mod policy IMS_BBS add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>55</order>
+          <string>mod policy IMS_BBS add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>56</order>
+          <string>mod policy IMS_BBS add property 'original name' value IMS_BBS</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:03:30Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>57</order>
+          <string>mod policy IMS_BBS add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>0,1,2....</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="2">
+      <typeRef>IMS_BBSMajor</typeRef>
+      <typeRef>IMS_BBSMinor</typeRef>
+    </typeRefList>
+      <allstateDef>
+        <name>allstate</name>
+        <userAccessList count="3">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Test Everything</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </allstateDef>
+    <stateDefList count="3">
+      <stateDef>
+        <name>Created</name>
+        <majorrevisionable/>
+        <userAccessList count="3">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <modifyFormAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_ConfigurationManager</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Opened</name>
+        <majorrevisionable/>
+        <userAccessList count="3">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_ConfigurationManager</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <triggerList count="1">
+          <trigger>
+            <triggerName>PromoteAction</triggerName>
+            <programRef>emxTriggerManager</programRef>
+            <inputArguments>PolicyIMSBBSStateOpenedPromoteAction</inputArguments>
+          </trigger>
+        </triggerList>
+      </stateDef>
+      <stateDef>
+        <name>Frozen</name>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <triggerList count="1">
+          <trigger>
+            <triggerName>DemoteCheck</triggerName>
+            <programRef>edmDisableAnyPromoteDemote.tcl</programRef>
+          </trigger>
+        </triggerList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

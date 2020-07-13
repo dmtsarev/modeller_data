@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:45Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.16640.48123">
+    <adminProperties>
+      <name>IMS_Exist</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:28Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:06:28Z</datetime>
+      </modificationInfo>
+      <propertyList count="9">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:20.949</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_Exist</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Exist</name>
+          <value>Exist</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="33">
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_Exist</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_Exist add type IMS_Document</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_Exist add type IMS_DocumentSet</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_Exist add type IMS_IDP</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_Exist add type IMS_PDTK</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_Exist add format generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_Exist defaultformat generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_Exist sequence 01,02,03,...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_Exist store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_Exist add state Exist public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_Exist state Exist !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_Exist state Exist promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_Exist state Exist checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_Exist state Exist version true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_Exist state Exist action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_Exist state Exist check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_Exist state Exist majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_Exist state Exist minorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_Exist state Exist published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_Exist state Exist public checkout checkout,read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_Exist state Exist user IMS_AP_ConfigurationManager checkin checkin,checkout,fromconnect,modify,read,revise,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_Exist state Exist user IMS_AP_Designer checkin checkin,checkout,fromconnect,modify,read,show,toconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_Exist state Exist user IMS_RS_DocCoordinator fromconnect fromconnect,fromdisconnect,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_Exist state Exist user IMS_RS_Reviewers checkin checkin,checkout,fromconnect,modify,read,show,toconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_Exist add property state_Exist value Exist</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_Exist add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_Exist add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_Exist add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy IMS_Exist add property 'file date' value '07-08-2019 08:55:20.949'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy IMS_Exist add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy IMS_Exist add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy IMS_Exist add property 'original name' value IMS_Exist</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:28Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy IMS_Exist add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>01,02,03,...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="4">
+      <typeRef>IMS_Document</typeRef>
+      <typeRef>IMS_DocumentSet</typeRef>
+      <typeRef>IMS_IDP</typeRef>
+      <typeRef>IMS_PDTK</typeRef>
+    </typeRefList>
+    <formatRefList count="1">
+      <formatRef>generic</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+    <stateDefList count="1">
+      <stateDef>
+        <name>Exist</name>
+        <revisionable/>
+        <majorrevisionable/>
+        <versionable/>
+        <userAccessList count="6">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_Reviewers</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_DocCoordinator</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_ConfigurationManager</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <reviseAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

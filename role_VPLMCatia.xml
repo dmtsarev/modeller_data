@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:27Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.63076.35957">
+<adminProperties>
+<name>VPLMCatia</name>
+<creationInfo>
+<datetime>2020-03-19T08:57:32Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-05-14T14:51:35Z</datetime>
+</modificationInfo>
+<description>VPLM Catia Express root role</description>
+<historyList count="3">
+<history>
+<datetime>2020-03-19T08:57:32Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role VPLMCatia property type value Role parent 'VPLM Matrix User' description 'VPLM Catia Express root role'</string>
+</history>
+<history>
+<datetime>2020-03-19T08:58:56Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role VPLMCatia !hidden</string>
+</history>
+<history>
+<datetime>2020-03-19T09:50:38Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role "VPLMCatia" asarole remove property type</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>1</roleType>
+<maturity>0</maturity>
+<category>0</category>
+<parentRole count="1">
+<roleRef>VPLM Matrix User</roleRef>
+</parentRole>
+</role>
+</ematrix>

@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:48Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.29696.38708">
+    <adminProperties>
+      <name>IMS_SimpleDocument</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:40Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:06:40Z</datetime>
+      </modificationInfo>
+      <propertyList count="11">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:22.680</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_SimpleDocument</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Created</name>
+          <value>Created</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Recieved</name>
+          <value>Recieved</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Sent</name>
+          <value>Sent</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="63">
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_SimpleDocument</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_SimpleDocument add type IMS_Document</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_SimpleDocument add type IMS_DocumentBinded</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_SimpleDocument add type IMS_DocumentSet</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_SimpleDocument add format generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_SimpleDocument defaultformat generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_SimpleDocument sequence 00,01,02,...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_SimpleDocument store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_SimpleDocument add allstate public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_SimpleDocument allstate revoke public none none filter '' remove revoke public all all revoke owner none none filter '' remove revoke owner all all public none none filter '' remove public all all owner none none filter '' remove owner all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_SimpleDocument allstate public checkout checkout,fromconnect,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_SimpleDocument allstate user IMS_AP_Designer modify modify</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_SimpleDocument allstate user IMS_Admin all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_SimpleDocument add state Created public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_SimpleDocument add state Sent public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_SimpleDocument add state Recieved public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_SimpleDocument state Created !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_SimpleDocument state Created promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_SimpleDocument state Created checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_SimpleDocument state Created version true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_SimpleDocument state Created action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_SimpleDocument state Created check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_SimpleDocument state Created majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_SimpleDocument state Created minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_SimpleDocument state Created published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_SimpleDocument state Created owner all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_SimpleDocument state Created user IMS_ContractorApprover all all filter 'attribute[IMS_OwnRole] == "IMS_C"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_SimpleDocument state Created user IMS_ContractorUser all all filter 'attribute[IMS_OwnRole] == "IMS_C"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy IMS_SimpleDocument state Created user IMS_OwnerApprover all all filter 'attribute[IMS_OwnRole] == "IMS_O"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy IMS_SimpleDocument state Created user IMS_OwnerUser all all filter 'attribute[IMS_OwnRole] == "IMS_O"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy IMS_SimpleDocument state Sent !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy IMS_SimpleDocument state Sent promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy IMS_SimpleDocument state Sent checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy IMS_SimpleDocument state Sent version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy IMS_SimpleDocument state Sent action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy IMS_SimpleDocument state Sent check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy IMS_SimpleDocument state Sent majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy IMS_SimpleDocument state Sent minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy IMS_SimpleDocument state Sent published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy IMS_SimpleDocument state Sent user IMS_ContractorApprover fromconnect fromconnect,promote,read,show,toconnect filter 'attribute[IMS_OwnRole] == "IMS_O"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod policy IMS_SimpleDocument state Sent user IMS_ContractorUser fromconnect fromconnect,promote,read,show,toconnect filter 'attribute[IMS_OwnRole] == "IMS_O"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod policy IMS_SimpleDocument state Sent user IMS_OwnerApprover fromconnect fromconnect,promote,read,show,toconnect filter 'attribute[IMS_OwnRole] == "IMS_C"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod policy IMS_SimpleDocument state Sent user IMS_OwnerUser fromconnect fromconnect,promote,read,show,toconnect filter 'attribute[IMS_OwnRole] == "IMS_C"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod policy IMS_SimpleDocument state Recieved !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod policy IMS_SimpleDocument state Recieved promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod policy IMS_SimpleDocument state Recieved checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod policy IMS_SimpleDocument state Recieved version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod policy IMS_SimpleDocument state Recieved action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod policy IMS_SimpleDocument state Recieved check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>mod policy IMS_SimpleDocument state Recieved majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>51</order>
+          <string>mod policy IMS_SimpleDocument state Recieved minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>52</order>
+          <string>mod policy IMS_SimpleDocument state Recieved published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>53</order>
+          <string>mod policy IMS_SimpleDocument add property state_Created value Created</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>54</order>
+          <string>mod policy IMS_SimpleDocument add property state_Sent value Sent</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>55</order>
+          <string>mod policy IMS_SimpleDocument add property state_Recieved value Recieved</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>56</order>
+          <string>mod policy IMS_SimpleDocument add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>57</order>
+          <string>mod policy IMS_SimpleDocument add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>58</order>
+          <string>mod policy IMS_SimpleDocument add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>59</order>
+          <string>mod policy IMS_SimpleDocument add property 'file date' value '07-08-2019 08:55:22.680'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>60</order>
+          <string>mod policy IMS_SimpleDocument add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>61</order>
+          <string>mod policy IMS_SimpleDocument add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>62</order>
+          <string>mod policy IMS_SimpleDocument add property 'original name' value IMS_SimpleDocument</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:40Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>63</order>
+          <string>mod policy IMS_SimpleDocument add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>00,01,02,...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="3">
+      <typeRef>IMS_Document</typeRef>
+      <typeRef>IMS_DocumentBinded</typeRef>
+      <typeRef>IMS_DocumentSet</typeRef>
+    </typeRefList>
+    <formatRefList count="1">
+      <formatRef>generic</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+      <allstateDef>
+        <name>allstate</name>
+        <userAccessList count="4">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Admin</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <modifyAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </allstateDef>
+    <stateDefList count="3">
+      <stateDef>
+        <name>Created</name>
+        <majorrevisionable/>
+        <versionable/>
+        <checkoutHistory/>
+        <userAccessList count="6">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_OwnerUser</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_OwnRole] == "IMS_O"</expressionFilter>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_OwnerApprover</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_OwnRole] == "IMS_O"</expressionFilter>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_ContractorUser</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_OwnRole] == "IMS_C"</expressionFilter>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_ContractorApprover</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_OwnRole] == "IMS_C"</expressionFilter>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Sent</name>
+        <majorrevisionable/>
+        <checkoutHistory/>
+        <userAccessList count="6">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_OwnerUser</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_OwnRole] == "IMS_C"</expressionFilter>
+        <access>
+          <readAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_OwnerApprover</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_OwnRole] == "IMS_C"</expressionFilter>
+        <access>
+          <readAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_ContractorUser</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_OwnRole] == "IMS_O"</expressionFilter>
+        <access>
+          <readAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_ContractorApprover</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_OwnRole] == "IMS_O"</expressionFilter>
+        <access>
+          <readAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Recieved</name>
+        <majorrevisionable/>
+        <checkoutHistory/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:42Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.45540.32345">
+    <adminProperties>
+      <name>edmReportDoc</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:25:37Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T11:31:04Z</datetime>
+      </modificationInfo>
+      <propertyList count="7">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-09-2019 08:35:01.032</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>edmReportDoc</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>1</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="28">
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy edmReportDoc</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy edmReportDoc add type edmReportDoc</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy edmReportDoc add format all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy edmReportDoc defaultformat generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy edmReportDoc sequence -</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy edmReportDoc store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy edmReportDoc add state Exist public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy edmReportDoc state Exist !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy edmReportDoc state Exist promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy edmReportDoc state Exist checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy edmReportDoc state Exist version true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy edmReportDoc state Exist action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy edmReportDoc state Exist check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy edmReportDoc state Exist majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy edmReportDoc state Exist minorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy edmReportDoc state Exist published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy edmReportDoc state Exist owner delete delete</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy edmReportDoc state Exist user IMS_AP_Designer checkin checkin,checkout,create,fromconnect,fromdisconnect,modify,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy edmReportDoc state Exist user IMS_AP_GIP checkout checkout,read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy edmReportDoc state Exist user edmAssignmentAdmin checkout checkout,read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy edmReportDoc state Exist user edmAssignmentUser checkout checkout,create,fromconnect,fromdisconnect,modify,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy edmReportDoc add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy edmReportDoc add property application value unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy edmReportDoc add property 'file date' value '07-09-2019 08:35:01.032'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy edmReportDoc add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy edmReportDoc add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy edmReportDoc add property 'original name' value edmReportDoc</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy edmReportDoc add property version value 1</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>-</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="1">
+      <typeRef>edmReportDoc</typeRef>
+    </typeRefList>
+    <formatRefList count="56">
+      <formatRef>generic</formatRef>
+      <formatRef>Mill</formatRef>
+      <formatRef>Drill</formatRef>
+      <formatRef>Artwork</formatRef>
+      <formatRef>idf</formatRef>
+      <formatRef>Assembly Placement</formatRef>
+      <formatRef>doc</formatRef>
+      <formatRef>dot</formatRef>
+      <formatRef>msg</formatRef>
+      <formatRef>ppa</formatRef>
+      <formatRef>ppt</formatRef>
+      <formatRef>xla</formatRef>
+      <formatRef>xls</formatRef>
+      <formatRef>HPGL</formatRef>
+      <formatRef>IGES</formatRef>
+      <formatRef>Image</formatRef>
+      <formatRef>Markup</formatRef>
+      <formatRef>mxMedium Image</formatRef>
+      <formatRef>PDF</formatRef>
+      <formatRef>TIF</formatRef>
+      <formatRef>TXT</formatRef>
+      <formatRef>XML</formatRef>
+      <formatRef>JT</formatRef>
+      <formatRef>MSDS</formatRef>
+      <formatRef>Test Method</formatRef>
+      <formatRef>JView</formatRef>
+      <formatRef>Supplier PDF Content</formatRef>
+      <formatRef>THUMBNAIL</formatRef>
+      <formatRef>3DXMLCGR</formatRef>
+      <formatRef>CGR</formatRef>
+      <formatRef>PNG</formatRef>
+      <formatRef>CGM</formatRef>
+      <formatRef>rco</formatRef>
+      <formatRef>0</formatRef>
+      <formatRef>mxThumbnail Image</formatRef>
+      <formatRef>1</formatRef>
+      <formatRef>2</formatRef>
+      <formatRef>3</formatRef>
+      <formatRef>4</formatRef>
+      <formatRef>5</formatRef>
+      <formatRef>6</formatRef>
+      <formatRef>7</formatRef>
+      <formatRef>8</formatRef>
+      <formatRef>9</formatRef>
+      <formatRef>mxSmall Image</formatRef>
+      <formatRef>mxLarge Image</formatRef>
+      <formatRef>mxImage</formatRef>
+      <formatRef>Input</formatRef>
+      <formatRef>Output</formatRef>
+      <formatRef>Log</formatRef>
+      <formatRef>3DXML</formatRef>
+      <formatRef>prt</formatRef>
+      <formatRef>asm</formatRef>
+      <formatRef>drw</formatRef>
+      <formatRef>zip</formatRef>
+      <formatRef>bom</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+    <allowAllFormats/>
+    <stateDefList count="1">
+      <stateDef>
+        <name>Exist</name>
+        <revisionable/>
+        <majorrevisionable/>
+        <versionable/>
+        <autoPromotion/>
+        <checkoutHistory/>
+        <userAccessList count="6">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <deleteAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmAssignmentUser</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <createAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmAssignmentAdmin</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_GIP</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <createAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

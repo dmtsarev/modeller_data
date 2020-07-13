@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:43Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.2496.38002">
+    <adminProperties>
+      <name>IMS_ChangeControlCheckListPolicy</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:15Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:06:15Z</datetime>
+      </modificationInfo>
+      <propertyList count="10">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:18.000</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_ChangeControlCheckListPolicy</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Approved</name>
+          <value>Approved</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Create</name>
+          <value>Create</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="40">
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_ChangeControlCheckListPolicy</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy add type IMS_ChangeControlCheckList</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy sequence 1</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy add state Create public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy add state Approved public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Create !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Create promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Create checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Create version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Create action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Create check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Create majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Create minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Create published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Create owner changename changename,checkin,checkout,create,demote,fromconnect,fromdisconnect,modify,modifyform,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Create public checkin checkin,checkout,create,fromconnect,fromdisconnect,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Create user 'Test Everything' all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Approved !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Approved promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Approved checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Approved version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Approved action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Approved check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Approved majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Approved minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Approved published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Approved owner checkin checkin,checkout,modify,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Approved public checkin checkin,checkout,fromconnect,fromdisconnect,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy state Approved user 'Test Everything' all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy add property state_Create value Create</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy add property state_Approved value Approved</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy add property 'file date' value '07-08-2019 08:55:18.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy add property 'original name' value IMS_ChangeControlCheckListPolicy</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:15Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy IMS_ChangeControlCheckListPolicy add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>1</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="1">
+      <typeRef>IMS_ChangeControlCheckList</typeRef>
+    </typeRefList>
+    <stateDefList count="2">
+      <stateDef>
+        <name>Create</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <userAccessList count="3">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <demoteAccess/>
+          <changeNameAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <modifyFormAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Test Everything</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Approved</name>
+        <majorrevisionable/>
+        <userAccessList count="3">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Test Everything</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

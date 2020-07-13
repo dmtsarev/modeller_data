@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:28Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.63593.42276">
+<adminProperties>
+<name>Paks MVM II</name>
+<creationInfo>
+<datetime>2020-07-07T14:41:51Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-07-08T06:50:31Z</datetime>
+</modificationInfo>
+<propertyList count="3">
+<property>
+<name>application</name>
+<value>Framework</value>
+<flags>0</flags>
+</property>
+<property>
+<name>original name</name>
+<value>Paks MVM II</value>
+<flags>0</flags>
+</property>
+<property>
+<name>version</name>
+<value>3DEXPERIENCE R2019x HotFix 7</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="3">
+<history>
+<datetime>2020-07-07T14:41:51Z</datetime>
+<agent>User Agent</agent>
+<event>create</event>
+<order>1</order>
+<string>add role 'Paks MVM II' asanorg</string>
+</history>
+<history>
+<datetime>2020-07-07T14:41:51Z</datetime>
+<agent>User Agent</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role 'Paks MVM II' property application value Framework property version value '3DEXPERIENCE R2019x HotFix 7' property 'original name' value 'Paks MVM II'</string>
+</history>
+<history>
+<datetime>2020-07-08T06:50:31Z</datetime>
+<agent>User Agent</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role 'Paks MVM II' asanorg parent 'NPP Owner'</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>5</roleType>
+<maturity>0</maturity>
+<category>0</category>
+<parentRole count="1">
+<roleRef>NPP Owner</roleRef>
+</parentRole>
+</role>
+
+
+
+<role id="0.1.46770.12517">
+<adminProperties>
+<name>paks mvm II</name>
+<creationInfo>
+<datetime>2020-07-08T08:54:45Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-07-08T08:54:45Z</datetime>
+</modificationInfo>
+<propertyList count="4">
+<property>
+<name>FAMILY</name>
+<value>DesignTeam</value>
+<flags>0</flags>
+</property>
+<property>
+<name>SOLUTION</name>
+<value>Team</value>
+<flags>0</flags>
+</property>
+<property>
+<name>Title</name>
+<value>paks mvm II</value>
+<flags>0</flags>
+</property>
+<property>
+<name>vplm_readAbility</name>
+<value>Private</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="4">
+<history>
+<datetime>2020-07-08T08:54:45Z</datetime>
+<agent>admin_platform</agent>
+<event>create</event>
+<order>1</order>
+<string>add role 'paks mvm II' property vplm_readAbility value Public maturity public property Title value 'paks mvm II' asaproject</string>
+</history>
+<history>
+<datetime>2020-07-08T08:54:45Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role 'paks mvm II' property vplm_readAbility value Private maturity private</string>
+</history>
+<history>
+<datetime>2020-07-08T08:54:45Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role 'paks mvm II' property SOLUTION value Team</string>
+</history>
+<history>
+<datetime>2020-07-08T08:54:45Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>4</order>
+<string>modify role 'paks mvm II' property FAMILY value DesignTeam</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>4</roleType>
+<maturity>3</maturity>
+<category>0</category>
+</role>
+</ematrix>

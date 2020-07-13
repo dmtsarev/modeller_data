@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:44Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.9024.2770">
+    <adminProperties>
+      <name>IMS_DD_Letter</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:21Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:06:22Z</datetime>
+      </modificationInfo>
+      <propertyList count="14">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:19.280</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_DD_Letter</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Created</name>
+          <value>Created</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Draft</name>
+          <value>Draft</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_ReadyToSend</name>
+          <value>ReadyToSend</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Ready_to_Send</name>
+          <value>Ready_to_Send</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Recieved</name>
+          <value>Recieved</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Sent</name>
+          <value>Sent</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="71">
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_DD_Letter</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_DD_Letter add type IMS_Letter</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_DD_Letter add format generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_DD_Letter defaultformat generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_DD_Letter sequence 00,01,02,...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_DD_Letter store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_DD_Letter add allstate public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_DD_Letter allstate revoke public none none filter '' remove revoke public all all revoke owner none none filter '' remove revoke owner all all public none none filter '' remove public all all owner none none filter '' remove owner all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_DD_Letter allstate user Guest checkout checkout,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_DD_Letter allstate user IMS_Admin all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_DD_Letter allstate user IMS_Contractor checkout checkout,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_DD_Letter allstate user IMS_Supplier checkout checkout,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_DD_Letter add state Draft public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_DD_Letter add state Ready_to_Send public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_DD_Letter add state Sent public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_DD_Letter state Sent !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_DD_Letter state Sent promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_DD_Letter state Sent checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_DD_Letter state Sent version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_DD_Letter state Sent action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_DD_Letter state Sent check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_DD_Letter state Sent majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_DD_Letter state Sent minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_DD_Letter state Sent published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_DD_Letter state Sent user IMS_AP_GUP checkout checkout,fromconnect,promote,read,show,toconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_DD_Letter state Sent user IMS_ContractorApproverLead checkout checkout,fromconnect,modify,promote,read,show,toconnect filter 'attribute[IMS_OwnRole] == "IMS_O"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_DD_Letter state Sent user IMS_OwnerApproverLead checkout checkout,fromconnect,modify,promote,read,show,toconnect filter 'attribute[IMS_OwnRole] == "IMS_C"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_DD_Letter state Sent user IMS_RS_DocCoordinator checkout checkout,fromconnect,read,show,toconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy IMS_DD_Letter state Sent user IMS_TITAN_DocCreator checkout checkout,read,show,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy IMS_DD_Letter state Draft !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy IMS_DD_Letter state Draft promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy IMS_DD_Letter state Draft checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy IMS_DD_Letter state Draft version true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy IMS_DD_Letter state Draft action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy IMS_DD_Letter state Draft check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy IMS_DD_Letter state Draft majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy IMS_DD_Letter state Draft minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy IMS_DD_Letter state Draft published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy IMS_DD_Letter state Draft owner changename changename,create,fromconnect,fromdisconnect,modify,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy IMS_DD_Letter state Draft user IMS_AP_Designer checkin checkin,checkout,create,fromconnect,fromdisconnect,modify,promote,toconnect,todisconnect filter 'attribute[IMS_LetterType] == "DD_AP_to_TITAN"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod policy IMS_DD_Letter state Draft user IMS_RS_DocCoordinator checkin checkin,checkout,create,fromconnect,fromdisconnect,modify,promote,toconnect,todisconnect filter 'attribute[IMS_LetterType] == "DD_RS_to_ReadyForIDRM" || attribute[IMS_LetterType] == "DD_RS_to_TITAN_Comments" || attribute[IMS_LetterType] == "DD_RS_Approved_only_temp"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod policy IMS_DD_Letter state Draft user IMS_TITAN_DocCreator checkin checkin,checkout,create,fromconnect,fromdisconnect,modify,promote,toconnect,todisconnect filter 'attribute[IMS_LetterType] == "DD_TITAN_to_AP" || attribute[IMS_LetterType] == "DD_TITAN_to_RS"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod policy IMS_DD_Letter state Ready_to_Send !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod policy IMS_DD_Letter state Ready_to_Send promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod policy IMS_DD_Letter state Ready_to_Send checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod policy IMS_DD_Letter state Ready_to_Send version true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod policy IMS_DD_Letter state Ready_to_Send action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod policy IMS_DD_Letter state Ready_to_Send check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod policy IMS_DD_Letter state Ready_to_Send majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>mod policy IMS_DD_Letter state Ready_to_Send minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:21Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>51</order>
+          <string>mod policy IMS_DD_Letter state Ready_to_Send published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>52</order>
+          <string>mod policy IMS_DD_Letter state Ready_to_Send user IMS_AP_GUP demote demote,promote filter 'attribute[IMS_LetterType] == "DD_AP_to_TITAN"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>53</order>
+          <string>mod policy IMS_DD_Letter state Ready_to_Send user IMS_RS_DocCoordinator demote demote,promote filter 'attribute[IMS_LetterType] == "DD_RS_to_ReadyForIDRM" || attribute[IMS_LetterType] == "DD_RS_to_TITAN_Comments" || attribute[IMS_LetterType] == "DD_RS_Approved_only_temp"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>54</order>
+          <string>mod policy IMS_DD_Letter state Ready_to_Send user IMS_TITAN_Approver demote demote,promote filter 'attribute[IMS_LetterType] == "DD_TITAN_to_AP" || attribute[IMS_LetterType] == "DD_TITAN_to_RS"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>55</order>
+          <string>mod policy IMS_DD_Letter state Ready_to_Send user IMS_TITAN_DocCreator demote demote,promote filter 'attribute[IMS_LetterType] == "DD_TITAN_to_AP" || attribute[IMS_LetterType] == "DD_RS_to_TITAN_Comments" || attribute[IMS_LetterType] == "DD_RS_to_ReadyForIDRM" || attribute[IMS_LetterType] == "DD_TITAN_to_RS"'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>56</order>
+          <string>mod policy IMS_DD_Letter state Ready_to_Send add trigger promote action emxTriggerManager input 'PolicyIMSLetterPromoteActionCreated IMS_PolicyLetterTITANReviewNotification IMS_PolicyLetterStateLetterNotificationAction'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>57</order>
+          <string>mod policy IMS_DD_Letter state Ready_to_Send add trigger promote check emxTriggerManager input IMS_DD_LetterPolicyReady_to_SendPromoteCheck</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>58</order>
+          <string>mod policy IMS_DD_Letter add property state_Sent value Sent</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>59</order>
+          <string>mod policy IMS_DD_Letter add property state_Draft value Draft</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>60</order>
+          <string>mod policy IMS_DD_Letter add property state_Ready_to_Send value Ready_to_Send</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>61</order>
+          <string>mod policy IMS_DD_Letter add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>62</order>
+          <string>mod policy IMS_DD_Letter add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>63</order>
+          <string>mod policy IMS_DD_Letter add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>64</order>
+          <string>mod policy IMS_DD_Letter add property 'file date' value '07-08-2019 08:55:19.280'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>65</order>
+          <string>mod policy IMS_DD_Letter add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>66</order>
+          <string>mod policy IMS_DD_Letter add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>67</order>
+          <string>mod policy IMS_DD_Letter add property 'original name' value IMS_DD_Letter</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>68</order>
+          <string>mod policy IMS_DD_Letter add property state_Created value Created</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>69</order>
+          <string>mod policy IMS_DD_Letter add property state_ReadyToSend value ReadyToSend</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>70</order>
+          <string>mod policy IMS_DD_Letter add property state_Recieved value Recieved</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:22Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>71</order>
+          <string>mod policy IMS_DD_Letter add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>00,01,02,...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="1">
+      <typeRef>IMS_Letter</typeRef>
+    </typeRefList>
+    <formatRefList count="1">
+      <formatRef>generic</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+      <allstateDef>
+        <name>allstate</name>
+        <userAccessList count="6">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Supplier</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Contractor</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Admin</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Guest</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </allstateDef>
+    <stateDefList count="3">
+      <stateDef>
+        <name>Draft</name>
+        <majorrevisionable/>
+        <versionable/>
+        <autoPromotion/>
+        <userAccessList count="5">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <modifyAccess/>
+          <createAccess/>
+          <changeNameAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_TITAN_DocCreator</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_LetterType] == "DD_TITAN_to_AP" || attribute[IMS_LetterType] == "DD_TITAN_to_RS"</expressionFilter>
+        <access>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_DocCoordinator</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_LetterType] == "DD_RS_to_ReadyForIDRM" || attribute[IMS_LetterType] == "DD_RS_to_TITAN_Comments" || attribute[IMS_LetterType] == "DD_RS_Approved_only_temp"</expressionFilter>
+        <access>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_LetterType] == "DD_AP_to_TITAN"</expressionFilter>
+        <access>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Ready_to_Send</name>
+        <majorrevisionable/>
+        <versionable/>
+        <autoPromotion/>
+        <userAccessList count="6">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_TITAN_DocCreator</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_LetterType] == "DD_TITAN_to_AP" || attribute[IMS_LetterType] == "DD_RS_to_TITAN_Comments" || attribute[IMS_LetterType] == "DD_RS_to_ReadyForIDRM" || attribute[IMS_LetterType] == "DD_TITAN_to_RS"</expressionFilter>
+        <access>
+          <promoteAccess/>
+          <demoteAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_TITAN_Approver</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_LetterType] == "DD_TITAN_to_AP" || attribute[IMS_LetterType] == "DD_TITAN_to_RS"</expressionFilter>
+        <access>
+          <promoteAccess/>
+          <demoteAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_DocCoordinator</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_LetterType] == "DD_RS_to_ReadyForIDRM" || attribute[IMS_LetterType] == "DD_RS_to_TITAN_Comments" || attribute[IMS_LetterType] == "DD_RS_Approved_only_temp"</expressionFilter>
+        <access>
+          <promoteAccess/>
+          <demoteAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_GUP</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_LetterType] == "DD_AP_to_TITAN"</expressionFilter>
+        <access>
+          <promoteAccess/>
+          <demoteAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <triggerList count="2">
+          <trigger>
+            <triggerName>PromoteAction</triggerName>
+            <programRef>emxTriggerManager</programRef>
+            <inputArguments>PolicyIMSLetterPromoteActionCreated IMS_PolicyLetterTITANReviewNotification IMS_PolicyLetterStateLetterNotificationAction</inputArguments>
+          </trigger>
+          <trigger>
+            <triggerName>PromoteCheck</triggerName>
+            <programRef>emxTriggerManager</programRef>
+            <inputArguments>IMS_DD_LetterPolicyReady_to_SendPromoteCheck</inputArguments>
+          </trigger>
+        </triggerList>
+      </stateDef>
+      <stateDef>
+        <name>Sent</name>
+        <majorrevisionable/>
+        <userAccessList count="7">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_DocCoordinator</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_TITAN_DocCreator</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_GUP</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_OwnerApproverLead</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_OwnRole] == "IMS_C"</expressionFilter>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_ContractorApproverLead</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>attribute[IMS_OwnRole] == "IMS_O"</expressionFilter>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

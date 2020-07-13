@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:28Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.32307.63562">
+<adminProperties>
+<name>USERGROUPOWNER</name>
+<creationInfo>
+<datetime>2020-03-20T11:20:58Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-04-08T12:10:39Z</datetime>
+</modificationInfo>
+<description>Dumy role to set as OWNER if task is assigned to User Group</description>
+<hidden/>
+<propertyList count="1">
+<property>
+<name>version</name>
+<value>R421</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="1">
+<history>
+<datetime>2020-03-20T11:20:58Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role USERGROUPOWNER description 'Dumy role to set as OWNER if task is assigned to User Group' hidden property version value R421</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>1</roleType>
+<maturity>0</maturity>
+<category>0</category>
+</role>
+</ematrix>

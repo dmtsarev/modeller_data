@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:25Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.55036.6131">
+<adminProperties>
+<name>Financial Reviewer</name>
+<creationInfo>
+<datetime>2020-03-19T08:50:26Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-04-08T12:10:36Z</datetime>
+</modificationInfo>
+<description>Role authorized to maintain and manage project budgets</description>
+<hidden/>
+<propertyList count="5">
+<property>
+<name>application</name>
+<value>Framework</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installed date</name>
+<value>Thu Mar 19 11:50:26 MSK 2020</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installer</name>
+<value>ENOVIAEngineering</value>
+<flags>0</flags>
+</property>
+<property>
+<name>original name</name>
+<value>Financial Reviewer</value>
+<flags>0</flags>
+</property>
+<property>
+<name>version</name>
+<value>R216</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="11">
+<history>
+<datetime>2020-03-19T08:50:26Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role "Financial Reviewer" description "Role authorized to maintain and manage project budgets" parent "Project User" assign person "Test Everything"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:50:26Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role "Financial Reviewer" property "version" value "9-5-1-3" property "application" value "Framework" property "installer" value "ENOVIAEngineering" property "original name" value "Financial Reviewer" property "installed date" value "Thu Mar 19 11:50:26 MSK 2020"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:50:41Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role "Financial Reviewer" hidden</string>
+</history>
+<history>
+<datetime>2020-03-19T08:50:41Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>4</order>
+<string>modify role "Financial Reviewer" property "version" value "10-0-0-0"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:50:58Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>5</order>
+<string>modify role "Financial Reviewer" hidden</string>
+</history>
+<history>
+<datetime>2020-03-19T08:50:58Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>6</order>
+<string>modify role "Financial Reviewer" property "version" value "10-5"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:51:57Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>7</order>
+<string>modify role "Financial Reviewer" child "VPLMProjectLeader"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:51:57Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>8</order>
+<string>modify role "Financial Reviewer" property "version" value "R214"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:52:13Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>9</order>
+<string>modify role "Financial Reviewer" remove child "VPLMProjectLeader"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:52:13Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>10</order>
+<string>modify role "Financial Reviewer" property "version" value "R216"</string>
+</history>
+<history>
+<datetime>2020-03-19T15:07:13Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>11</order>
+<string>modify role 'Financial Reviewer' hidden</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>1</roleType>
+<maturity>0</maturity>
+<category>0</category>
+<parentRole count="1">
+<roleRef>Project User</roleRef>
+</parentRole>
+</role>
+</ematrix>

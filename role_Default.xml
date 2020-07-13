@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:27Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.61271.10418">
+<adminProperties>
+<name>Default</name>
+<creationInfo>
+<datetime>2020-03-19T08:57:31Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-04-08T12:10:36Z</datetime>
+</modificationInfo>
+<description>Default project</description>
+<propertyList count="3">
+<property>
+<name>FAMILY</name>
+<value>Admin</value>
+<flags>0</flags>
+</property>
+<property>
+<name>SOLUTION</name>
+<value>Team</value>
+<flags>0</flags>
+</property>
+<property>
+<name>Title</name>
+<value>Default</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="8">
+<history>
+<datetime>2020-03-19T08:57:31Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role Default property SOLUTION value Team</string>
+</history>
+<history>
+<datetime>2020-03-19T08:57:31Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role Default property type value Project asaproject description 'Default project'</string>
+</history>
+<history>
+<datetime>2020-03-19T08:57:31Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role Default property FAMILY value Admin</string>
+</history>
+<history>
+<datetime>2020-03-19T08:57:31Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>4</order>
+<string>modify role Default maturity private</string>
+</history>
+<history>
+<datetime>2020-03-19T08:58:18Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>5</order>
+<string>modify role Default asaproject</string>
+</history>
+<history>
+<datetime>2020-03-19T08:59:17Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>6</order>
+<string>modify role Default !hidden</string>
+</history>
+<history>
+<datetime>2020-03-19T09:50:38Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>7</order>
+<string>modify role "Default" asaproject remove property type</string>
+</history>
+<history>
+<datetime>2020-03-20T12:22:37Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>8</order>
+<string>modify role Default property Title value Default</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>4</roleType>
+<maturity>3</maturity>
+<category>0</category>
+</role>
+</ematrix>

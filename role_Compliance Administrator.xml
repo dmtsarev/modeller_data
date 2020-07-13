@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:24Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.33215.17582">
+<adminProperties>
+<name>Compliance Administrator</name>
+<creationInfo>
+<datetime>2020-03-19T08:47:25Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-05-14T14:51:35Z</datetime>
+</modificationInfo>
+<description>Compliance Administrators manage Compliance Definitions, Import of external BOM and external data and export reports</description>
+<propertyList count="5">
+<property>
+<name>application</name>
+<value>Framework</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installed date</name>
+<value>Thu Mar 19 11:47:25 MSK 2020</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installer</name>
+<value>ENOVIAEngineering</value>
+<flags>0</flags>
+</property>
+<property>
+<name>original name</name>
+<value>Compliance Administrator</value>
+<flags>0</flags>
+</property>
+<property>
+<name>version</name>
+<value>R421</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="6">
+<history>
+<datetime>2020-03-19T08:47:25Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string><![CDATA[add role "Compliance Administrator" parent "Senior Compliance Engineer" description "Compliance Administrator functionality & exports, IMDS tasks" assign person "Test Everything"]]></string>
+</history>
+<history>
+<datetime>2020-03-19T08:47:25Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role "Compliance Administrator" property "version" value "10-7" property "application" value "Framework" property "installer" value "ENOVIAEngineering" property "original name" value "Compliance Administrator" property "installed date" value "Thu Mar 19 11:47:25 MSK 2020"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:47:33Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role "Compliance Administrator" description "Compliance Administrators manage Compliance Definitions, Import of external BOM and external data and export reports"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:47:33Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>4</order>
+<string>modify role "Compliance Administrator" property "version" value "R207"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:47:51Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>5</order>
+<string>modify role "Compliance Administrator" remove parent</string>
+</history>
+<history>
+<datetime>2020-03-19T08:47:51Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>6</order>
+<string>modify role "Compliance Administrator" property "version" value "R421"</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>1</roleType>
+<maturity>0</maturity>
+<category>0</category>
+</role>
+</ematrix>

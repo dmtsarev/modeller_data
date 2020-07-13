@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:28:51Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<program id="0.1.5157.19367">
+<adminProperties>
+<name>IMS_Adm_ClassificationSupport</name>
+<creationInfo>
+<datetime>2020-04-20T06:24:17Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-04-20T09:38:19Z</datetime>
+</modificationInfo>
+<propertyList count="1">
+<property>
+<name>file date</name>
+<value>04-20-2020 07:40:07.601</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="44">
+<history>
+<datetime>2020-04-20T06:24:17Z</datetime>
+<agent>admin_platform</agent>
+<event>create</event>
+<order>1</order>
+<string>add program IMS_Adm_ClassificationSupport java</string>
+</history>
+<history>
+<datetime>2020-04-20T06:24:17Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>2</order>
+<string>mod program IMS_Adm_ClassificationSupport java</string>
+</history>
+<history>
+<datetime>2020-04-20T06:24:17Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>3</order>
+<string>mod program IMS_Adm_ClassificationSupport add property 'file date' value '04-20-2020 06:23:46.726'</string>
+</history>
+<history>
+<datetime>2020-04-20T06:24:17Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>4</order>
+<string>mod program IMS_Adm_ClassificationSupport code 'import matrix.db.Context; import matrix.db.JPO; import java.util.Map;  public class ${CLASS:IMS_Adm_TypeChooserSupport} { public String promoteAllSubclasses(Context context, String[] args) { System.out.println("promoteAllSubclasses START"): Map programMap = (Map) JPO.unpackArgs(args); for(Map.Entry entry: programMap.entrySet()) { System.out.println("key: " + entry.getKey()); System.out.println("value: " + entry.getValue()); } return "hello" } } '</string>
+</history>
+<history>
+<datetime>2020-04-20T06:52:50Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>5</order>
+<string>mod program IMS_Adm_ClassificationSupport remove property 'file date'</string>
+</history>
+<history>
+<datetime>2020-04-20T06:52:50Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>6</order>
+<string>mod program IMS_Adm_ClassificationSupport java</string>
+</history>
+<history>
+<datetime>2020-04-20T06:52:50Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>7</order>
+<string>mod program IMS_Adm_ClassificationSupport add property 'file date' value '04-20-2020 06:52:11.837'</string>
+</history>
+<history>
+<datetime>2020-04-20T06:52:50Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>8</order>
+<string>mod program IMS_Adm_ClassificationSupport code 'import matrix.db.Context; import matrix.db.JPO; import java.util.Map;  public class ${CLASS:IMS_Adm_TypeChooserSupport} { public void promoteAllSubclasses(Context context, String[] args) { System.out.println("promoteAllSubclasses START"): Map programMap = (Map) JPO.unpackArgs(args); for(Map.Entry entry: programMap.entrySet()) { System.out.println("key: " + entry.getKey()); System.out.println("value: " + entry.getValue()); } } } '</string>
+</history>
+<history>
+<datetime>2020-04-20T06:58:24Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>9</order>
+<string>mod program IMS_Adm_ClassificationSupport remove property 'file date'</string>
+</history>
+<history>
+<datetime>2020-04-20T06:58:24Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>10</order>
+<string>mod program IMS_Adm_ClassificationSupport java</string>
+</history>
+<history>
+<datetime>2020-04-20T06:58:24Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>11</order>
+<string>mod program IMS_Adm_ClassificationSupport add property 'file date' value '04-20-2020 06:57:34.704'</string>
+</history>
+<history>
+<datetime>2020-04-20T06:58:24Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>12</order>
+<string>mod program IMS_Adm_ClassificationSupport code 'import matrix.db.Context; import matrix.db.JPO; import java.util.Map;  public class ${CLASS:IMS_Adm_TypeChooserSupport} { public void promoteAllSubclasses(Context context, String[] args) { System.out.println("promoteAllSubclasses START"); Map programMap = (Map) JPO.unpackArgs(args); for(Map.Entry entry: programMap.entrySet()) { System.out.println("key: " + entry.getKey()); System.out.println("value: " + entry.getValue()); } } } '</string>
+</history>
+<history>
+<datetime>2020-04-20T06:59:57Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>13</order>
+<string>mod program IMS_Adm_ClassificationSupport remove property 'file date'</string>
+</history>
+<history>
+<datetime>2020-04-20T06:59:57Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>14</order>
+<string>mod program IMS_Adm_ClassificationSupport java</string>
+</history>
+<history>
+<datetime>2020-04-20T06:59:57Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>15</order>
+<string>mod program IMS_Adm_ClassificationSupport add property 'file date' value '04-20-2020 06:59:50.331'</string>
+</history>
+<history>
+<datetime>2020-04-20T06:59:57Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>16</order>
+<string>mod program IMS_Adm_ClassificationSupport code 'import matrix.db.Context; import matrix.db.JPO; import java.util.Map;  public class ${CLASS:IMS_Adm_TypeChooserSupport} { public void promoteAllSubclasses(Context context, String[] args) { System.out.println("promoteAllSubclasses START"); Map programMap = (Map) JPO.unpackArgs(args); for(Map.Entry entry: programMap) { System.out.println("key: " + entry.getKey()); System.out.println("value: " + entry.getValue()); } } } '</string>
+</history>
+<history>
+<datetime>2020-04-20T07:04:23Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>17</order>
+<string>mod program IMS_Adm_ClassificationSupport remove property 'file date'</string>
+</history>
+<history>
+<datetime>2020-04-20T07:04:23Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>18</order>
+<string>mod program IMS_Adm_ClassificationSupport java</string>
+</history>
+<history>
+<datetime>2020-04-20T07:04:23Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>19</order>
+<string>mod program IMS_Adm_ClassificationSupport add property 'file date' value '04-20-2020 07:04:17.070'</string>
+</history>
+<history>
+<datetime>2020-04-20T07:04:23Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>20</order>
+<string>mod program IMS_Adm_ClassificationSupport code 'import matrix.db.Context; import matrix.db.JPO; import java.util.Map;  public class ${CLASS:IMS_Adm_TypeChooserSupport} { public void promoteAllSubclasses(Context context, String[] args) { System.out.println("promoteAllSubclasses START"); Map programMap = (Map) JPO.unpackArgs(args);  System.out.println("programMap: " + programMap);  } } '</string>
+</history>
+<history>
+<datetime>2020-04-20T07:09:05Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>21</order>
+<string>mod program IMS_Adm_ClassificationSupport remove property 'file date'</string>
+</history>
+<history>
+<datetime>2020-04-20T07:09:05Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>22</order>
+<string>mod program IMS_Adm_ClassificationSupport java</string>
+</history>
+<history>
+<datetime>2020-04-20T07:09:05Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>23</order>
+<string>mod program IMS_Adm_ClassificationSupport add property 'file date' value '04-20-2020 07:04:17.070'</string>
+</history>
+<history>
+<datetime>2020-04-20T07:09:05Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>24</order>
+<string>mod program IMS_Adm_ClassificationSupport code 'import matrix.db.Context; import matrix.db.JPO; import java.util.Map;  public class ${CLASS:IMS_Adm_TypeChooserSupport} { public void promoteAllSubclasses(Context context, String[] args) { System.out.println("promoteAllSubclasses START"); Map programMap = (Map) JPO.unpackArgs(args);  System.out.println("programMap: " + programMap);  } } '</string>
+</history>
+<history>
+<datetime>2020-04-20T07:11:30Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>25</order>
+<string>mod program IMS_Adm_ClassificationSupport remove property 'file date'</string>
+</history>
+<history>
+<datetime>2020-04-20T07:11:30Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>26</order>
+<string>mod program IMS_Adm_ClassificationSupport java</string>
+</history>
+<history>
+<datetime>2020-04-20T07:11:30Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>27</order>
+<string>mod program IMS_Adm_ClassificationSupport add property 'file date' value '04-20-2020 07:11:18.886'</string>
+</history>
+<history>
+<datetime>2020-04-20T07:11:30Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>28</order>
+<string>mod program IMS_Adm_ClassificationSupport code 'import matrix.db.Context; import matrix.db.JPO; import java.util.Map;  public class ${CLASSNAME} { public void promoteAllSubclasses(Context context, String[] args) { System.out.println("promoteAllSubclasses START"); Map programMap = (Map) JPO.unpackArgs(args);  System.out.println("programMap: " + programMap);  } } '</string>
+</history>
+<history>
+<datetime>2020-04-20T07:14:14Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>29</order>
+<string>mod program IMS_Adm_ClassificationSupport remove property 'file date'</string>
+</history>
+<history>
+<datetime>2020-04-20T07:14:14Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>30</order>
+<string>mod program IMS_Adm_ClassificationSupport java</string>
+</history>
+<history>
+<datetime>2020-04-20T07:14:14Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>31</order>
+<string>mod program IMS_Adm_ClassificationSupport add property 'file date' value '04-20-2020 07:14:06.827'</string>
+</history>
+<history>
+<datetime>2020-04-20T07:14:14Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>32</order>
+<string>mod program IMS_Adm_ClassificationSupport code 'import matrix.db.Context; import matrix.db.JPO; import java.util.Map;  public class ${CLASSNAME} throws Exception{ public void promoteAllSubclasses(Context context, String[] args) {  System.out.println("promoteAllSubclasses START"); Map programMap = (Map) JPO.unpackArgs(args);  System.out.println("programMap: " + programMap);  } } '</string>
+</history>
+<history>
+<datetime>2020-04-20T07:14:44Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>33</order>
+<string>mod program IMS_Adm_ClassificationSupport remove property 'file date'</string>
+</history>
+<history>
+<datetime>2020-04-20T07:14:44Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>34</order>
+<string>mod program IMS_Adm_ClassificationSupport java</string>
+</history>
+<history>
+<datetime>2020-04-20T07:14:44Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>35</order>
+<string>mod program IMS_Adm_ClassificationSupport add property 'file date' value '04-20-2020 07:14:06.827'</string>
+</history>
+<history>
+<datetime>2020-04-20T07:14:44Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>36</order>
+<string>mod program IMS_Adm_ClassificationSupport code 'import matrix.db.Context; import matrix.db.JPO; import java.util.Map;  public class ${CLASSNAME} throws Exception{ public void promoteAllSubclasses(Context context, String[] args) {  System.out.println("promoteAllSubclasses START"); Map programMap = (Map) JPO.unpackArgs(args);  System.out.println("programMap: " + programMap);  } } '</string>
+</history>
+<history>
+<datetime>2020-04-20T07:21:58Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>37</order>
+<string>mod program IMS_Adm_ClassificationSupport remove property 'file date'</string>
+</history>
+<history>
+<datetime>2020-04-20T07:21:58Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>38</order>
+<string>mod program IMS_Adm_ClassificationSupport java</string>
+</history>
+<history>
+<datetime>2020-04-20T07:21:58Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>39</order>
+<string>mod program IMS_Adm_ClassificationSupport add property 'file date' value '04-20-2020 07:21:49.857'</string>
+</history>
+<history>
+<datetime>2020-04-20T07:21:58Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>40</order>
+<string>mod program IMS_Adm_ClassificationSupport code 'import matrix.db.Context; import matrix.db.JPO; import java.util.Map;  public class ${CLASSNAME} { public void promoteAllSubclasses(Context context, String[] args) throws Exception {  System.out.println("promoteAllSubclasses START"); Map programMap = (Map) JPO.unpackArgs(args);  System.out.println("programMap: " + programMap);  } } '</string>
+</history>
+<history>
+<datetime>2020-04-20T07:40:13Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>41</order>
+<string>mod program IMS_Adm_ClassificationSupport remove property 'file date'</string>
+</history>
+<history>
+<datetime>2020-04-20T07:40:13Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>42</order>
+<string>mod program IMS_Adm_ClassificationSupport java</string>
+</history>
+<history>
+<datetime>2020-04-20T07:40:13Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>43</order>
+<string>mod program IMS_Adm_ClassificationSupport add property 'file date' value '04-20-2020 07:40:07.601'</string>
+</history>
+<history>
+<datetime>2020-04-20T07:40:13Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>44</order>
+<string>mod program IMS_Adm_ClassificationSupport code 'import matrix.db.Context; import matrix.db.JPO; import java.util.Map;  public class ${CLASSNAME} {  public ${CLASSNAME}(Context context, String[] args) throws Exception { }  public void promoteAllSubclasses(Context context, String[] args) throws Exception {  System.out.println("promoteAllSubclasses START"); Map programMap = (Map) JPO.unpackArgs(args);  System.out.println("programMap: " + programMap);  } } '</string>
+</history>
+</historyList>
+</adminProperties>
+<code>import matrix.db.Context;
+import matrix.db.JPO;
+import java.util.Map;
+
+public class ${CLASSNAME} {
+	
+    public ${CLASSNAME}(Context context, String[] args) throws Exception {
+    }
+	
+    public void promoteAllSubclasses(Context context, String[] args) throws Exception {
+		
+        System.out.println("promoteAllSubclasses START");
+		Map programMap = (Map) JPO.unpackArgs(args);
+
+        System.out.println("programMap: " + programMap);
+        
+    }
+}
+</code>
+<javaProgram/>
+</program>
+</ematrix>

@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:42Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.32000.24275">
+    <adminProperties>
+      <name>edmAssignment</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:25:36Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T11:31:04Z</datetime>
+      </modificationInfo>
+      <propertyList count="7">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-10-2019 12:25:02.612</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>edmAssignment</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>1</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="70">
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy edmAssignment</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy edmAssignment add type edmAssignment</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy edmAssignment add format all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy edmAssignment defaultformat generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy edmAssignment sequence 0,1,2,...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy edmAssignment store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy edmAssignment add state NotAccepted public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy edmAssignment add state Registered public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy edmAssignment add state Approved public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy edmAssignment add state Accepted public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy edmAssignment state Registered !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy edmAssignment state Registered promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy edmAssignment state Registered checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy edmAssignment state Registered version true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy edmAssignment state Registered action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy edmAssignment state Registered check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy edmAssignment state Registered majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy edmAssignment state Registered minorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy edmAssignment state Registered published true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy edmAssignment state Registered owner promote promote</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy edmAssignment state Registered public all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy edmAssignment state Registered user IMS_AP_Designer checkout checkout,fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy edmAssignment state Registered user IMS_AP_GUP changeowner changeowner,checkin,checkout,delete,fromconnect,fromdisconnect,modify,read,revise,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy edmAssignment state Registered user edmAssignmentAdmin changeowner changeowner,checkin,checkout,delete,fromconnect,fromdisconnect,modify,read,revise,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy edmAssignment state Registered user edmAssignmentUser checkout checkout,fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy edmAssignment state Approved !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy edmAssignment state Approved promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy edmAssignment state Approved checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy edmAssignment state Approved version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string><![CDATA[mod policy edmAssignment state Approved action ru.niaep.jpos.integration.edmNotification input ""${TYPE}" "${NAME}" "${REVISION}" "${VAULT}" "${USER}" "$<context.user.email>" "$<owner.email>" "\u041f\u043e\u0440\u0443\u0447\u0435\u043d\u0438\u0435 $<name> $<revision>" "<font size='1' face=Verdana> \u041f\u043e\u0440\u0443\u0447\u0435\u043d\u0438\u0435 $<name> $<revision> - <b>\u0412\u042b\u041f\u041e\u041b\u041d\u0415\u041d\u041e</b> </font>" """]]></string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy edmAssignment state Approved check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy edmAssignment state Approved majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy edmAssignment state Approved minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy edmAssignment state Approved published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy edmAssignment state Approved owner demote demote,promote</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy edmAssignment state Approved user IMS_AP_Designer checkout checkout,read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy edmAssignment state Approved user IMS_AP_GUP checkout checkout,read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy edmAssignment state Approved user edmAssignmentAdmin checkout checkout,read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy edmAssignment state Approved user edmAssignmentUser checkout checkout,read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy edmAssignment state Accepted !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod policy edmAssignment state Accepted promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod policy edmAssignment state Accepted checkoutHistory true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod policy edmAssignment state Accepted version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string><![CDATA[mod policy edmAssignment state Accepted action ru.niaep.jpos.integration.edmNotification input ""${TYPE}" "${NAME}" "${REVISION}" "${VAULT}" "${USER}" "$<context.user.email>" "$<relationship[edmAssignmentResponPerson].to.attribute[Email Address]>" "\u041f\u043e\u0440\u0443\u0447\u0435\u043d\u0438\u0435 $<name> $<revision>" "<font size='1' face=Verdana> \u041f\u043e\u0440\u0443\u0447\u0435\u043d\u0438\u0435 $<name> $<revision> - <b>\u041e\u0422\u0427\u0415\u0422 \u041f\u0420\u0418\u041d\u042f\u0422</b> </font>" """]]></string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod policy edmAssignment state Accepted check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:36Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod policy edmAssignment state Accepted majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod policy edmAssignment state Accepted minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod policy edmAssignment state Accepted published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod policy edmAssignment state Accepted public checkout checkout,read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>mod policy edmAssignment state NotAccepted !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>51</order>
+          <string>mod policy edmAssignment state NotAccepted promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>52</order>
+          <string>mod policy edmAssignment state NotAccepted checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>53</order>
+          <string>mod policy edmAssignment state NotAccepted version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>54</order>
+          <string><![CDATA[mod policy edmAssignment state NotAccepted action ru.niaep.jpos.integration.edmNotification input ""${TYPE}" "${NAME}" "${REVISION}" "${VAULT}" "${USER}" "$<context.user.email>" "$<relationship[edmAssignmentResponPerson].to.attribute[Email Address]>" "\u041f\u043e\u0440\u0443\u0447\u0435\u043d\u0438\u0435 $<name> $<revision>" "<font size='1' face=Verdana> \u041f\u043e\u0440\u0443\u0447\u0435\u043d\u0438\u0435 $<name> $<revision> - <b>\u041e\u0422\u0427\u0415\u0422 \u041d\u0415 \u041f\u0420\u0418\u041d\u042f\u0422</b></font>" """]]></string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>55</order>
+          <string>mod policy edmAssignment state NotAccepted check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>56</order>
+          <string>mod policy edmAssignment state NotAccepted majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>57</order>
+          <string>mod policy edmAssignment state NotAccepted minorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>58</order>
+          <string>mod policy edmAssignment state NotAccepted published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>59</order>
+          <string>mod policy edmAssignment state NotAccepted user IMS_AP_Designer checkout checkout,fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>60</order>
+          <string>mod policy edmAssignment state NotAccepted user IMS_AP_GUP checkout checkout,create,read,revise,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>61</order>
+          <string>mod policy edmAssignment state NotAccepted user edmAssignmentAdmin checkout checkout,create,read,show</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>62</order>
+          <string>mod policy edmAssignment state NotAccepted user edmAssignmentUser checkout checkout,fromconnect,fromdisconnect,modify,promote,read,revise,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>63</order>
+          <string>mod policy edmAssignment state NotAccepted signature toApproved branch Approved filter '' add approve edmAssignmentAdmin add approve edmAssignmentUser</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>64</order>
+          <string>mod policy edmAssignment add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>65</order>
+          <string>mod policy edmAssignment add property application value unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>66</order>
+          <string>mod policy edmAssignment add property 'file date' value '07-10-2019 12:25:02.612'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>67</order>
+          <string>mod policy edmAssignment add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>68</order>
+          <string>mod policy edmAssignment add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>69</order>
+          <string>mod policy edmAssignment add property 'original name' value edmAssignment</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:25:37Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>70</order>
+          <string>mod policy edmAssignment add property version value 1</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>0,1,2,...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="1">
+      <typeRef>edmAssignment</typeRef>
+    </typeRefList>
+    <formatRefList count="56">
+      <formatRef>generic</formatRef>
+      <formatRef>mxMedium Image</formatRef>
+      <formatRef>mxThumbnail Image</formatRef>
+      <formatRef>mxSmall Image</formatRef>
+      <formatRef>mxLarge Image</formatRef>
+      <formatRef>mxImage</formatRef>
+      <formatRef>Input</formatRef>
+      <formatRef>Output</formatRef>
+      <formatRef>Log</formatRef>
+      <formatRef>3DXML</formatRef>
+      <formatRef>prt</formatRef>
+      <formatRef>asm</formatRef>
+      <formatRef>drw</formatRef>
+      <formatRef>zip</formatRef>
+      <formatRef>bom</formatRef>
+      <formatRef>Mill</formatRef>
+      <formatRef>Drill</formatRef>
+      <formatRef>Artwork</formatRef>
+      <formatRef>idf</formatRef>
+      <formatRef>Assembly Placement</formatRef>
+      <formatRef>doc</formatRef>
+      <formatRef>dot</formatRef>
+      <formatRef>msg</formatRef>
+      <formatRef>ppa</formatRef>
+      <formatRef>ppt</formatRef>
+      <formatRef>xla</formatRef>
+      <formatRef>xls</formatRef>
+      <formatRef>HPGL</formatRef>
+      <formatRef>IGES</formatRef>
+      <formatRef>Image</formatRef>
+      <formatRef>Markup</formatRef>
+      <formatRef>PDF</formatRef>
+      <formatRef>TIF</formatRef>
+      <formatRef>TXT</formatRef>
+      <formatRef>XML</formatRef>
+      <formatRef>JT</formatRef>
+      <formatRef>MSDS</formatRef>
+      <formatRef>Test Method</formatRef>
+      <formatRef>JView</formatRef>
+      <formatRef>Supplier PDF Content</formatRef>
+      <formatRef>THUMBNAIL</formatRef>
+      <formatRef>3DXMLCGR</formatRef>
+      <formatRef>CGR</formatRef>
+      <formatRef>PNG</formatRef>
+      <formatRef>CGM</formatRef>
+      <formatRef>rco</formatRef>
+      <formatRef>0</formatRef>
+      <formatRef>1</formatRef>
+      <formatRef>2</formatRef>
+      <formatRef>3</formatRef>
+      <formatRef>4</formatRef>
+      <formatRef>5</formatRef>
+      <formatRef>6</formatRef>
+      <formatRef>7</formatRef>
+      <formatRef>8</formatRef>
+      <formatRef>9</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+    <allowAllFormats/>
+    <stateDefList count="4">
+      <stateDef>
+        <name>NotAccepted</name>
+        <revisionable/>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <actionProgram>
+          <programRef>ru.niaep.jpos.integration.edmNotification</programRef>
+          <inputArguments><![CDATA["${TYPE}" "${NAME}" "${REVISION}" "${VAULT}" "${USER}" "$<context.user.email>" "$<relationship[edmAssignmentResponPerson].to.attribute[Email Address]>" "\u041f\u043e\u0440\u0443\u0447\u0435\u043d\u0438\u0435 $<name> $<revision>" "<font size='1' face=Verdana> \u041f\u043e\u0440\u0443\u0447\u0435\u043d\u0438\u0435 $<name> $<revision> - <b>\u041e\u0422\u0427\u0415\u0422 \u041d\u0415 \u041f\u0420\u0418\u041d\u042f\u0422</b></font>" ""]]></inputArguments>
+        </actionProgram>
+        <userAccessList count="9">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>toApproved</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmAssignmentUser</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <promoteAccess/>
+          <reviseAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmAssignmentAdmin</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <createAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_GUP</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <createAccess/>
+          <reviseAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmAssignmentAdmin</userRef>
+        <userAccessKey>toApproved</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <approveAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmAssignmentUser</userRef>
+        <userAccessKey>toApproved</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <approveAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <signatureDefList count="1">
+          <signatureDef>
+            <name>toApproved</name>
+            <stateDefRef>Approved</stateDefRef>
+          </signatureDef>
+        </signatureDefList>
+      </stateDef>
+      <stateDef>
+        <name>Registered</name>
+        <revisionable/>
+        <majorrevisionable/>
+        <published/>
+        <versionable/>
+        <autoPromotion/>
+        <checkoutHistory/>
+        <userAccessList count="6">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <promoteAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmAssignmentUser</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmAssignmentAdmin</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <deleteAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <changeOwnerAccess/>
+          <reviseAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_GUP</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <deleteAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <changeOwnerAccess/>
+          <reviseAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <promoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Approved</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <checkoutHistory/>
+        <actionProgram>
+          <programRef>ru.niaep.jpos.integration.edmNotification</programRef>
+          <inputArguments><![CDATA["${TYPE}" "${NAME}" "${REVISION}" "${VAULT}" "${USER}" "$<context.user.email>" "$<owner.email>" "\u041f\u043e\u0440\u0443\u0447\u0435\u043d\u0438\u0435 $<name> $<revision>" "<font size='1' face=Verdana> \u041f\u043e\u0440\u0443\u0447\u0435\u043d\u0438\u0435 $<name> $<revision> - <b>\u0412\u042b\u041f\u041e\u041b\u041d\u0415\u041d\u041e</b> </font>" ""]]></inputArguments>
+        </actionProgram>
+        <userAccessList count="6">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <promoteAccess/>
+          <demoteAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmAssignmentUser</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>edmAssignmentAdmin</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_GUP</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Accepted</name>
+        <majorrevisionable/>
+        <checkoutHistory/>
+        <actionProgram>
+          <programRef>ru.niaep.jpos.integration.edmNotification</programRef>
+          <inputArguments><![CDATA["${TYPE}" "${NAME}" "${REVISION}" "${VAULT}" "${USER}" "$<context.user.email>" "$<relationship[edmAssignmentResponPerson].to.attribute[Email Address]>" "\u041f\u043e\u0440\u0443\u0447\u0435\u043d\u0438\u0435 $<name> $<revision>" "<font size='1' face=Verdana> \u041f\u043e\u0440\u0443\u0447\u0435\u043d\u0438\u0435 $<name> $<revision> - <b>\u041e\u0422\u0427\u0415\u0422 \u041f\u0420\u0418\u041d\u042f\u0422</b> </font>" ""]]></inputArguments>
+        </actionProgram>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

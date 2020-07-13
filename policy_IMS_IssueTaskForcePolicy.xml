@@ -1,0 +1,1198 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:46Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.20992.40158">
+    <adminProperties>
+      <name>IMS_IssueTaskForcePolicy</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:06:32Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-11T09:17:57Z</datetime>
+      </modificationInfo>
+      <propertyList count="13">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-08-2019 08:55:21.573</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_IssueTaskForcePolicy</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Close</name>
+          <value>Close</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Created</name>
+          <value>Created</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_In_Progress</name>
+          <value>In Progress</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Open</name>
+          <value>Open</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Preliminary_Close</name>
+          <value>Preliminary Close</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="79">
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_IssueTaskForcePolicy</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add type IMS_IssueTaskForce</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add format all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_IssueTaskForcePolicy sequence 00,01,02,...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_IssueTaskForcePolicy store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add state Open public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add state 'In Progress' public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add state 'Preliminary Close' public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add state Close public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Open !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Open promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Open checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Open version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Open action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Open check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Open majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Open minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Open published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Open owner create create,delete,demote,execute,fromconnect,fromdisconnect,modify,modifyform,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Open user IMS_AP_Designer checkin checkin,fromconnect,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Open user IMS_AP_GUP checkin checkin,checkout,delete,fromconnect,fromdisconnect,modify,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Open user IMS_Admin all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Open user IMS_RS_Reviewers checkin checkin,demote,fromconnect,promote,read,show,toconnect filter "owner.object.relationship[Employee].from.name == 'RAOS Project Oy' || attribute[IMS_IssueTypeComment] == 'External'"</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'In Progress' !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'In Progress' promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'In Progress' checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'In Progress' version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'In Progress' action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'In Progress' check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'In Progress' majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'In Progress' minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'In Progress' published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'In Progress' owner create create,demote,execute,fromconnect,fromdisconnect,modify,modifyform,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'In Progress' user IMS_AP_Designer checkin checkin,fromconnect,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'In Progress' user IMS_AP_GUP checkin checkin,checkout,delete,demote,fromconnect,fromdisconnect,modify,promote,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'In Progress' user IMS_Admin all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'In Progress' user IMS_RS_Reviewers checkin checkin,fromconnect,read,show,toconnect filter "owner.object.relationship[Employee].from.name == 'RAOS Project Oy' || attribute[IMS_IssueTypeComment] == 'External'"</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'Preliminary Close' !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'Preliminary Close' promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'Preliminary Close' checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'Preliminary Close' version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'Preliminary Close' action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'Preliminary Close' check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'Preliminary Close' majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'Preliminary Close' minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'Preliminary Close' published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'Preliminary Close' owner create create,demote,execute,fromconnect,fromdisconnect,modifyform,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'Preliminary Close' user IMS_AP_Designer checkin checkin,fromconnect,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'Preliminary Close' user IMS_AP_GUP checkin checkin,checkout,demote,fromconnect,fromdisconnect,promote,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'Preliminary Close' user IMS_Admin all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>51</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state 'Preliminary Close' user IMS_RS_Reviewers checkin checkin,fromconnect,read,show,toconnect filter "owner.object.relationship[Employee].from.name == 'RAOS Project Oy' || attribute[IMS_IssueTypeComment] == 'External'"</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>52</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Close !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>53</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Close promote true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>54</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Close checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>55</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Close version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>56</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Close action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>57</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Close check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>58</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Close majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>59</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Close minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>60</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Close published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>61</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Close owner create create,demote,execute,fromconnect,fromdisconnect,modifyform,promote,read,show,toconnect,todisconnect,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>62</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Close user IMS_AP_Designer checkin checkin,fromconnect,read,show,toconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>63</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Close user IMS_AP_GUP checkout checkout,demote,fromconnect,fromdisconnect,promote,read,show,toconnect,todisconnect</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>64</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Close user IMS_Admin all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>65</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Close user IMS_RS_Reviewers checkin checkin,fromconnect,read,show,toconnect filter "owner.object.relationship[Employee].from.name == 'RAOS Project Oy' || attribute[IMS_IssueTypeComment] == 'External'"</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>66</order>
+          <string>mod policy IMS_IssueTaskForcePolicy state Close signature ToProgress branch 'In Progress' filter '' add approve Employee</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>67</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add property state_Open value Open</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>68</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add property state_In_Progress value 'In Progress'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>69</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add property state_Preliminary_Close value 'Preliminary Close'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>70</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add property state_Close value Close</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>71</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>72</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>73</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>74</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add property 'file date' value '07-08-2019 08:55:21.573'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>75</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>76</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>77</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add property 'original name' value IMS_IssueTaskForcePolicy</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>78</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add property state_Created value Created</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:06:32Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>79</order>
+          <string>mod policy IMS_IssueTaskForcePolicy add property version</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>00,01,02,...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="1">
+      <typeRef>IMS_IssueTaskForce</typeRef>
+    </typeRefList>
+    <formatRefList count="56">
+      <formatRef>generic</formatRef>
+      <formatRef>Mill</formatRef>
+      <formatRef>Drill</formatRef>
+      <formatRef>Artwork</formatRef>
+      <formatRef>idf</formatRef>
+      <formatRef>Assembly Placement</formatRef>
+      <formatRef>doc</formatRef>
+      <formatRef>dot</formatRef>
+      <formatRef>msg</formatRef>
+      <formatRef>ppa</formatRef>
+      <formatRef>ppt</formatRef>
+      <formatRef>xla</formatRef>
+      <formatRef>xls</formatRef>
+      <formatRef>HPGL</formatRef>
+      <formatRef>IGES</formatRef>
+      <formatRef>Image</formatRef>
+      <formatRef>Markup</formatRef>
+      <formatRef>mxMedium Image</formatRef>
+      <formatRef>PDF</formatRef>
+      <formatRef>TIF</formatRef>
+      <formatRef>TXT</formatRef>
+      <formatRef>XML</formatRef>
+      <formatRef>JT</formatRef>
+      <formatRef>MSDS</formatRef>
+      <formatRef>Test Method</formatRef>
+      <formatRef>JView</formatRef>
+      <formatRef>Supplier PDF Content</formatRef>
+      <formatRef>THUMBNAIL</formatRef>
+      <formatRef>3DXMLCGR</formatRef>
+      <formatRef>CGR</formatRef>
+      <formatRef>PNG</formatRef>
+      <formatRef>CGM</formatRef>
+      <formatRef>rco</formatRef>
+      <formatRef>0</formatRef>
+      <formatRef>mxThumbnail Image</formatRef>
+      <formatRef>1</formatRef>
+      <formatRef>2</formatRef>
+      <formatRef>3</formatRef>
+      <formatRef>4</formatRef>
+      <formatRef>5</formatRef>
+      <formatRef>6</formatRef>
+      <formatRef>7</formatRef>
+      <formatRef>8</formatRef>
+      <formatRef>9</formatRef>
+      <formatRef>mxSmall Image</formatRef>
+      <formatRef>mxLarge Image</formatRef>
+      <formatRef>mxImage</formatRef>
+      <formatRef>Input</formatRef>
+      <formatRef>Output</formatRef>
+      <formatRef>Log</formatRef>
+      <formatRef>3DXML</formatRef>
+      <formatRef>prt</formatRef>
+      <formatRef>asm</formatRef>
+      <formatRef>drw</formatRef>
+      <formatRef>zip</formatRef>
+      <formatRef>bom</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+    <allowAllFormats/>
+    <stateDefList count="4">
+      <stateDef>
+        <name>Open</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <userAccessList count="6">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <deleteAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <demoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <executeAccess/>
+          <modifyFormAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Admin</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_GUP</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <deleteAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkinAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_Reviewers</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>owner.object.relationship[Employee].from.name == 'RAOS Project Oy' || attribute[IMS_IssueTypeComment] == 'External'</expressionFilter>
+        <access>
+          <readAccess/>
+          <checkinAccess/>
+          <promoteAccess/>
+          <demoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>In Progress</name>
+        <majorrevisionable/>
+        <userAccessList count="6">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <demoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <executeAccess/>
+          <modifyFormAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Admin</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_GUP</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <deleteAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <promoteAccess/>
+          <demoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkinAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_Reviewers</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>owner.object.relationship[Employee].from.name == 'RAOS Project Oy' || attribute[IMS_IssueTypeComment] == 'External'</expressionFilter>
+        <access>
+          <readAccess/>
+          <checkinAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Preliminary Close</name>
+        <majorrevisionable/>
+        <userAccessList count="6">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <demoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <executeAccess/>
+          <modifyFormAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Admin</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_GUP</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <promoteAccess/>
+          <demoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkinAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_Reviewers</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>owner.object.relationship[Employee].from.name == 'RAOS Project Oy' || attribute[IMS_IssueTypeComment] == 'External'</expressionFilter>
+        <access>
+          <readAccess/>
+          <checkinAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Close</name>
+        <majorrevisionable/>
+        <autoPromotion/>
+        <userAccessList count="8">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <userAccessKey>ToProgress</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <demoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <executeAccess/>
+          <modifyFormAccess/>
+          <viewFormAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_Admin</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_GUP</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkoutAccess/>
+          <promoteAccess/>
+          <demoteAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_AP_Designer</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <checkinAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>Employee</userRef>
+        <userAccessKey>ToProgress</userAccessKey>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <approveAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>user</userAccessKind>
+        <userRef>IMS_RS_Reviewers</userRef>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <expressionFilter>owner.object.relationship[Employee].from.name == 'RAOS Project Oy' || attribute[IMS_IssueTypeComment] == 'External'</expressionFilter>
+        <access>
+          <readAccess/>
+          <checkinAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+        </userAccessList>
+        <signatureDefList count="1">
+          <signatureDef>
+            <name>ToProgress</name>
+            <stateDefRef>In Progress</stateDefRef>
+          </signatureDef>
+        </signatureDefList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>

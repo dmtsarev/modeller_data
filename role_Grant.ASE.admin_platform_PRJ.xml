@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:27Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.61271.21627">
+<adminProperties>
+<name>Grant.ASE.admin_platform_PRJ</name>
+<creationInfo>
+<datetime>2020-03-19T08:57:31Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-04-08T12:10:36Z</datetime>
+</modificationInfo>
+<hidden/>
+<historyList count="2">
+<history>
+<datetime>2020-03-19T08:57:31Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role 'Grant.Company Name.admin_platform_PRJ' hidden parent Grant , 'Company Name' , admin_platform_PRJ</string>
+</history>
+<history>
+<datetime>2020-03-25T10:38:10Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role 'Grant.Company Name.admin_platform_PRJ' name Grant.ASE.admin_platform_PRJ</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>1</roleType>
+<maturity>0</maturity>
+<category>0</category>
+<parentRole count="3">
+<roleRef>ASE</roleRef>
+<roleRef>admin_platform_PRJ</roleRef>
+<roleRef>Grant</roleRef>
+</parentRole>
+</role>
+</ematrix>

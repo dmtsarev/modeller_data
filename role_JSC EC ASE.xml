@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:28Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.31548.25711">
+<adminProperties>
+<name>JSC EC ASE</name>
+<creationInfo>
+<datetime>2020-07-07T14:32:58Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-07-07T14:59:13Z</datetime>
+</modificationInfo>
+<propertyList count="3">
+<property>
+<name>application</name>
+<value>Framework</value>
+<flags>0</flags>
+</property>
+<property>
+<name>original name</name>
+<value>JSC EC ASE</value>
+<flags>0</flags>
+</property>
+<property>
+<name>version</name>
+<value>3DEXPERIENCE R2019x HotFix 7</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="3">
+<history>
+<datetime>2020-07-07T14:32:58Z</datetime>
+<agent>User Agent</agent>
+<event>create</event>
+<order>1</order>
+<string>add role 'JSC EC ASE' asanorg</string>
+</history>
+<history>
+<datetime>2020-07-07T14:32:58Z</datetime>
+<agent>User Agent</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role 'JSC EC ASE' property application value Framework property version value '3DEXPERIENCE R2019x HotFix 7' property 'original name' value 'JSC EC ASE'</string>
+</history>
+<history>
+<datetime>2020-07-07T14:59:13Z</datetime>
+<agent>User Agent</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role 'JSC EC ASE' asanorg parent 'NPP Supplier'</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>5</roleType>
+<maturity>0</maturity>
+<category>0</category>
+<parentRole count="1">
+<roleRef>NPP Supplier</roleRef>
+</parentRole>
+</role>
+
+
+
+<role id="0.1.29266.33826">
+<adminProperties>
+<name>jsc ec ase</name>
+<creationInfo>
+<datetime>2020-07-08T08:44:36Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-07-08T08:44:36Z</datetime>
+</modificationInfo>
+<propertyList count="4">
+<property>
+<name>FAMILY</name>
+<value>DesignTeam</value>
+<flags>0</flags>
+</property>
+<property>
+<name>SOLUTION</name>
+<value>Team</value>
+<flags>0</flags>
+</property>
+<property>
+<name>Title</name>
+<value>jsc ec ase</value>
+<flags>0</flags>
+</property>
+<property>
+<name>vplm_readAbility</name>
+<value>Private</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="4">
+<history>
+<datetime>2020-07-08T08:44:36Z</datetime>
+<agent>admin_platform</agent>
+<event>create</event>
+<order>1</order>
+<string>add role 'jsc ec ase' property vplm_readAbility value Public maturity public property Title value 'jsc ec ase' asaproject</string>
+</history>
+<history>
+<datetime>2020-07-08T08:44:36Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role 'jsc ec ase' property vplm_readAbility value Private maturity private</string>
+</history>
+<history>
+<datetime>2020-07-08T08:44:36Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role 'jsc ec ase' property SOLUTION value Team</string>
+</history>
+<history>
+<datetime>2020-07-08T08:44:36Z</datetime>
+<agent>admin_platform</agent>
+<event>modify</event>
+<order>4</order>
+<string>modify role 'jsc ec ase' property FAMILY value DesignTeam</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>4</roleType>
+<maturity>3</maturity>
+<category>0</category>
+</role>
+</ematrix>

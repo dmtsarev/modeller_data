@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:27Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.6518.28072">
+<adminProperties>
+<name>Domain Expert</name>
+<creationInfo>
+<datetime>2020-03-19T09:09:39Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-05-14T14:51:35Z</datetime>
+</modificationInfo>
+<description>Defines corporate knowledge across a domain to ensure compliance with best practices</description>
+<propertyList count="1">
+<property>
+<name>FAMILY</name>
+<value>Admin</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="1">
+<history>
+<datetime>2020-03-19T09:09:39Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role 'Domain Expert' asarole description 'Defines corporate knowledge across a domain to ensure compliance with best practices' property FAMILY value Admin</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>1</roleType>
+<maturity>0</maturity>
+<category>0</category>
+</role>
+</ematrix>

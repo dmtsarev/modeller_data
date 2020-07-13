@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:28Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.8840.25986">
+<adminProperties>
+<name>SubCompany3</name>
+<creationInfo>
+<datetime>2020-05-05T20:16:06Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-05-05T20:16:06Z</datetime>
+</modificationInfo>
+<propertyList count="3">
+<property>
+<name>application</name>
+<value>Framework</value>
+<flags>0</flags>
+</property>
+<property>
+<name>original name</name>
+<value>SubCompany3</value>
+<flags>0</flags>
+</property>
+<property>
+<name>version</name>
+<value>3DEXPERIENCE R2019x HotFix 7</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="3">
+<history>
+<datetime>2020-05-05T20:16:06Z</datetime>
+<agent>User Agent</agent>
+<event>create</event>
+<order>1</order>
+<string>add role SubCompany3 asanorg</string>
+</history>
+<history>
+<datetime>2020-05-05T20:16:06Z</datetime>
+<agent>User Agent</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role SubCompany3 property application value Framework property version value '3DEXPERIENCE R2019x HotFix 7' property 'original name' value SubCompany3</string>
+</history>
+<history>
+<datetime>2020-05-05T20:16:06Z</datetime>
+<agent>User Agent</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role SubCompany3 asanorg parent ASE</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>5</roleType>
+<maturity>0</maturity>
+<category>0</category>
+<parentRole count="1">
+<roleRef>ASE</roleRef>
+</parentRole>
+</role>
+</ematrix>

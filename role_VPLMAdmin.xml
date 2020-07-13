@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+<creationProperties>
+<release>3DEXPERIENCE R2019x HotFix 7(29.0.0.0)</release>
+<datetime>2020-07-13T05:35:23Z</datetime>
+<event>export</event>
+<dtdInfo>&ematrixProductDtd;</dtdInfo>
+</creationProperties>
+
+
+<role id="0.1.22783.17540">
+<adminProperties>
+<name>VPLMAdmin</name>
+<creationInfo>
+<datetime>2020-03-19T08:44:25Z</datetime>
+</creationInfo>
+<modificationInfo>
+<datetime>2020-05-14T14:51:35Z</datetime>
+</modificationInfo>
+<description>Administrates enterprise resources (Organizations, Person, Projects, Security Contexts...) and all types of applicative data for all organizations and projects</description>
+<propertyList count="6">
+<property>
+<name>FAMILY</name>
+<value>Admin</value>
+<flags>0</flags>
+</property>
+<property>
+<name>application</name>
+<value>Framework</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installed date</name>
+<value>Thu Mar 19 11:44:25 MSK 2020</value>
+<flags>0</flags>
+</property>
+<property>
+<name>installer</name>
+<value>ENOVIAEngineering</value>
+<flags>0</flags>
+</property>
+<property>
+<name>original name</name>
+<value>VPLMAdmin</value>
+<flags>0</flags>
+</property>
+<property>
+<name>version</name>
+<value>R207</value>
+<flags>0</flags>
+</property>
+</propertyList>
+<historyList count="8">
+<history>
+<datetime>2020-03-19T08:44:25Z</datetime>
+<agent>creator</agent>
+<event>create</event>
+<order>1</order>
+<string>add role "VPLMAdmin" description "Administrates enterprise resources (Organizations, Person, Projects, Security Contexts) and all types of applicative data for all organizations and projects"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:44:25Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>2</order>
+<string>modify role "VPLMAdmin" property "version" value "R207" property "application" value "Framework" property "installer" value "ENOVIAEngineering" property "original name" value "VPLMAdmin" property "installed date" value "Thu Mar 19 11:44:25 MSK 2020"</string>
+</history>
+<history>
+<datetime>2020-03-19T08:57:31Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>3</order>
+<string>modify role VPLMAdmin property type value Role parent 'VPLM Matrix Administrator' description 'Administrates enterprise resources (Organizations, Person, Projects, Security Contexts...) and all types of applicative data for all organizations and projects'</string>
+</history>
+<history>
+<datetime>2020-03-19T08:57:31Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>4</order>
+<string>modify role VPLMAdmin asarole</string>
+</history>
+<history>
+<datetime>2020-03-19T08:57:31Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>5</order>
+<string>modify role VPLMAdmin hidden</string>
+</history>
+<history>
+<datetime>2020-03-19T08:57:31Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>6</order>
+<string>modify role VPLMAdmin remove property SOLUTION property FAMILY value Admin</string>
+</history>
+<history>
+<datetime>2020-03-19T08:58:56Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>7</order>
+<string>modify role VPLMAdmin !hidden</string>
+</history>
+<history>
+<datetime>2020-03-19T09:50:38Z</datetime>
+<agent>creator</agent>
+<event>modify</event>
+<order>8</order>
+<string>modify role "VPLMAdmin" asarole remove property type</string>
+</history>
+</historyList>
+</adminProperties>
+<roleType>1</roleType>
+<maturity>0</maturity>
+<category>0</category>
+<parentRole count="1">
+<roleRef>VPLM Matrix Administrator</roleRef>
+</parentRole>
+</role>
+</ematrix>

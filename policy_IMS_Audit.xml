@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (c) 2010-2014 Dassault Systemes, 1993 - 2014 -->
+<!DOCTYPE ematrix SYSTEM "ematrixml.dtd">
+<ematrix>
+  <creationProperties>
+    <release>3DEXPERIENCE R2018x HotFix 5(27.2.0.0)</release>
+    <datetime>2019-07-11T12:28:43Z</datetime>
+    <event>export</event>
+    <dtdInfo>&ematrixProductDtd;</dtdInfo>
+  </creationProperties>
+  <policy id="0.1.28200.22430">
+    <adminProperties>
+      <name>IMS_Audit</name>
+      <creationInfo>
+        <datetime>2019-07-10T12:01:09Z</datetime>
+      </creationInfo>
+      <modificationInfo>
+        <datetime>2019-07-10T12:01:09Z</datetime>
+      </modificationInfo>
+      <description>IMS_Audit</description>
+      <propertyList count="11">
+        <property>
+          <name>MxUpdate Sub Path</name>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>application</name>
+          <value>Unknown</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>author</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>file date</name>
+          <value>07-05-2019 08:56:46.000</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installed date</name>
+          <value>07-10-2019</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>installer</name>
+          <value>The MxUpdate Team</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>original name</name>
+          <value>IMS_Audit</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Approved</name>
+          <value>Approved</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Closed</name>
+          <value>Closed</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>state_Published</name>
+          <value>Published</value>
+          <flags>0</flags>
+        </property>
+        <property>
+          <name>version</name>
+          <value>R207</value>
+          <flags>0</flags>
+        </property>
+      </propertyList>
+      <historyList count="50">
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>create</event>
+          <order>1</order>
+          <string>add policy IMS_Audit</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>2</order>
+          <string>mod policy IMS_Audit description IMS_Audit</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>3</order>
+          <string>mod policy IMS_Audit add type IMS_Audit</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>4</order>
+          <string>mod policy IMS_Audit add format generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>5</order>
+          <string>mod policy IMS_Audit defaultformat generic</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>6</order>
+          <string>mod policy IMS_Audit sequence 00,01,02,...</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>7</order>
+          <string>mod policy IMS_Audit store STORE</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>8</order>
+          <string>mod policy IMS_Audit add state Published public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>9</order>
+          <string>mod policy IMS_Audit add state Approved public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>10</order>
+          <string>mod policy IMS_Audit add state Closed public none none owner none none</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>11</order>
+          <string>mod policy IMS_Audit state Published !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>12</order>
+          <string>mod policy IMS_Audit state Published promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>13</order>
+          <string>mod policy IMS_Audit state Published checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>14</order>
+          <string>mod policy IMS_Audit state Published version true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>15</order>
+          <string>mod policy IMS_Audit state Published action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>16</order>
+          <string>mod policy IMS_Audit state Published check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>17</order>
+          <string>mod policy IMS_Audit state Published majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>18</order>
+          <string>mod policy IMS_Audit state Published minorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>19</order>
+          <string>mod policy IMS_Audit state Published published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>20</order>
+          <string>mod policy IMS_Audit state Published public all all</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>21</order>
+          <string>mod policy IMS_Audit state Closed !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>22</order>
+          <string>mod policy IMS_Audit state Closed promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>23</order>
+          <string>mod policy IMS_Audit state Closed checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>24</order>
+          <string>mod policy IMS_Audit state Closed version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>25</order>
+          <string>mod policy IMS_Audit state Closed action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>26</order>
+          <string>mod policy IMS_Audit state Closed check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>27</order>
+          <string>mod policy IMS_Audit state Closed majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>28</order>
+          <string>mod policy IMS_Audit state Closed minorrevision false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>29</order>
+          <string>mod policy IMS_Audit state Closed published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>30</order>
+          <string>mod policy IMS_Audit state Approved !enforcereserveaccess</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>31</order>
+          <string>mod policy IMS_Audit state Approved promote false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>32</order>
+          <string>mod policy IMS_Audit state Approved checkoutHistory false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>33</order>
+          <string>mod policy IMS_Audit state Approved version false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>34</order>
+          <string>mod policy IMS_Audit state Approved action '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>35</order>
+          <string>mod policy IMS_Audit state Approved check '' input ''</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>36</order>
+          <string>mod policy IMS_Audit state Approved majorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>37</order>
+          <string>mod policy IMS_Audit state Approved minorrevision true</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>38</order>
+          <string>mod policy IMS_Audit state Approved published false</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>39</order>
+          <string>mod policy IMS_Audit state Approved public changename changename,changeowner,changepolicy,changetype,changevault,checkin,checkout,create,demote,disable,enable,execute,freeze,fromconnect,fromdisconnect,grant,lock,modify,modifyform,override,promote,read,revise,revoke,schedule,show,thaw,toconnect,todisconnect,unlock,viewform</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>40</order>
+          <string>mod policy IMS_Audit add property state_Published value Published</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>41</order>
+          <string>mod policy IMS_Audit add property state_Closed value Closed</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>42</order>
+          <string>mod policy IMS_Audit add property state_Approved value Approved</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>43</order>
+          <string>mod policy IMS_Audit add property 'MxUpdate Sub Path'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>44</order>
+          <string>mod policy IMS_Audit add property application value Unknown</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>45</order>
+          <string>mod policy IMS_Audit add property author value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>46</order>
+          <string>mod policy IMS_Audit add property 'file date' value '07-05-2019 08:56:46.000'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>47</order>
+          <string>mod policy IMS_Audit add property 'installed date' value 07-10-2019</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>48</order>
+          <string>mod policy IMS_Audit add property installer value 'The MxUpdate Team'</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>49</order>
+          <string>mod policy IMS_Audit add property 'original name' value IMS_Audit</string>
+        </history>
+        <history>
+          <datetime>2019-07-10T12:01:09Z</datetime>
+          <agent>creator</agent>
+          <event>modify</event>
+          <order>50</order>
+          <string>mod policy IMS_Audit add property version value R207</string>
+        </history>
+      </historyList>
+    </adminProperties>
+    <sequence>00,01,02,...</sequence>
+    <majorsequence></majorsequence>
+    <delimiter></delimiter>
+    <storeRef>STORE</storeRef>
+    <typeRefList count="1">
+      <typeRef>IMS_Audit</typeRef>
+    </typeRefList>
+    <formatRefList count="1">
+      <formatRef>generic</formatRef>
+    </formatRefList>
+    <defaultFormat>
+      <formatRef>generic</formatRef>
+    </defaultFormat>
+    <stateDefList count="3">
+      <stateDef>
+        <name>Published</name>
+        <revisionable/>
+        <majorrevisionable/>
+        <versionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <all/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Approved</name>
+        <revisionable/>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <readAccess/>
+          <modifyAccess/>
+          <checkoutAccess/>
+          <checkinAccess/>
+          <lockAccess/>
+          <unlockAccess/>
+          <changeOwnerAccess/>
+          <createAccess/>
+          <promoteAccess/>
+          <demoteAccess/>
+          <enableAccess/>
+          <disableAccess/>
+          <overrideAccess/>
+          <scheduleAccess/>
+          <reviseAccess/>
+          <changeVaultAccess/>
+          <changeNameAccess/>
+          <changePolicyAccess/>
+          <changeTypeAccess/>
+          <fromConnectAccess/>
+          <toConnectAccess/>
+          <fromDisconnectAccess/>
+          <toDisconnectAccess/>
+          <freezeAccess/>
+          <thawAccess/>
+          <executeAccess/>
+          <modifyFormAccess/>
+          <viewFormAccess/>
+          <grantAccess/>
+          <revokeAccess/>
+          <showAccess/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+      <stateDef>
+        <name>Closed</name>
+        <majorrevisionable/>
+        <userAccessList count="2">
+      <userAccess>
+        <userAccessKind>public</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+      <userAccess>
+        <userAccessKind>owner</userAccessKind>
+        <matchOrganization>any</matchOrganization>
+        <matchProject>any</matchProject>
+        <matchOwner>any</matchOwner>
+        <matchReserve>any</matchReserve>
+        <matchMaturity>any</matchMaturity>
+        <matchCategory>any</matchCategory>
+        <access>
+          <none/>
+        </access>
+      </userAccess>
+        </userAccessList>
+      </stateDef>
+    </stateDefList>
+  </policy>
+</ematrix>
